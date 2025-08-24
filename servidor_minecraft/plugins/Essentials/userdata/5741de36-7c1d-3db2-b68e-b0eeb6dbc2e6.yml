@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.33.2.43
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1755904010571
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755996962133
+  login: 1755990890262
+money: '0'
+last-account-name: Daiki1203
+nickname: §c§lRumia
+lastlocation:
+  world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+  world-name: world
+  x: -72.33219340211875
+  y: 38.0
+  z: -58.21380711619397
+  yaw: -37.408782958984375
+  pitch: 37.199790954589844
+homes:
+  home:
+    world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+    world-name: world
+    x: -55.089993115639146
+    y: 73.0
+    z: -21.57840280128874
+    yaw: 34.80010223388672
+    pitch: 38.09994125366211
+logoutlocation:
+  world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+  world-name: world
+  x: -55.30999741793941
+  y: 73.0
+  z: -22.098659045615108
+  yaw: -1.199951171875
+  pitch: 20.550060272216797
