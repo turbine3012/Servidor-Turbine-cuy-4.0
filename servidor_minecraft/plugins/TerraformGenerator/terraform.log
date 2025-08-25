@@ -4698,3 +4698,79 @@
 [2025-08-25 22:22:41] [INFO   ] Large Cave at 1344,23,1344 has water level > -8 with populator GenericLargeCavePopulator 
 [2025-08-25 22:22:55] [INFO   ] Spawning LushClusterCavePopulator at 1280,-8,1536 
 [2025-08-25 22:22:55] [INFO   ] Spawning CrystallineClusterCavePopulator at 1290,-5,1548 
+[2025-08-25 22:24:31] [INFO   ] Large Cave at 1344,46,2368 has water level > -28 with populator GenericLargeCavePopulator 
+[2025-08-25 22:29:10] [INFO   ] Spawning FrozenCavePopulator at 2500,37,2799 
+[2025-08-25 22:29:16] [INFO   ] Large Cave at 2880,42,2880 has water level > -8 with populator GenericLargeCavePopulator 
+[2025-08-25 22:33:33] [INFO   ] Large Cave at 3392,5,3904 has water level > -24 with populator GenericLargeCavePopulator 
+[2025-08-25 22:33:34] [INFO   ] Spawning ancient city at: 3392,-19,3392 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 3367 -19 3386 in a room of size 16x26 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 3348 -19 3412 in a room of size 20x26 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 3342 -19 3371 in a room of size 16x25 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 3438 -19 3407 in a room of size 23x17 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 3380 -19 3356 in a room of size 26x17 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at 3340 -19 3345 in a room of size 23x16 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 3381 -19 3437 in a room of size 22x21 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at 3439 -19 3360 in a room of size 18x25 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 3451 -19 3439 in a room of size 16x16 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at 3414 -19 3441 in a room of size 24x17 
+[2025-08-25 22:33:34] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityCenterPlatformPopulator at 3400 -19 3400 in a room of size 46x46 
+[2025-08-25 22:34:20] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: 211,240 
+[2025-08-25 22:34:27] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: 212,244 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 3971 -3 3384 in a room of size 15x13 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3840 -3 3369 in a room of size 14x13 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3978 -3 3462 in a room of size 13x15 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3878 -3 3396 in a room of size 15x15 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 3952 -3 3336 in a room of size 14x14 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3971 -3 3419 in a room of size 14x13 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3938 -3 3439 in a room of size 13x15 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3881 -3 3321 in a room of size 15x15 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3867 -3 3442 in a room of size 13x13 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3968 12 3350 in a room of size 13x14 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3932 12 3373 in a room of size 14x14 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3875 12 3372 in a room of size 15x14 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3880 12 3319 in a room of size 13x14 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3909 12 3420 in a room of size 13x15 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 3952 12 3336 in a room of size 14x5 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3830 12 3320 in a room of size 14x15 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 3965 12 3435 in a room of size 13x14 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 3971 12 3384 in a room of size 15x5 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3918 12 3387 in a room of size 14x13 
+[2025-08-25 22:35:13] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 3883 12 3440 in a room of size 13x13 
+[2025-08-25 22:36:13] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 241,232 
+[2025-08-25 22:36:13] [INFO   ] Spawning Underground Dungeon at 3858,51,3712 
+[2025-08-25 22:36:27] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 244,228 
+[2025-08-25 22:36:27] [INFO   ] Spawning Underground Dungeon at 3919,40,3651 
+[2025-08-25 22:36:29] [INFO   ] Generating org.terraform.structure.pillager.mansion.MansionPopulator at chunk: 244,244 
+[2025-08-25 22:36:30] [INFO   ] Spawning ForestedMountainsCavePopulator at 3945,-7,3884 
+[2025-08-25 22:36:32] [INFO   ] MansionGrandStairwayPopulator generating at 3904,62,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelWarroomPopulator generating at 3922,62,3913 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelBrewingRoomPopulator generating at 3931,62,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelDiningRoomPopulator generating at 3895,62,3922 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelDiningRoomPopulator generating at 3904,62,3913 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelForgePopulator generating at 3913,62,3922 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelMushroomFarmPopulator generating at 3922,62,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundLevelBrewingRoomPopulator generating at 3931,62,3904 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3913,62,3940 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3922,62,3931 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3940,62,3913 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3886,62,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3904,62,3877 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3904,62,3931 
+[2025-08-25 22:36:32] [INFO   ] MansionGroundFloorHallwayPopulator generating at 3931,62,3886 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorStudyPopulator generating at 3931,70,3904 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorStoreroomPopulator generating at 3913,70,3922 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorBunkPopulator generating at 3922,70,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorLoungePopulator generating at 3913,70,3931 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorStoreroomPopulator generating at 3913,70,3913 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorBunkPopulator generating at 3895,70,3922 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3922,70,3931 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3931,70,3922 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3886,70,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3904,70,3877 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3904,70,3931 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3940,70,3895 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3922,70,3904 
+[2025-08-25 22:36:32] [INFO   ] MansionSecondFloorHallwayPopulator generating at 3904,70,3913 
+[2025-08-25 22:36:32] [INFO   ] Lounge at 3913,70,3931 picking face: SOUTH 
+[2025-08-25 22:36:32] [INFO   ] Mansion spawned 69 vindicators and evokers 
+[2025-08-25 22:37:21] [INFO   ] Large Cave at 3904,25,4416 has water level > -14 with populator GenericLargeCavePopulator 
