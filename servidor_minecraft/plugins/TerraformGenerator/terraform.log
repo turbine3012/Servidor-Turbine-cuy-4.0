@@ -4572,3 +4572,44 @@
 [2025-08-25 00:11:31] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: -268,-236 
 [2025-08-25 00:12:20] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -284,-241 
 [2025-08-25 00:12:20] [INFO   ] Spawning Underground Dungeon at -4543,52,-3852 
+[2025-08-25 19:09:17] [INFO   ]  Custom Logger Initialized 
+[2025-08-25 19:09:18] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-08-25 19:09:18] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-08-25 19:09:18] [INFO   ] Watchdog Thread hooked. 
+[2025-08-25 19:09:18] [INFO   ]  bStats Metrics enabled. 
+[2025-08-25 19:09:18] [INFO   ]  Detected version: 1.21.8, number: 21.8 
+[2025-08-25 19:09:18] [INFO   ] Unfreezing biome registry... 
+[2025-08-25 19:09:18] [INFO   ] Registered custom biome: muddy_bog 
+[2025-08-25 19:09:18] [INFO   ] Registered custom biome: cherry_grove 
+[2025-08-25 19:09:18] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-08-25 19:09:18] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-08-25 19:09:18] [INFO   ] Freezing biome registry 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-08-25 19:09:18] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-08-25 19:09:19] [INFO   ] Creating TW instance: world - 8636432419267312493 
+[2025-08-25 19:09:20] [INFO   ]  Detected world: world, commencing injection...  
+[2025-08-25 19:09:20] [INFO   ] Creating TW instance: world - 8636432419267312493 
+[2025-08-25 19:09:20] [INFO   ] NMSChunkGenerator Delegate is of type CustomChunkGenerator 
+[2025-08-25 19:09:20] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
+[2025-08-25 19:09:20] [INFO   ]  Injection success! Proceeding with generation. 
+[2025-08-25 19:09:21] [INFO   ]  world loaded. 
