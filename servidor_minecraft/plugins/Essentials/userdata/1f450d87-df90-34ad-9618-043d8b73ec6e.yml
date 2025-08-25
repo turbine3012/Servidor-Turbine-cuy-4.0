@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756161760431
+  logout: 1756164869688
   login: 1756163695092
 money: '0'
 last-account-name: Vorteexcito
@@ -32,11 +32,11 @@ lastlocation:
 logoutlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -63.30000001192093
-  y: 56.875
-  z: 12.599675655065244
-  yaw: 146.107421875
-  pitch: 25.500112533569336
+  x: -90.55852088231038
+  y: 74.0
+  z: -50.444298823929856
+  yaw: -22.793701171875
+  pitch: 0.15013575553894043
 homes:
   home:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811

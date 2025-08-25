@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756150576640
+  logout: 1756164869673
   login: 1756151506685
 money: '0'
 last-account-name: Derposito
@@ -24,11 +24,11 @@ nickname: §c§lDerp
 logoutlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -62.18674993502845
-  y: 73.0
-  z: -3.9500236962224218
-  yaw: -85.8189697265625
-  pitch: 16.243059158325195
+  x: -76.90748909241854
+  y: 74.0
+  z: -2.730385865261052
+  yaw: -43.48291015625
+  pitch: 22.28829574584961
 lastlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
