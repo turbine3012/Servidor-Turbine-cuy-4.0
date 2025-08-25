@@ -61,7 +61,7 @@
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "b5256b9c-7598-4e1e-a3d9-f9855b79d7d4",
+          "id": "d88536e8-3f3e-4bbb-ac63-b73d5a51715e",
           "ip_hostname": "31.ip.gl.ply.gg",
           "ip_type": "both",
           "port_end": 2071,
@@ -73,13 +73,13 @@
         },
         "status": "allocated"
       },
-      "created_at": "2025-08-24T04:25:11.845192Z",
+      "created_at": "2025-08-24T18:54:18.005533Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "5115cfab-11df-44c1-8fa6-47c9ba222fba",
-      "name": "Minecraft Bedrock",
+      "id": "8e55741c-1337-4de6-8f4f-2c29d78d8c92",
+      "name": "unnamed",
       "origin": {
         "data": {
           "agent_id": "7d506074-f39d-4671-92ba-6fecc2a6c714",
@@ -97,7 +97,7 @@
         "packets_per_second": null
       },
       "region": "global",
-      "tunnel_type": "minecraft-bedrock"
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {

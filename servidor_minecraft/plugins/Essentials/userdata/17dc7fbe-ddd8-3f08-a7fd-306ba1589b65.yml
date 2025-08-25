@@ -11,32 +11,32 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1755989822935
+  lastteleport: 1756073933491
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755996955671
-  login: 1755983394427
+  logout: 1756075093137
+  login: 1756071643927
 money: '0'
 last-account-name: RageMadsonVII
 logoutlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -40.47782971039777
-  y: 72.0
-  z: -86.82872178500116
-  yaw: 98.07980346679688
-  pitch: 24.443504333496094
+  x: -54.04914049602076
+  y: 73.5625
+  z: -5.56311972422021
+  yaw: -91.987548828125
+  pitch: 22.176189422607422
 nickname: §c§lTroy
 lastlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -54.32782550048114
-  y: -23.0
-  z: -14.72359092677144
-  yaw: 66.02435302734375
-  pitch: 28.13825035095215
+  x: -56.657242607796704
+  y: 72.0
+  z: -65.836941762997
+  yaw: -43.57155227661133
+  pitch: 20.450271606445312
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811

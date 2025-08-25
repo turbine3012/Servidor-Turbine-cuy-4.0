@@ -11,32 +11,32 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1755996257397
+  lastteleport: 1756080755444
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755996953072
-  login: 1755986481412
+  logout: 1756080783885
+  login: 1756061832170
 money: '0'
 last-account-name: Derposito
 nickname: §c§lDerp
 logoutlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -175.02109336713792
-  y: -37.0
-  z: -168.50849727105634
-  yaw: 89.292724609375
-  pitch: 15.924102783203125
+  x: -63.03105215226225
+  y: 73.0
+  z: 15.912396316034647
+  yaw: -15.64642333984375
+  pitch: 15.716129302978516
 lastlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: 2894.8621119843947
-  y: 63.0
-  z: 4456.590862009878
-  yaw: 39.12428665161133
-  pitch: 15.086170196533203
+  x: -4346.928356453524
+  y: 75.0
+  z: -3727.2085294879967
+  yaw: 68.06884765625
+  pitch: 21.110370635986328
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811
@@ -46,3 +46,11 @@ homes:
     z: -4.450205883686603
     yaw: -88.97723388671875
     pitch: 21.216793060302734
+  marinos:
+    world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+    world-name: world
+    x: -1250.9026005393396
+    y: 63.0
+    z: -2413.6993499102873
+    yaw: -73.74722290039062
+    pitch: 29.492717742919922
