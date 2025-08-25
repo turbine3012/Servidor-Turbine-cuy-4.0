@@ -230,3 +230,57 @@
 [19:16:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
 [19:17:06] [Async Chat Thread - #0/INFO]: [Not Secure] <~Samir> oa
 [19:17:10] [Async Chat Thread - #0/INFO]: [Not Secure] <~Zaty> oa sucio
+[19:20:22] [User Authenticator #2/INFO]: UUID of player RageMadsonVII is 17dc7fbe-ddd8-3f08-a7fd-306ba1589b65
+[19:20:23] [Server thread/INFO]: RageMadsonVII joined the game
+[19:20:23] [Server thread/INFO]: RageMadsonVII[/127.98.204.5:47441] logged in with entity id 3452 at ([world]-54.04914049602076, 73.5625, -5.56311972422021)
+[19:20:23] [Server thread/INFO]: [voicechat] Received secret request of RageMadsonVII (18)
+[19:20:23] [Server thread/INFO]: [voicechat] Sent secret to RageMadsonVII
+[19:20:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 17dc7fbe-ddd8-3f08-a7fd-306ba1589b65
+[19:20:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 17dc7fbe-ddd8-3f08-a7fd-306ba1589b65
+[19:20:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RageMadsonVII (17dc7fbe-ddd8-3f08-a7fd-306ba1589b65) successfully connected to voice chat
+[19:21:02] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
+[19:24:01] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> sucios
+[19:24:04] [Async Chat Thread - #2/INFO]: [Not Secure] <~Samir> q
+[19:24:05] [Async Chat Thread - #2/INFO]: [Not Secure] <~Troy> q
+[19:24:10] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> oa
+[19:24:13] [Async Chat Thread - #2/INFO]: [Not Secure] <~Troy> a
+[19:24:21] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> y derp?
+[19:24:34] [Async Chat Thread - #2/INFO]: [Not Secure] <~Samir> no c
+[19:30:37] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> pone musica samir
+[19:30:45] [Async Chat Thread - #4/INFO]: [Not Secure] <~Samir> ve
+[19:30:50] [Async Chat Thread - #4/INFO]: [Not Secure] <~Samir> pone vos
+[19:31:00] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> pone vo sucio
+[19:31:04] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> quiero escuchar lo que escuchas xd
+[19:31:16] [Async Chat Thread - #4/INFO]: [Not Secure] <~Samir> no estoy escuchando nda xd
+[19:31:24] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> Troy
+[19:31:27] [Server thread/INFO]: SamiHatesTurbine has made the advancement [Crafting a New Look]
+[19:31:31] [Async Chat Thread - #4/INFO]: [Not Secure] <~Troy> ando en yutu
+[19:31:39] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> q sucio
+[19:32:32] [User Authenticator #3/INFO]: UUID of player Derposito is 564a6847-4eb3-3720-9968-e09063fa1175
+[19:32:34] [Server thread/INFO]: Derposito joined the game
+[19:32:34] [Server thread/INFO]: Derposito[/127.209.176.25:40461] logged in with entity id 6766 at ([world]-63.02180574190007, 73.0, 15.959640405579506)
+[19:32:34] [Server thread/INFO]: [voicechat] Received secret request of Derposito (18)
+[19:32:34] [Server thread/INFO]: [voicechat] Sent secret to Derposito
+[19:32:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 564a6847-4eb3-3720-9968-e09063fa1175
+[19:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 564a6847-4eb3-3720-9968-e09063fa1175
+[19:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Derposito (564a6847-4eb3-3720-9968-e09063fa1175) successfully connected to voice chat
+[19:32:43] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> sucio derp
+[19:32:49] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> odaa
+[19:32:52] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> oa
+[19:32:54] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> pone musica
+[19:33:00] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> a ver
+[19:33:04] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> pone samir
+[19:33:11] [Async Chat Thread - #6/INFO]: [Not Secure] <~Samir> ooo
+[19:33:18] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> seee
+[19:33:21] [Async Chat Thread - #6/INFO]: [Not Secure] <~Samir> nel
+[19:33:39] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> oooh
+[19:33:51] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> pone musica derp
+[19:33:52] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> no seas malo
+[19:34:07] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> para que pase el soundpad a esta compu
+[19:34:30] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> xd
+[19:34:54] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> troy que hace?
+[19:35:05] [Async Chat Thread - #6/INFO]: [Not Secure] <~Troy> ordenando mi mochila xd
+[19:36:14] [Async Chat Thread - #8/INFO]: [Not Secure] <~Derp> ia vuelvo
+[19:36:16] [Server thread/INFO]: Derposito lost connection: Disconnected
+[19:36:16] [Server thread/INFO]: [voicechat] Disconnecting client Derposito
+[19:36:16] [Server thread/INFO]: Derposito left the game
