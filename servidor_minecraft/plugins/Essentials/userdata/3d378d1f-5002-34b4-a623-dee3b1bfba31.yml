@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756080490015
+  lastteleport: 1756160497172
   lastheal: 0
   mute: 0
   jail: 0
@@ -30,13 +30,13 @@ logoutlocation:
   pitch: 7.500004768371582
 nickname: §d§lZaty
 lastlocation:
-  world: 6f7638f2-c5c8-4fa9-9317-b9041ff99597
-  world-name: world_nether
-  x: -691.915777497777
-  y: 128.0
-  z: -567.1373934378286
-  yaw: 51.627197265625
-  pitch: 13.199931144714355
+  world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+  world-name: world
+  x: -42.70183878332874
+  y: 73.0
+  z: 4.998271464479718
+  yaw: -65.4000244140625
+  pitch: 15.6000337600708
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811
