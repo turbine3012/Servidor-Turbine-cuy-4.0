@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756151210262
+  lastteleport: 1756151681484
   lastheal: 0
   mute: 0
   jail: 0
@@ -32,11 +32,11 @@ nickname: §c§lTroy
 lastlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -43.06565741978735
-  y: 73.0
-  z: -46.89817115876718
-  yaw: -84.751220703125
-  pitch: 15.791343688964844
+  x: -97.29065939652051
+  y: -42.0
+  z: -137.83938279768634
+  yaw: -88.58905029296875
+  pitch: 3.509495258331299
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811

@@ -4613,3 +4613,4 @@
 [2025-08-25 19:09:20] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
 [2025-08-25 19:09:20] [INFO   ]  Injection success! Proceeding with generation. 
 [2025-08-25 19:09:21] [INFO   ]  world loaded. 
+[2025-08-25 19:59:33] [INFO   ] Will spawn stronghold at: CoordPair[x=-778, z=1172] 

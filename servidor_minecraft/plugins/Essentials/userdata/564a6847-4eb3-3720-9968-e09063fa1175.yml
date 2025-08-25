@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756080755444
+  lastteleport: 1756151917596
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1756150576640
-  login: 1756150354099
+  login: 1756151506685
 money: '0'
 last-account-name: Derposito
 nickname: §c§lDerp
@@ -32,11 +32,11 @@ logoutlocation:
 lastlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -4346.928356453524
-  y: 75.0
-  z: -3727.2085294879967
-  yaw: 68.06884765625
-  pitch: 21.110370635986328
+  x: -79.66085067039667
+  y: 79.0
+  z: -2.1300489282447295
+  yaw: -68.6954345703125
+  pitch: 45.943634033203125
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811
