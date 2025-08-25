@@ -4614,3 +4614,11 @@
 [2025-08-25 19:09:20] [INFO   ]  Injection success! Proceeding with generation. 
 [2025-08-25 19:09:21] [INFO   ]  world loaded. 
 [2025-08-25 19:59:33] [INFO   ] Will spawn stronghold at: CoordPair[x=-778, z=1172] 
+[2025-08-25 20:00:47] [INFO   ] Spawning MossyCavePopulator at -960,27,-2352 
+[2025-08-25 20:00:47] [INFO   ] Spawning DripstoneClusterCavePopulator at -960,-24,-2368 
+[2025-08-25 20:00:47] [INFO   ] Spawning CaveFluidClusterPopulator at -960,27,-2360 
+[2025-08-25 20:00:47] [INFO   ] Spawning DeepCavePopulator at -945,-41,-2400 
+[2025-08-25 20:03:53] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.JigsawStructure invoked. 
+[2025-08-25 20:03:53] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.JigsawStructure invoked. 
+[2025-08-25 20:06:09] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.OceanMonumentStructure invoked. 
+[2025-08-25 20:08:19] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionStructure invoked. 
