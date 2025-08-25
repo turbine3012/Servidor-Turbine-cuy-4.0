@@ -498,3 +498,25 @@
 [20:55:03] [Server thread/INFO]: Zatanna917 issued server command: /gamemode spectator
 [20:55:07] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
 [20:55:26] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
+[21:03:19] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
+[21:03:20] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[21:04:08] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> wtf
+[21:04:13] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> pq tanto golem de hierro aqui
+[21:04:14] [Async Chat Thread - #44/INFO]: [Not Secure] <~Samir> q
+[21:04:23] [Async Chat Thread - #44/INFO]: [Not Secure] <~Derp> porque quiere
+[21:04:24] [Async Chat Thread - #44/INFO]: [Not Secure] <~Derp> dejalo
+[21:04:25] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> con los animales?
+[21:04:29] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> se
+[21:04:33] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> porque los imbeciles se cayeron
+[21:04:37] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> bajando
+[21:04:40] [Server thread/INFO]: Zatanna917 has made the advancement [A Seedy Place]
+[21:04:51] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> oh
+[21:05:00] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> mi bebé ya no es bebé xd
+[21:08:06] [Async Chat Thread - #46/INFO]: [Not Secure] <~Zaty> y la musica sucio
+[21:08:07] [Async Chat Thread - #46/INFO]: [Not Secure] <~Zaty> xd
+[21:08:40] [Server thread/INFO]: Zatanna917 was slain by Iron Golem
+[21:08:42] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-65.98256042919597,y=70.0,z=12.300000011920929,pitch=40.800034,yaw=11.998596}
+[21:08:46] [Async Chat Thread - #46/INFO]: [Not Secure] <~Samir> q nuvv
+[21:08:49] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/44519, uuid='51a4fe78-a082-42af-8c50-7ca9e1f587a7', l='ServerLevel[world]', x=-65.50, y=71.50, z=12.50, cpos=[-5, 0], tl=146, v=true] died: Zatanna917 died here! died
+[21:08:49] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 21:08:42 UTC 2025'/44520, uuid='7ad8402b-34f0-4eb1-8368-a483f532ef30', l='ServerLevel[world]', x=-65.50, y=71.25, z=12.50, cpos=[-5, 0], tl=146, v=true] died: Died at Mon Aug 25 21:08:42 UTC 2025 died
+[21:08:49] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Iron Golem'/44521, uuid='e6f6c4c5-c53d-490c-b7bd-17b5355554ea', l='ServerLevel[world]', x=-65.50, y=71.00, z=12.50, cpos=[-5, 0], tl=146, v=true] died: Reason: Zatanna917 was slain by Iron Golem died
