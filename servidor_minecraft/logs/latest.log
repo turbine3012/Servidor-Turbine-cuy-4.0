@@ -801,3 +801,47 @@
 [23:18:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
 [23:18:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
 [23:18:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
+[23:19:48] [Async Chat Thread - #36/INFO]: [Not Secure] <~Samir> como van nuvs?
+[23:21:25] [User Authenticator #5/INFO]: UUID of player Daiki1203 is 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
+[23:21:27] [Server thread/INFO]: Daiki1203 joined the game
+[23:21:27] [Server thread/INFO]: Daiki1203[/127.214.44.158:45081] logged in with entity id 52698 at ([world]-54.20091455822115, 64.0, -21.38183759329039)
+[23:21:27] [Server thread/INFO]: [voicechat] Received secret request of Daiki1203 (18)
+[23:21:27] [Server thread/INFO]: [voicechat] Sent secret to Daiki1203
+[23:21:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
+[23:21:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
+[23:21:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Daiki1203 (5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6) successfully connected to voice chat
+[23:21:42] [Async Chat Thread - #39/INFO]: [Not Secure] <~Vorteex> mejor me rindo
+[23:21:43] [Async Chat Thread - #39/INFO]: [Not Secure] <~Vorteex> lpm
+[23:21:46] [Async Chat Thread - #39/INFO]: [Not Secure] <~Rumia> hola otra vez
+[23:21:51] [Async Chat Thread - #39/INFO]: [Not Secure] <~Derp> oda
+[23:21:57] [Async Chat Thread - #39/INFO]: [Not Secure] <~Samir> oa rumia
+[23:22:33] [Async Chat Thread - #39/INFO]: [Not Secure] <~Derp> nada especial
+[23:23:30] [Async Chat Thread - #39/INFO]: [Not Secure] <~Vorteex> no se porque esas canciones me hace recordar a un juego de Need for Speed
+[23:23:34] [Server thread/INFO]: Derposito has made the advancement [The City at the End of the Game]
+[23:23:48] [Async Chat Thread - #39/INFO]: [Not Secure] <~Zaty> oa rumia
+[23:23:49] [Async Chat Thread - #39/INFO]: [Not Secure] <~Zaty> xd
+[23:23:59] [Async Chat Thread - #39/INFO]: [Not Secure] <~Rumia> hola Zatana
+[23:25:50] [Server thread/INFO]: Vorteexcito issued server command: /back
+[23:25:52] [Async Chat Thread - #40/INFO]: [Not Secure] <~Rumia> vuelvo en unos minutos
+[23:25:55] [Async Chat Thread - #40/INFO]: [Not Secure] <~Vorteex> me rindo
+[23:25:56] [Async Chat Thread - #40/INFO]: [Not Secure] <~Vorteex> lpm
+[23:25:58] [Async Chat Thread - #40/INFO]: [Not Secure] <~Derp> ok
+[23:26:17] [Async Chat Thread - #40/INFO]: [Not Secure] <~Derp> encontre uno pero no tiene barco
+[23:26:22] [Async Chat Thread - #40/INFO]: [Not Secure] <~Samir> q suerte
+[23:26:34] [Async Chat Thread - #40/INFO]: [Not Secure] <~Samir> digo, q mala suerte
+[23:27:22] [Async Chat Thread - #40/INFO]: [Not Secure] <~Vorteex> XD
+[23:27:40] [Server thread/INFO]: Vorteexcito was slain by SamiHatesTurbine
+[23:27:42] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-70.0992271297124,y=56.0,z=1.9918830677542394,pitch=13.800056,yaw=55.056824}
+[23:27:46] [Async Chat Thread - #40/INFO]: [Not Secure] <~Zaty> :o
+[23:27:56] [Async Chat Thread - #40/INFO]: [Not Secure] <~Samir> no necesito netherite pa matarte furrito
+[23:28:01] [Server thread/INFO]: Named entity ArmorStand['Vorteexcito died here!'/57564, uuid='80c13671-b30b-473e-a037-8ecd212dca0f', l='ServerLevel[world]', x=-70.50, y=57.50, z=1.50, cpos=[-5, 0], tl=375, v=true] died: Vorteexcito died here! died
+[23:28:01] [Server thread/INFO]: Named entity ArmorStand['Died at Tue Aug 26 23:27:42 UTC 2025'/57565, uuid='0509d427-2698-48ab-a6ef-9f2d16fa3f9e', l='ServerLevel[world]', x=-70.50, y=57.25, z=1.50, cpos=[-5, 0], tl=375, v=true] died: Died at Tue Aug 26 23:27:42 UTC 2025 died
+[23:28:01] [Server thread/INFO]: Named entity ArmorStand['Reason: Vorteexcito was slain by SamiHatesTurbine'/57566, uuid='75c78b42-a132-4f4e-9c0e-e42688408612', l='ServerLevel[world]', x=-70.50, y=57.00, z=1.50, cpos=[-5, 0], tl=375, v=true] died: Reason: Vorteexcito was slain by SamiHatesTurbine died
+[23:28:06] [Async Chat Thread - #40/INFO]: [Not Secure] <~Derp> domado
+[23:28:11] [Async Chat Thread - #40/INFO]: [Not Secure] <~Derp> femboy domado
+[23:28:26] [Server thread/INFO]: Vorteexcito was slain by SamiHatesTurbine
+[23:28:28] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-70.33173228992797,y=56.0,z=1.2557918675869546,pitch=7.800009,yaw=85.64984}
+[23:28:53] [Server thread/INFO]: Named entity ArmorStand['Vorteexcito died here!'/57898, uuid='e7886c00-c5ba-4907-9804-c30d347f2d50', l='ServerLevel[world]', x=-70.50, y=57.50, z=1.50, cpos=[-5, 0], tl=503, v=true] died: Vorteexcito died here! died
+[23:28:53] [Server thread/INFO]: Named entity ArmorStand['Died at Tue Aug 26 23:28:28 UTC 2025'/57899, uuid='7b3d4bce-2503-4a17-bc97-a5355d30e206', l='ServerLevel[world]', x=-70.50, y=57.25, z=1.50, cpos=[-5, 0], tl=503, v=true] died: Died at Tue Aug 26 23:28:28 UTC 2025 died
+[23:28:53] [Server thread/INFO]: Named entity ArmorStand['Reason: Vorteexcito was slain by SamiHatesTurbine'/57900, uuid='ecc99cb9-f79b-4014-8f80-dd5296d3e09c', l='ServerLevel[world]', x=-70.50, y=57.00, z=1.50, cpos=[-5, 0], tl=503, v=true] died: Reason: Vorteexcito was slain by SamiHatesTurbine died
+[23:29:27] [Async Chat Thread - #42/INFO]: [Not Secure] <~Zaty> pelea de invalidos
