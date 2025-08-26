@@ -845,3 +845,47 @@
 [23:28:53] [Server thread/INFO]: Named entity ArmorStand['Died at Tue Aug 26 23:28:28 UTC 2025'/57899, uuid='7b3d4bce-2503-4a17-bc97-a5355d30e206', l='ServerLevel[world]', x=-70.50, y=57.25, z=1.50, cpos=[-5, 0], tl=503, v=true] died: Died at Tue Aug 26 23:28:28 UTC 2025 died
 [23:28:53] [Server thread/INFO]: Named entity ArmorStand['Reason: Vorteexcito was slain by SamiHatesTurbine'/57900, uuid='ecc99cb9-f79b-4014-8f80-dd5296d3e09c', l='ServerLevel[world]', x=-70.50, y=57.00, z=1.50, cpos=[-5, 0], tl=503, v=true] died: Reason: Vorteexcito was slain by SamiHatesTurbine died
 [23:29:27] [Async Chat Thread - #42/INFO]: [Not Secure] <~Zaty> pelea de invalidos
+[23:29:50] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 netherite_axe
+[23:29:54] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
+[23:30:00] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[23:30:07] [Server thread/INFO]: Zatanna917 issued server command: /enchant sharpness 5
+[23:30:26] [Server thread/INFO]: Zatanna917 issued server command: /enchant fireaspect 2
+[23:30:30] [Server thread/INFO]: Zatanna917 issued server command: /enchant fireaspect 1
+[23:30:36] [Server thread/INFO]: Zatanna917 issued server command: /enchant mending
+[23:30:40] [Server thread/INFO]: Vorteexcito was slain by SamiHatesTurbine
+[23:30:42] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-70.78314029041331,y=59.0,z=8.312954484384997,pitch=23.85,yaw=11.249996}
+[23:30:44] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> xd
+[23:30:50] [Server thread/INFO]: Zatanna917 issued server command: /enchant unbreaking 3
+[23:31:17] [Server thread/INFO]: Named entity ArmorStand['Vorteexcito died here!'/59314, uuid='9a94b9fa-0cbe-4d12-9628-833e17fdaf3b', l='ServerLevel[world]', x=-70.50, y=60.50, z=8.50, cpos=[-5, 0], tl=692, v=true] died: Vorteexcito died here! died
+[23:31:17] [Server thread/INFO]: Named entity ArmorStand['Died at Tue Aug 26 23:30:42 UTC 2025'/59315, uuid='edc4f3c9-8039-4855-9795-60341f30b8ad', l='ServerLevel[world]', x=-70.50, y=60.25, z=8.50, cpos=[-5, 0], tl=692, v=true] died: Died at Tue Aug 26 23:30:42 UTC 2025 died
+[23:31:17] [Server thread/INFO]: Named entity ArmorStand['Reason: Vorteexcito was slain by SamiHatesTurbine'/59316, uuid='1aa30056-3f23-4822-9889-6e56abdf862f', l='ServerLevel[world]', x=-70.50, y=60.00, z=8.50, cpos=[-5, 0], tl=692, v=true] died: Reason: Vorteexcito was slain by SamiHatesTurbine died
+[23:31:31] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> pelea de invalidos
+[23:32:52] [Async Chat Thread - #46/INFO]: [Not Secure] <~Zaty> xdd
+[23:33:31] [Async Chat Thread - #46/INFO]: [Not Secure] <~Samir> ptm me sale lo de muy caro
+[23:35:28] [Server thread/INFO]: SamiHatesTurbine was slain by Vorteexcito using El Poder de los Furros
+[23:35:30] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-65.69999998807907,y=56.0,z=12.762499988079071,pitch=7.949852,yaw=-117.00479}
+[23:35:42] [Async Chat Thread - #48/INFO]: [Not Secure] <~Derp> c nombre
+[23:35:49] [Async Chat Thread - #48/INFO]: [Not Secure] <~Samir> fui al baño nuv
+[23:35:54] [Async Chat Thread - #48/INFO]: [Not Secure] <~Samir> solo asi nanana
+[23:36:28] [Server thread/INFO]: Named entity ArmorStand['SamiHatesTurbine died here!'/61944, uuid='deb3e950-86c8-417f-b967-d5ded558ed53', l='ServerLevel[world]', x=-65.50, y=57.50, z=12.50, cpos=[-5, 0], tl=1170, v=true] died: SamiHatesTurbine died here! died
+[23:36:28] [Server thread/INFO]: Named entity ArmorStand['Died at Tue Aug 26 23:35:30 UTC 2025'/61945, uuid='e0a83bdf-20c9-4cfe-8c9c-5617c2cf03c1', l='ServerLevel[world]', x=-65.50, y=57.25, z=12.50, cpos=[-5, 0], tl=1170, v=true] died: Died at Tue Aug 26 23:35:30 UTC 2025 died
+[23:36:28] [Server thread/INFO]: Named entity ArmorStand['Reason: SamiHatesTurbine was slain by Vorteexcito using El Poder de los Furros'/61946, uuid='ec1e5519-6c83-49aa-a354-4980ea675fbb', l='ServerLevel[world]', x=-65.50, y=57.00, z=12.50, cpos=[-5, 0], tl=1170, v=true] died: Reason: SamiHatesTurbine was slain by Vorteexcito using El Poder de los Furros died
+[23:37:12] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> q bronca que tengo
+[23:37:13] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> ptm
+[23:37:17] [Async Chat Thread - #50/INFO]: [Not Secure] <~Samir> pq
+[23:37:17] [Async Chat Thread - #50/INFO]: [Not Secure] <~Derp> y bueno
+[23:37:20] [Async Chat Thread - #50/INFO]: [Not Secure] <~Derp> asi son la gente
+[23:37:31] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> pasa que tu cola me pone de malas
+[23:37:48] [Async Chat Thread - #50/INFO]: [Not Secure] <~Derp> zatanna por el minecraft las parejas se separan
+[23:37:56] [Async Chat Thread - #50/INFO]: [Not Secure] <~Vorteex> Chee..
+[23:37:56] [Server thread/INFO]: SamiHatesTurbine lost connection: Timed out
+[23:37:56] [Server thread/INFO]: [voicechat] Disconnecting client SamiHatesTurbine
+[23:37:56] [Server thread/INFO]: SamiHatesTurbine left the game
+[23:37:56] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> se
+[23:37:58] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> :v
+[23:38:02] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> q
+[23:38:05] [Async Chat Thread - #50/INFO]: [Not Secure] <~Vorteex> tengo la cabeza de un jugador xd
+[23:38:12] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> debe ser de badi
+[23:38:13] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> xd
+[23:39:43] [Async Chat Thread - #52/INFO]: [Not Secure] <~Zaty> propongo q vayamos al turbine a pegarle a la gente
+[23:39:51] [Async Chat Thread - #52/INFO]: [Not Secure] <~Derp> todavia nop

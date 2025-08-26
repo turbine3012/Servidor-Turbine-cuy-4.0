@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756250118730
+  logout: 1756251476131
   login: 1756250281021
 money: '0'
 last-account-name: SamiHatesTurbine
 logoutlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
   world-name: world
-  x: -73.82989614336081
-  y: 56.0
-  z: 11.003899087109883
-  yaw: 107.54998779296875
-  pitch: 14.69994068145752
+  x: -63.02403677368791
+  y: 59.0
+  z: -2.164780087727596
+  yaw: -164.85113525390625
+  pitch: 5.400042533874512
 nickname: §c§lSamir
 lastlocation:
   world: 3d3d7510-3aa1-4b52-936b-654cf20de811
