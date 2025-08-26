@@ -4774,3 +4774,62 @@
 [2025-08-25 22:36:32] [INFO   ] Lounge at 3913,70,3931 picking face: SOUTH 
 [2025-08-25 22:36:32] [INFO   ] Mansion spawned 69 vindicators and evokers 
 [2025-08-25 22:37:21] [INFO   ] Large Cave at 3904,25,4416 has water level > -14 with populator GenericLargeCavePopulator 
+[2025-08-26 21:37:48] [INFO   ]  Custom Logger Initialized 
+[2025-08-26 21:37:48] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-08-26 21:37:48] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-08-26 21:37:48] [INFO   ] Watchdog Thread hooked. 
+[2025-08-26 21:37:48] [INFO   ]  bStats Metrics enabled. 
+[2025-08-26 21:37:48] [INFO   ]  Detected version: 1.21.8, number: 21.8 
+[2025-08-26 21:37:48] [INFO   ] Unfreezing biome registry... 
+[2025-08-26 21:37:48] [INFO   ] Registered custom biome: muddy_bog 
+[2025-08-26 21:37:48] [INFO   ] Registered custom biome: cherry_grove 
+[2025-08-26 21:37:48] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-08-26 21:37:48] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-08-26 21:37:48] [INFO   ] Freezing biome registry 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-08-26 21:37:48] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-08-26 21:37:50] [INFO   ] Creating TW instance: world - 8636432419267312493 
+[2025-08-26 21:37:50] [INFO   ]  Detected world: world, commencing injection...  
+[2025-08-26 21:37:50] [INFO   ] Creating TW instance: world - 8636432419267312493 
+[2025-08-26 21:37:50] [INFO   ] NMSChunkGenerator Delegate is of type CustomChunkGenerator 
+[2025-08-26 21:37:50] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
+[2025-08-26 21:37:50] [INFO   ]  Injection success! Proceeding with generation. 
+[2025-08-26 21:37:52] [INFO   ]  world loaded. 
+[2025-08-26 21:47:41] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure invoked. 
+[2025-08-26 21:48:14] [INFO   ] Will spawn stronghold at: CoordPair[x=-778, z=1172] 
+[2025-08-26 21:48:14] [INFO   ] [Locate] Completed Locate task (102ms) 
+[2025-08-26 21:48:15] [INFO   ] [Locate] [WarmOceanRuinsPopulator] Located at X: -2752 Z: 832 
+[2025-08-26 21:48:33] [INFO   ] Large Cave at -2240,15,1344 has water level > -26 with populator MushroomCavePopulator 
+[2025-08-26 21:48:34] [INFO   ] Large Cave at -2240,27,832 has water level > -9 with populator MushroomCavePopulator 
+[2025-08-26 21:48:35] [INFO   ] Spawning FrozenCavePopulator at -2544,48,1040 
+[2025-08-26 21:48:35] [INFO   ] Spawning DeepCavePopulator at -2544,-49,1040 
+[2025-08-26 21:49:26] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-08-26 21:49:43] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-08-26 21:51:40] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-08-26 21:52:21] [INFO   ] [Locate] Completed Locate task (41ms) 
+[2025-08-26 21:52:21] [INFO   ] [Locate] [WarmOceanRuinsPopulator] Located at X: -2752 Z: 832 
+[2025-08-26 21:52:23] [INFO   ] Spawning CaveFluidClusterPopulator at -3040,12,560 
+[2025-08-26 21:52:24] [INFO   ] Spawning MossyCavePopulator at -3056,6,576 
+[2025-08-26 21:52:30] [INFO   ] Spawning CrystallineClusterCavePopulator at -3096,-24,602 
+[2025-08-26 21:52:33] [INFO   ] Spawning LushClusterCavePopulator at -3136,-32,640 
+[2025-08-26 21:52:33] [INFO   ] Spawning DripstoneClusterCavePopulator at -3136,-24,896 

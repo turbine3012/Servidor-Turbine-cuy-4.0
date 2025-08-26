@@ -1,1182 +1,344 @@
-[19:09:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[19:09:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[19:09:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:09:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
-[19:09:01] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[21:37:19] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[21:37:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[21:37:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:37:25] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[21:37:28] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 3333ms.
+[21:37:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 17 plugins
+[21:37:29] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - Minepacks (2.4.32.4-T20250718161642)
-[19:09:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
- - BlockLocker (1.13), CrisTreeCapitator (6.4.4), Essentials (2.21.2), Geyser-Spigot (2.8.3-SNAPSHOT), GraveStonesPlus (1.8.1), HealthBar-Reloaded (2.0.4.2), InstantRestock (2.5.2), LuckPerms (5.5.10), MyPetDownloader (1.2), SkinsRestorer (15.7.9), TerraformGenerator (21.0.1), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a)), sleep-most (5.6.0), voicechat (2.5.36)
-[19:09:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:09:08] [ServerMain/INFO]: Loaded 1407 recipes
-[19:09:08] [ServerMain/INFO]: Loaded 1520 advancements
-[19:09:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[19:09:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 426.9ms
-[19:09:09] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[19:09:09] [Server thread/INFO]: Loading properties
-[19:09:09] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[19:09:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:09:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:09:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:09:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[19:09:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[19:09:10] [Server thread/INFO]: Default game type: SURVIVAL
-[19:09:10] [Server thread/INFO]: Generating keypair
-[19:09:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:09:11] [Server thread/INFO]: Using epoll channel type
-[19:09:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[19:09:11] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[19:09:11] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[19:09:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
-[19:09:12] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[19:09:12] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[19:09:12] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[19:09:12] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[19:09:12] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[19:09:12] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[19:09:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[19:09:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[19:09:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:09:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:09:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:09:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:09:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.10
-[19:09:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:09:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[19:09:14] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:09:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[19:09:14] [Server thread/INFO]: [floodgate] Took 619ms to boot Floodgate
-[19:09:14] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[19:09:14] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
-[19:09:14] [Server thread/INFO]: [MyPetDownloader] Loading server plugin MyPetDownloader v1.2
-[19:09:15] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.36
-[19:09:15] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v21.0.1
-[19:09:15] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.32.4-T20250718161642
-[19:09:15] [Server thread/INFO]: [CrisTreeCapitator] Loading server plugin CrisTreeCapitator v6.4.4
-[19:09:15] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.6.0
-[19:09:15] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.2
-[19:09:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[19:09:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[19:09:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[19:09:15] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8.1
-[19:09:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
-[19:09:15] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.5.2
-[19:09:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:09:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.10
-[19:09:16] [Server thread/INFO]:         __    
-[19:09:16] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.10
-[19:09:16] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[19:09:16] [Server thread/INFO]: 
-[19:09:16] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:09:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:09:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:09:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1500ms)
-[19:09:17] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
-[19:09:17] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v21.0.1
-[19:09:17] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
-[19:09:18] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
-[19:09:18] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21.8, number: 21.8
-[19:09:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
-[19:09:18] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[19:09:19] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[19:09:19] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[19:09:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:09:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:09:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:09:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:09:19] [Server thread/INFO]: Preparing level "world"
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.9
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: eb4ae0c
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     A new version (15.7.10) is available! Downloading update...
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 301ms
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
-[19:09:19] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
-[19:09:20] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
-[19:09:20] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
-[19:09:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:09:20] [Server thread/INFO]: Preparing spawn area: 0%
-[19:09:20] [Server thread/INFO]: Preparing spawn area: 2%
-[19:09:21] [Server thread/INFO]: Preparing spawn area: 14%
-[19:09:21] [Server thread/INFO]: Preparing spawn area: 24%
-[19:09:21] [Server thread/INFO]: Time elapsed: 1711 ms
-[19:09:21] [Server thread/INFO]: [TerraformGenerator] world loaded.
-[19:09:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:09:22] [Server thread/INFO]: Preparing spawn area: 0%
-[19:09:22] [Server thread/INFO]: Preparing spawn area: 38%
-[19:09:22] [Server thread/INFO]: Time elapsed: 717 ms
-[19:09:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:09:22] [Server thread/INFO]: Preparing spawn area: 0%
-[19:09:22] [Server thread/INFO]: Time elapsed: 218 ms
-[19:09:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[19:09:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[19:09:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[19:09:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[19:09:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[19:09:23] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[19:09:24] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[19:09:24] [Server thread/INFO]: [Essentials] Using locale en
-[19:09:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[19:09:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[19:09:24] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[19:09:24] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[19:09:24] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[19:09:24] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[19:09:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[19:09:24] [Server thread/INFO]: [MyPetDownloader] Enabling MyPetDownloader v1.2
-[19:09:24] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.36
-[19:09:24] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
-[19:09:24] [Server thread/INFO]: [voicechat] Compatibility version 18
-[19:09:24] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[19:09:24] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[19:09:24] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.32.4-T20250718161642
-[19:09:24] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[19:09:25] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
-[19:09:25] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
-[19:09:25] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
-[19:09:25] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
-[19:09:25] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[19:09:25] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[19:09:25] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
-[19:09:25] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[19:09:25] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
-[19:09:25] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
-[19:09:25] [Server thread/INFO]: [CrisTreeCapitator] Enabling CrisTreeCapitator v6.4.4
-[19:09:25] [Server thread/INFO]: [CrisTreeCapitator] WorldGuard not found. Maybe WorldGuard or this plugin are not up to date?
-[19:09:25] [Server thread/INFO]: [CrisTreeCapitator] Logs from JSON: [OAK_LOG, OAK_LOG, OAK_LOG, OAK_LOG]
-[19:09:25] [Server thread/INFO]: [CrisTreeCapitator] Leaves from JSON: [OAK_LEAVES, OAK_LEAVES, OAK_LEAVES, OAK_LEAVES]
-[19:09:25] [Server thread/INFO]: [CrisTreeCapitator] Enabled
-[19:09:25] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.6.0
-[19:09:26] [Server thread/INFO]: [sleep-most] Hooked to Essentials
-[19:09:26] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.2
-[19:09:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[19:09:27] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8.1
-[19:09:27] [Server thread/INFO]: [GraveStonesPlus] Loaded LuckPerms hook!
-[19:09:27] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
-[19:09:27] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.5.2
-[19:09:27] [Server thread/INFO]: [InfiniteVillagerTrades] Enabled InstantRestock!
-[19:09:28] [Server thread/INFO]: [spark] Starting background profiler...
-[19:09:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:09:28] [Server thread/INFO]: [Geyser-Spigot] 
-[19:09:28] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b912 (git-master-dc5fc8f)
-[19:09:28] [Server thread/INFO]: [Geyser-Spigot] 
-[19:09:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:09:31] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
-[19:09:31] [Server thread/INFO]: [Geyser-Spigot] Done (3.075s)! Run /geyser help for help!
-[19:09:31] [Server thread/INFO]: Done preparing level "world" (12.212s)
-[19:09:31] [Server thread/INFO]: Running delayed init tasks
-[19:09:31] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[19:09:31] [Craft Scheduler Thread - 4 - HealthBar-Reloaded/INFO]: Found a new version: 2.0.5-beta (Yours: v2.0.4.2)
-[19:09:31] [Craft Scheduler Thread - 4 - HealthBar-Reloaded/INFO]: Download it on spigot:
-[19:09:31] [Craft Scheduler Thread - 4 - HealthBar-Reloaded/INFO]: spigotmc.org/resources/104616
-[19:09:31] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[19:09:32] [Craft Scheduler Thread - 6 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus has an update available! Your Version: 1.8.1 New Version: 1.9
-[19:09:32] [Server thread/INFO]: Done (33.178s)! For help, type "help"
-[19:09:32] [Server thread/INFO]: [voicechat] Loading plugins
-[19:09:32] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[19:09:32] [Server thread/INFO]: [voicechat] Initializing plugins
-[19:09:32] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[19:09:32] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[19:09:32] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '147.185.221.31:2070'
-[19:09:32] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 2070
-[19:10:34] [User Authenticator #0/INFO]: UUID of player Zatanna917 is 3d378d1f-5002-34b4-a623-dee3b1bfba31
-[19:10:34] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer, Essentials]
-[19:10:36] [Server thread/INFO]: Zatanna917 joined the game
-[19:10:36] [Server thread/INFO]: Zatanna917[/127.225.99.246:46459] logged in with entity id 503 at ([world]10.799732605376658, 63.0, -22.06167954985476)
-[19:10:37] [Server thread/INFO]: [voicechat] Received secret request of Zatanna917 (18)
-[19:10:37] [Server thread/INFO]: [voicechat] Sent secret to Zatanna917
-[19:10:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3d378d1f-5002-34b4-a623-dee3b1bfba31
-[19:10:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3d378d1f-5002-34b4-a623-dee3b1bfba31
-[19:10:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zatanna917 (3d378d1f-5002-34b4-a623-dee3b1bfba31) successfully connected to voice chat
-[19:10:59] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[19:16:45] [User Authenticator #1/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
-[19:16:47] [Server thread/INFO]: SamiHatesTurbine joined the game
-[19:16:47] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:58257] logged in with entity id 1865 at ([world]-760.3298384300497, 26.332264896551145, 1185.613625390537)
-[19:16:47] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
-[19:16:47] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[19:16:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[19:16:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[19:16:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
-[19:17:06] [Async Chat Thread - #0/INFO]: [Not Secure] <~Samir> oa
-[19:17:10] [Async Chat Thread - #0/INFO]: [Not Secure] <~Zaty> oa sucio
-[19:20:22] [User Authenticator #2/INFO]: UUID of player RageMadsonVII is 17dc7fbe-ddd8-3f08-a7fd-306ba1589b65
-[19:20:23] [Server thread/INFO]: RageMadsonVII joined the game
-[19:20:23] [Server thread/INFO]: RageMadsonVII[/127.98.204.5:47441] logged in with entity id 3452 at ([world]-54.04914049602076, 73.5625, -5.56311972422021)
-[19:20:23] [Server thread/INFO]: [voicechat] Received secret request of RageMadsonVII (18)
-[19:20:23] [Server thread/INFO]: [voicechat] Sent secret to RageMadsonVII
-[19:20:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 17dc7fbe-ddd8-3f08-a7fd-306ba1589b65
-[19:20:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 17dc7fbe-ddd8-3f08-a7fd-306ba1589b65
-[19:20:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player RageMadsonVII (17dc7fbe-ddd8-3f08-a7fd-306ba1589b65) successfully connected to voice chat
-[19:21:02] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
-[19:24:01] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> sucios
-[19:24:04] [Async Chat Thread - #2/INFO]: [Not Secure] <~Samir> q
-[19:24:05] [Async Chat Thread - #2/INFO]: [Not Secure] <~Troy> q
-[19:24:10] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> oa
-[19:24:13] [Async Chat Thread - #2/INFO]: [Not Secure] <~Troy> a
-[19:24:21] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> y derp?
-[19:24:34] [Async Chat Thread - #2/INFO]: [Not Secure] <~Samir> no c
-[19:30:37] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> pone musica samir
-[19:30:45] [Async Chat Thread - #4/INFO]: [Not Secure] <~Samir> ve
-[19:30:50] [Async Chat Thread - #4/INFO]: [Not Secure] <~Samir> pone vos
-[19:31:00] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> pone vo sucio
-[19:31:04] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> quiero escuchar lo que escuchas xd
-[19:31:16] [Async Chat Thread - #4/INFO]: [Not Secure] <~Samir> no estoy escuchando nda xd
-[19:31:24] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> Troy
-[19:31:27] [Server thread/INFO]: SamiHatesTurbine has made the advancement [Crafting a New Look]
-[19:31:31] [Async Chat Thread - #4/INFO]: [Not Secure] <~Troy> ando en yutu
-[19:31:39] [Async Chat Thread - #4/INFO]: [Not Secure] <~Zaty> q sucio
-[19:32:32] [User Authenticator #3/INFO]: UUID of player Derposito is 564a6847-4eb3-3720-9968-e09063fa1175
-[19:32:34] [Server thread/INFO]: Derposito joined the game
-[19:32:34] [Server thread/INFO]: Derposito[/127.209.176.25:40461] logged in with entity id 6766 at ([world]-63.02180574190007, 73.0, 15.959640405579506)
-[19:32:34] [Server thread/INFO]: [voicechat] Received secret request of Derposito (18)
-[19:32:34] [Server thread/INFO]: [voicechat] Sent secret to Derposito
-[19:32:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 564a6847-4eb3-3720-9968-e09063fa1175
-[19:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 564a6847-4eb3-3720-9968-e09063fa1175
-[19:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Derposito (564a6847-4eb3-3720-9968-e09063fa1175) successfully connected to voice chat
-[19:32:43] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> sucio derp
-[19:32:49] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> odaa
-[19:32:52] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> oa
-[19:32:54] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> pone musica
-[19:33:00] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> a ver
-[19:33:04] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> pone samir
-[19:33:11] [Async Chat Thread - #6/INFO]: [Not Secure] <~Samir> ooo
-[19:33:18] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> seee
-[19:33:21] [Async Chat Thread - #6/INFO]: [Not Secure] <~Samir> nel
-[19:33:39] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> oooh
-[19:33:51] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> pone musica derp
-[19:33:52] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> no seas malo
-[19:34:07] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> para que pase el soundpad a esta compu
-[19:34:30] [Async Chat Thread - #6/INFO]: [Not Secure] <~Zaty> xd
-[19:34:54] [Async Chat Thread - #6/INFO]: [Not Secure] <~Derp> troy que hace?
-[19:35:05] [Async Chat Thread - #6/INFO]: [Not Secure] <~Troy> ordenando mi mochila xd
-[19:36:14] [Async Chat Thread - #8/INFO]: [Not Secure] <~Derp> ia vuelvo
-[19:36:16] [Server thread/INFO]: Derposito lost connection: Disconnected
-[19:36:16] [Server thread/INFO]: [voicechat] Disconnecting client Derposito
-[19:36:16] [Server thread/INFO]: Derposito left the game
-[19:39:39] [Async Chat Thread - #10/INFO]: [Not Secure] <~Zaty> no volvio mas el sucio
-[19:39:44] [Async Chat Thread - #10/INFO]: [Not Secure] <~Samir> xdd
-[19:39:54] [Async Chat Thread - #10/INFO]: [Not Secure] <~Zaty> lo voy a nalgear
-[19:42:23] [Async Chat Thread - #12/INFO]: [Not Secure] <~Zaty> deberiamos invitar mas gente?
-[19:42:26] [Async Chat Thread - #12/INFO]: [Not Secure] <~Zaty> o ne
-[19:42:28] [Async Chat Thread - #12/INFO]: [Not Secure] <~Samir> se
-[19:42:33] [Async Chat Thread - #12/INFO]: [Not Secure] <~Troy> ni idea
-[19:42:37] [Async Chat Thread - #12/INFO]: [Not Secure] <~Samir> ya me harte d ustedes
-[19:42:38] [Async Chat Thread - #12/INFO]: [Not Secure] <~Samir> dea
-[19:42:43] [Async Chat Thread - #12/INFO]: [Not Secure] <~Zaty> hdp
-[19:42:46] [Async Chat Thread - #12/INFO]: [Not Secure] <~Troy> :,v
-[19:43:05] [Async Chat Thread - #12/INFO]: [Not Secure] <~Zaty> tendriamos que empezar de 0 si es que invitamos nueva gente xd
-[19:43:12] [Async Chat Thread - #12/INFO]: [Not Secure] <~Troy> seh
-[19:43:41] [Async Chat Thread - #12/INFO]: [Not Secure] <~Troy> c vortex bloqueando su casa xd
-[19:43:52] [Async Chat Thread - #12/INFO]: [Not Secure] <~Zaty> xd
-[19:43:53] [Async Chat Thread - #12/INFO]: [Not Secure] <~Zaty> ?
-[19:43:55] [Async Chat Thread - #12/INFO]: [Not Secure] <~Samir> caja d zapatos esa casa
-[19:44:14] [Async Chat Thread - #12/INFO]: [Not Secure] <~Troy> demasiados cofres xd
-[19:46:43] [Server thread/INFO]: RageMadsonVII issued server command: /homes
-[19:46:50] [Server thread/INFO]: RageMadsonVII issued server command: /homes cueva2
-[19:47:39] [Async Chat Thread - #14/INFO]: [Not Secure] <~Zaty> ya :D
-[19:47:47] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[19:47:58] [Async Chat Thread - #14/INFO]: [Not Secure] <~Samir> ya q
-[19:48:04] [Async Chat Thread - #14/INFO]: [Not Secure] <~Zaty> aplanado
-[19:48:05] [Async Chat Thread - #14/INFO]: [Not Secure] <~Zaty> como tu cola
-[19:48:16] [Async Chat Thread - #14/INFO]: [Not Secure] <~Samir> a
-[19:50:49] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> el femboy puso bloqueo a sus cofres
-[19:50:57] [Async Chat Thread - #16/INFO]: [Not Secure] <~Troy> seh xd
-[19:51:06] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> como le robamos ahora
-[19:51:17] [Async Chat Thread - #16/INFO]: [Not Secure] <~Samir> una tolva?
-[19:51:19] [Async Chat Thread - #16/INFO]: [Not Secure] <~Troy> cuanto lo habrán fastidiado para que haga eso
-[19:51:28] [Server thread/INFO]: SamiHatesTurbine has completed the challenge [Return to Sender]
-[19:51:30] [Async Chat Thread - #16/INFO]: [Not Secure] <~Troy> hasta la casa bloqueó xd
-[19:51:33] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> funcionara una tolva?
-[19:51:44] [User Authenticator #4/INFO]: UUID of player Derposito is 564a6847-4eb3-3720-9968-e09063fa1175
-[19:51:46] [Server thread/INFO]: Derposito joined the game
-[19:51:46] [Server thread/INFO]: Derposito[/127.209.176.25:52927] logged in with entity id 15285 at ([world]-62.18674993502845, 73.0, -3.9500236962224218)
-[19:51:47] [Server thread/INFO]: [voicechat] Received secret request of Derposito (18)
-[19:51:47] [Server thread/INFO]: [voicechat] Sent secret to Derposito
-[19:51:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 564a6847-4eb3-3720-9968-e09063fa1175
-[19:51:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 564a6847-4eb3-3720-9968-e09063fa1175
-[19:51:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Derposito (564a6847-4eb3-3720-9968-e09063fa1175) successfully connected to voice chat
-[19:51:51] [Async Chat Thread - #17/INFO]: [Not Secure] <~Samir> me dieron un disco por matar al ghast
-[19:51:55] [Async Chat Thread - #17/INFO]: [Not Secure] <~Derp> e guelto
-[19:51:58] [Async Chat Thread - #17/INFO]: [Not Secure] <~Troy> god no?
-[19:51:59] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> q ghast?
-[19:52:00] [Async Chat Thread - #17/INFO]: [Not Secure] <~Derp> a ver
-[19:52:09] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> y la musica derp?
-[19:52:34] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> y la musica derp?
-[19:52:53] [Async Chat Thread - #17/INFO]: [Not Secure] <~Derp> se escucha???
-[19:52:53] [Async Chat Thread - #17/INFO]: [Not Secure] <~Samir> me kgue d miedo
-[19:52:56] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> xd
-[19:52:58] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> se
-[19:53:08] [Async Chat Thread - #17/INFO]: [Not Secure] <~Derp> muy alto?
-[19:53:12] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> sip
-[19:53:15] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> pero esta lindo el tema
-[19:53:40] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
-[19:53:41] [Async Chat Thread - #17/INFO]: [Not Secure] <~Derp> se bajo ahi?
-[19:53:44] [Async Chat Thread - #16/INFO]: [Not Secure] <~Samir> se
-[19:53:45] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> ahita
-[19:53:48] [Async Chat Thread - #16/INFO]: [Not Secure] <~Derp> listo
-[19:54:19] [Async Chat Thread - #16/INFO]: [Not Secure] <~Derp> se escucha como tilts???
-[19:54:23] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> ya no entra el crow o q?
-[19:54:29] [Async Chat Thread - #17/INFO]: [Not Secure] <~Zaty> nop
-[19:54:41] [Server thread/INFO]: RageMadsonVII issued server command: /homes casa
-[19:55:05] [Async Chat Thread - #16/INFO]: [Not Secure] <~Samir> una mrd
-[19:55:18] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> hoy vamo a por el dragon?
-[19:55:26] [Async Chat Thread - #16/INFO]: [Not Secure] <~Samir> se
-[19:55:27] [Async Chat Thread - #16/INFO]: [Not Secure] <~Derp> a que hora?
-[19:55:31] [Async Chat Thread - #16/INFO]: [Not Secure] <~Samir> eso
-[19:55:35] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> nu se
-[19:55:48] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> mi intencio es que esten todos
-[19:56:03] [Async Chat Thread - #16/INFO]: [Not Secure] <~Derp> escanor?
-[19:56:07] [Async Chat Thread - #16/INFO]: [Not Secure] <~Derp> no dijo nada?
-[19:56:11] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> ese sucio no dijo nada
-[19:56:49] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> pregunten por wps
-[19:56:53] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> wsp
-[19:57:01] [Async Chat Thread - #16/INFO]: [Not Secure] <~Derp> ahi dijo algo del tlauncher escanor
-[19:57:16] [Async Chat Thread - #16/INFO]: [Not Secure] <~Zaty> q entren con eso el sucio
-[19:58:37] [Server thread/INFO]: Derposito issued server command: /home marinos
-[19:59:27] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> alguien tiene prismarina???
-[19:59:33] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
-[19:59:35] [Async Chat Thread - #18/INFO]: [Not Secure] <~Zaty> yo nu
-[19:59:45] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> versh
-[19:59:56] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> tengo 2
-[20:00:02] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> fragmentos xd
-[20:00:08] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> a
-[20:00:44] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> el cartografo no vende un mapa para un monumento del oceano?
-[20:00:48] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> se
-[20:00:58] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> alguien se fijo?
-[20:01:02] [Server thread/INFO]: Derposito issued server command: /home casa
-[20:01:16] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> hay?
-[20:01:20] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> creo que no
-[20:01:33] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> no no tenemos
-[20:02:04] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> como saco uno??
-[20:02:14] [Async Chat Thread - #18/INFO]: [Not Secure] <~Zaty> seda?
-[20:02:33] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> bue
-[20:02:36] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> xdd
-[20:03:00] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> aaa pero hay que subirlo de nivel?
-[20:03:03] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> se
-[20:03:06] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> bueno
-[20:03:07] [Async Chat Thread - #18/INFO]: [Not Secure] <~Derp> fue
-[20:03:27] [Server thread/INFO]: Villager Villager['██▌               '/7, uuid='f06b1984-c259-4bed-a44e-e5869ae3caa1', l='ServerLevel[world]', x=-39.73, y=73.13, z=5.94, cpos=[-3, 0], tl=63381, v=true] died, message: '██▌                was slain by Zatanna917'
-[20:03:58] [Async Chat Thread - #18/INFO]: [Not Secure] <~Samir> da
-[20:06:14] [Async Chat Thread - #20/INFO]: [Not Secure] <~Samir> ya
-[20:06:23] [Async Chat Thread - #20/INFO]: [Not Secure] <~Derp> ok
-[20:06:26] [Async Chat Thread - #20/INFO]: [Not Secure] <~Zaty> xd
-[20:06:40] [Async Chat Thread - #20/INFO]: [Not Secure] <~Derp> nadie tiene una brujula de casualidad no?
-[20:06:47] [Async Chat Thread - #20/INFO]: [Not Secure] <~Samir> las tire
-[20:06:50] [Async Chat Thread - #20/INFO]: [Not Secure] <~Samir> xdd
-[20:07:09] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 glass 100
-[20:07:30] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 glass 100
-[20:07:39] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 glass 100
-[20:07:54] [Async Chat Thread - #22/INFO]: [Not Secure] <~Derp> listo
-[20:07:56] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> tengo el mapa
-[20:08:12] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> quieren venir?
-[20:08:18] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> o se quedan
-[20:08:24] [Async Chat Thread - #23/INFO]: [Not Secure] <~Samir> jASJASJJAS
-[20:08:36] [Server thread/INFO]: Zatanna917 was slain by Iron Golem
-[20:08:37] [Async Chat Thread - #23/INFO]: [Not Secure] <~Samir> dame una brujula
-[20:08:37] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:08:38] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-58.911456471468114,y=73.00948334236247,z=23.04974612221941,pitch=27.599909,yaw=-38.533813}
-[20:08:41] [Async Chat Thread - #23/INFO]: [Not Secure] <~Samir> jsaJASJAJSjAS
-[20:08:50] [Async Chat Thread - #23/INFO]: [Not Secure] <~Troy> c zatanna
-[20:08:51] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/22517, uuid='7e73b91b-6698-4bc1-9a82-59182c1b8ea5', l='ServerLevel[world]', x=-58.50, y=74.50, z=23.50, cpos=[-4, 1], tl=254, v=true] died: Zatanna917 died here! died
-[20:08:51] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 20:08:38 UTC 2025'/22518, uuid='f7adb441-6501-4bb7-874d-ee6128dd6c05', l='ServerLevel[world]', x=-58.50, y=74.25, z=23.50, cpos=[-4, 1], tl=254, v=true] died: Died at Mon Aug 25 20:08:38 UTC 2025 died
-[20:08:51] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Iron Golem'/22519, uuid='e921cbf1-19eb-4bf2-b98a-514f3c3a4f90', l='ServerLevel[world]', x=-58.50, y=74.00, z=23.50, cpos=[-4, 1], tl=254, v=true] died: Reason: Zatanna917 was slain by Iron Golem died
-[20:08:57] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> es con 4 de hierro y una de redstone
-[20:09:04] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> ya tengo el mapa igual
-[20:09:13] [Async Chat Thread - #23/INFO]: [Not Secure] <~Samir> yo uiero otro
-[20:09:18] [Async Chat Thread - #23/INFO]: [Not Secure] <~Samir> voy a la mansion
-[20:09:19] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> bueno toma
-[20:09:32] [Async Chat Thread - #23/INFO]: [Not Secure] <~Zaty> de q es el mapa?
-[20:09:35] [Async Chat Thread - #23/INFO]: [Not Secure] <~Zaty> de la mansion?
-[20:09:41] [Async Chat Thread - #23/INFO]: [Not Secure] <~Samir> seee
-[20:09:44] [Async Chat Thread - #23/INFO]: [Not Secure] <~Derp> y del monumento del oceano
-[20:12:58] [Server thread/INFO]: Zatanna917 issued server command: /fix all
-[20:13:01] [Server thread/INFO]: Zatanna917 issued server command: /invsee RageMadsonVII
-[20:14:09] [Async Chat Thread - #24/INFO]: [Not Secure] <~Troy> q
-[20:14:16] [Async Chat Thread - #25/INFO]: [Not Secure] <~Troy> a
-[20:14:51] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
-[20:14:57] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[20:15:21] [Async Chat Thread - #26/INFO]: [Not Secure] <~Troy> q
-[20:15:40] [Server thread/INFO]: Derposito issued server command: /sethome piramide
-[20:16:07] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[20:16:28] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> q
-[20:16:39] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> aaaa
-[20:16:47] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> boe
-[20:16:51] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> que facil xd
-[20:17:05] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> yo rompiendome la cabeza en cuevas xd
-[20:17:17] [Async Chat Thread - #28/INFO]: [Not Secure] <~Derp> que paso?
-[20:17:19] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[20:17:26] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> reproducción de musgo
-[20:17:37] [Async Chat Thread - #28/INFO]: [Not Secure] <~Derp> cojieron?
-[20:17:41] [Async Chat Thread - #28/INFO]: [Not Secure] <~Derp> ahre
-[20:17:43] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> eh
-[20:17:50] [Async Chat Thread - #28/INFO]: [Not Secure] <~Troy> algo asi
-[20:19:01] [Server thread/INFO]: Derposito issued server command: /home
-[20:19:04] [Server thread/INFO]: Derposito issued server command: /home casa
-[20:19:17] [Server thread/INFO]: Derposito issued server command: /back
-[20:20:58] [Async Chat Thread - #30/INFO]: [Not Secure] <~Troy> gracias
-[20:23:43] [Async Chat Thread - #32/INFO]: [Not Secure] <~Troy> gracias
-[20:24:57] [Async Chat Thread - #34/INFO]: [Not Secure] <~Zaty> xd
-[20:24:59] [Async Chat Thread - #34/INFO]: [Not Secure] <~Zaty> se mure derp
-[20:25:02] [Async Chat Thread - #34/INFO]: [Not Secure] <~Zaty> muere
-[20:25:12] [Async Chat Thread - #34/INFO]: [Not Secure] <~Derp> sisi
-[20:25:27] [Async Chat Thread - #34/INFO]: [Not Secure] <~Derp> el templo totalmente raideado se fue
-[20:25:38] [Async Chat Thread - #34/INFO]: [Not Secure] <~Zaty> xd
-[20:27:10] [Server thread/INFO]: Derposito issued server command: /home casa
-[20:27:16] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> tienen cofres de sobra?
-[20:27:22] [Async Chat Thread - #36/INFO]: [Not Secure] <~Zaty> creo que si hay
-[20:27:28] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> asi evito hacer xd
-[20:27:32] [Async Chat Thread - #36/INFO]: [Not Secure] <~Zaty> fijate atras de la casa de derp
-[20:27:35] [Async Chat Thread - #36/INFO]: [Not Secure] <~Zaty> ahi deje cofres
-[20:27:39] [Async Chat Thread - #36/INFO]: [Not Secure] <~Zaty> digo
-[20:27:40] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> jijodebu
-[20:27:40] [Async Chat Thread - #36/INFO]: [Not Secure] <~Zaty> de samir
-[20:27:48] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> creció en la puerta de cas
-[20:28:02] [Async Chat Thread - #36/INFO]: [Not Secure] <~Zaty> fijate atras de la casa de samir
-[20:28:05] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> oc
-[20:28:09] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> gracias
-[20:28:19] [Server thread/INFO]: Derposito issued server command: /back
-[20:28:24] [Async Chat Thread - #36/INFO]: [Not Secure] <~Samir> atras
-[20:28:29] [Server thread/INFO]: Derposito issued server command: /sethome oceano
-[20:28:32] [Server thread/INFO]: Derposito issued server command: /home casa
-[20:28:46] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> 4
-[20:28:48] [Async Chat Thread - #36/INFO]: [Not Secure] <~Troy> sirve
-[20:29:27] [Server thread/INFO]: Derposito has made the advancement [Crafting a New Look]
-[20:30:10] [Async Chat Thread - #38/INFO]: [Not Secure] <~Derp> la verdad una poronga el diseño del oceano
-[20:30:15] [Async Chat Thread - #38/INFO]: [Not Secure] <~Samir> xdd
-[20:30:17] [Async Chat Thread - #38/INFO]: [Not Secure] <~Derp> armadura oceanica
-[20:31:15] [Async Chat Thread - #38/INFO]: [Not Secure] <~Derp> el estandarte como se diseñaba?
-[20:31:20] [Async Chat Thread - #38/INFO]: [Not Secure] <~Derp> en que mesa?
-[20:31:22] [Async Chat Thread - #38/INFO]: [Not Secure] <~Samir> en el telar
-[20:34:12] [Server thread/INFO]: Derposito issued server command: /back
-[20:35:16] [Server thread/INFO]: Derposito issued server command: /home casa
-[20:36:02] [Async Chat Thread - #40/INFO]: [Not Secure] <~Derp> lana negra tienen?
-[20:36:08] [Async Chat Thread - #40/INFO]: [Not Secure] <~Zaty> nu
-[20:36:38] [Server thread/INFO]: Derposito issued server command: /back
-[20:37:41] [Server thread/INFO]: Derposito issued server command: /home casa
-[20:38:37] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[20:38:45] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[20:42:26] [Server thread/INFO]: Derposito issued server command: /back
-[20:42:52] [Server thread/INFO]: Derposito issued server command: /back
-[20:43:31] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[20:44:39] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[20:47:00] [Async Chat Thread - #42/INFO]: [Not Secure] <~Zaty> hay zapallos?
-[20:47:15] [Async Chat Thread - #42/INFO]: [Not Secure] <~Derp> no
-[20:47:22] [Async Chat Thread - #42/INFO]: [Not Secure] <~Troy> parece que no
-[20:47:36] [Async Chat Thread - #42/INFO]: [Not Secure] <~Zaty> :C
-[20:54:53] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[20:55:03] [Server thread/INFO]: Zatanna917 issued server command: /gamemode spectator
-[20:55:07] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[20:55:26] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[21:03:19] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[21:03:20] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[21:04:08] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> wtf
-[21:04:13] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> pq tanto golem de hierro aqui
-[21:04:14] [Async Chat Thread - #44/INFO]: [Not Secure] <~Samir> q
-[21:04:23] [Async Chat Thread - #44/INFO]: [Not Secure] <~Derp> porque quiere
-[21:04:24] [Async Chat Thread - #44/INFO]: [Not Secure] <~Derp> dejalo
-[21:04:25] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> con los animales?
-[21:04:29] [Async Chat Thread - #44/INFO]: [Not Secure] <~Zaty> se
-[21:04:33] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> porque los imbeciles se cayeron
-[21:04:37] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> bajando
-[21:04:40] [Server thread/INFO]: Zatanna917 has made the advancement [A Seedy Place]
-[21:04:51] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> oh
-[21:05:00] [Async Chat Thread - #44/INFO]: [Not Secure] <~Troy> mi bebé ya no es bebé xd
-[21:08:06] [Async Chat Thread - #46/INFO]: [Not Secure] <~Zaty> y la musica sucio
-[21:08:07] [Async Chat Thread - #46/INFO]: [Not Secure] <~Zaty> xd
-[21:08:40] [Server thread/INFO]: Zatanna917 was slain by Iron Golem
-[21:08:42] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-65.98256042919597,y=70.0,z=12.300000011920929,pitch=40.800034,yaw=11.998596}
-[21:08:46] [Async Chat Thread - #46/INFO]: [Not Secure] <~Samir> q nuvv
-[21:08:49] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/44519, uuid='51a4fe78-a082-42af-8c50-7ca9e1f587a7', l='ServerLevel[world]', x=-65.50, y=71.50, z=12.50, cpos=[-5, 0], tl=146, v=true] died: Zatanna917 died here! died
-[21:08:49] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 21:08:42 UTC 2025'/44520, uuid='7ad8402b-34f0-4eb1-8368-a483f532ef30', l='ServerLevel[world]', x=-65.50, y=71.25, z=12.50, cpos=[-5, 0], tl=146, v=true] died: Died at Mon Aug 25 21:08:42 UTC 2025 died
-[21:08:49] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Iron Golem'/44521, uuid='e6f6c4c5-c53d-490c-b7bd-17b5355554ea', l='ServerLevel[world]', x=-65.50, y=71.00, z=12.50, cpos=[-5, 0], tl=146, v=true] died: Reason: Zatanna917 was slain by Iron Golem died
-[21:13:01] [Async Chat Thread - #48/INFO]: [Not Secure] <~Zaty> ajolote amarillo
-[21:13:42] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
-[21:14:46] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[21:17:00] [Async Chat Thread - #50/INFO]: [Not Secure] <~Troy> daaa
-[21:17:03] [Async Chat Thread - #50/INFO]: [Not Secure] <~Troy> la re cagué
-[21:17:07] [Async Chat Thread - #50/INFO]: [Not Secure] <~Samir> q
-[21:17:11] [Async Chat Thread - #51/INFO]: [Not Secure] <~Zaty> tienes que ponerlo asi sucio
-[21:17:13] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> NO HAY SIMETRÍA
-[21:17:19] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> VEGETTA
-[21:17:21] [Async Chat Thread - #51/INFO]: [Not Secure] <~Zaty> mira
-[21:17:25] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> ESTARÍA DECEPCIONADO
-[21:17:31] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> SISI
-[21:17:34] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> SE
-[21:17:36] [Async Chat Thread - #51/INFO]: [Not Secure] <~Zaty> desde arriba
-[21:17:36] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> OSEA
-[21:17:37] [Async Chat Thread - #51/INFO]: [Not Secure] <~Zaty> no abjao
-[21:17:40] [Async Chat Thread - #51/INFO]: [Not Secure] <~Troy> AHORA ENTIENDO XD
-[21:19:42] [Async Chat Thread - #52/INFO]: [Not Secure] <~Zaty> me esta gustando la musica de derp
-[21:19:55] [Async Chat Thread - #52/INFO]: [Not Secure] <~Zaty> alv
-[21:19:57] [Async Chat Thread - #52/INFO]: [Not Secure] <~Samir> xdd
-[21:19:57] [Async Chat Thread - #52/INFO]: [Not Secure] <~Zaty> me re aturdi
-[21:20:25] [Async Chat Thread - #52/INFO]: [Not Secure] <~Derp> el femboy?
-[21:20:38] [Async Chat Thread - #52/INFO]: [Not Secure] <~Zaty> en la escuela
-[21:20:50] [Async Chat Thread - #52/INFO]: [Not Secure] <~Derp> a
-[21:22:40] [Async Chat Thread - #54/INFO]: [Not Secure] <~Derp> hacemos un beacon?
-[21:22:45] [Async Chat Thread - #54/INFO]: [Not Secure] <~Derp> beacon era?
-[21:22:58] [Async Chat Thread - #54/INFO]: [Not Secure] <~Samir> barbecue bacon burger
-[21:23:01] [Async Chat Thread - #54/INFO]: [Not Secure] <~Troy> creo que está bien dicho xd
-[21:23:12] [Async Chat Thread - #54/INFO]: [Not Secure] <~Derp> beacon
-[21:23:20] [Async Chat Thread - #54/INFO]: [Not Secure] <~Zaty> xd
-[21:23:25] [Async Chat Thread - #54/INFO]: [Not Secure] <~Derp> bacon era lo que se come
-[21:23:58] [Server thread/INFO]: SamiHatesTurbine issued server command: /home aldea
-[21:24:29] [Async Chat Thread - #56/INFO]: [Not Secure] <~Derp> ya lo detonamos a ese
-[21:24:45] [Async Chat Thread - #56/INFO]: [Not Secure] <~Derp> en todos los sentidos
-[21:25:27] [Async Chat Thread - #56/INFO]: [Not Secure] <~Zaty> no se te ve tu skin troy xd
-[21:25:30] [Async Chat Thread - #56/INFO]: [Not Secure] <~Derp> re triste encima era la skin
-[21:25:38] [Async Chat Thread - #56/INFO]: [Not Secure] <~Derp> la skin
-[21:25:40] [Async Chat Thread - #56/INFO]: [Not Secure] <~Derp> la cancion
-[21:25:45] [Async Chat Thread - #56/INFO]: [Not Secure] <~Derp> lpm
-[21:26:11] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
-[21:27:11] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
-[21:32:15] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> q paso
-[21:32:35] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> se murio tu casa?
-[21:32:56] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> no la hiciste con leño?
-[21:33:14] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> la de jungla es todo leño xd
-[21:33:23] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> ah
-[21:34:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player bd29d369-0633-3c23-a47f-15bd00f6f57e timed out
-[21:34:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player SamiHatesTurbine
-[21:34:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[21:34:24] [Server thread/INFO]: SamiHatesTurbine lost connection: Timed out
-[21:34:24] [Server thread/INFO]: [voicechat] Disconnecting client SamiHatesTurbine
-[21:34:24] [Server thread/INFO]: SamiHatesTurbine left the game
-[21:35:00] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[21:35:17] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> se murio samir
-[21:36:03] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> Derp
-[21:36:06] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> cuando fuiste al templo marino
-[21:36:11] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> si?
-[21:36:12] [Async Chat Thread - #61/INFO]: [Not Secure] <~Zaty> sacaste huevo de snifer
-[21:36:18] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> nao
-[21:36:22] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> pq :c
-[21:36:24] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> estan ahi los huevos?
-[21:36:27] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> no sabia
-[21:36:31] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> ahi tengo el mapa todavia
-[21:36:36] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> xd
-[21:36:49] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> yo lo queria encontrar tambien
-[21:36:57] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> se que hay ahi
-[21:37:01] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> pero no se como se sacan
-[21:37:06] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> pero el huevo rojo no?
-[21:37:07] [User Authenticator #5/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:37:11] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> rojo con manchas verdes
-[21:37:13] [Server thread/INFO]: SamiHatesTurbine joined the game
-[21:37:13] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:34509] logged in with entity id 55531 at ([world]-55.795163340412785, 73.5625, -6.417116076638578)
-[21:37:14] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
-[21:37:14] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[21:37:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:37:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:37:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
-[21:37:16] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> ese decis?
-[21:37:18] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> si
-[21:37:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player bd29d369-0633-3c23-a47f-15bd00f6f57e timed out
-[21:37:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player SamiHatesTurbine
-[21:37:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[21:37:31] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> no ese no habia creo
-[21:37:41] [User Authenticator #5/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:37:41] [Server thread/INFO]: SamiHatesTurbine lost connection: You logged in from another location
-[21:37:41] [Server thread/INFO]: [voicechat] Disconnecting client SamiHatesTurbine
-[21:37:41] [Server thread/INFO]: SamiHatesTurbine left the game
-[21:37:41] [Netty Epoll Server IO #2/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (bd29d369-0633-3c23-a47f-15bd00f6f57e)
-[21:37:41] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> en un lugar con arena dentro del templo
-[21:37:42] [Server thread/INFO]: SamiHatesTurbine joined the game
-[21:37:42] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:56849] logged in with entity id 55672 at ([world]-55.795163340412785, 73.5625, -6.417116076638578)
-[21:37:42] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
-[21:37:42] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[21:37:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:37:43] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> se puede sacar
-[21:37:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:37:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
-[21:37:45] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> va por lo que anduve en el templo con lo encontre
-[21:37:50] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> aaah
-[21:38:19] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> de quien es la casa atras del portal?
-[21:38:27] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> rq
-[21:38:32] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> ya no juega el sucio?
-[21:38:34] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> hace rato no lo veo
-[21:38:43] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> nu
-[21:39:01] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> se
-[21:39:02] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> si
-[21:39:14] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
-[21:39:20] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> el femboy a la noche entra?
-[21:39:27] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> c supone
-[21:39:35] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> y el escagor
-[21:39:56] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> andaba preguntando sobre launchers
-[21:39:57] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> pa jugar
-[21:40:03] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> no
-[21:40:04] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> le mande un video
-[21:40:07] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> pa que elija uno
-[21:40:13] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> dijo q si lo vio
-[21:40:18] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> pero q c fue
-[21:41:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player bd29d369-0633-3c23-a47f-15bd00f6f57e timed out
-[21:41:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player SamiHatesTurbine
-[21:41:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[21:41:16] [Server thread/INFO]: SamiHatesTurbine was kicked due to keepalive timeout!
-[21:41:16] [Server thread/INFO]: SamiHatesTurbine lost connection: Timed out
-[21:41:16] [Server thread/INFO]: [voicechat] Disconnecting client SamiHatesTurbine
-[21:41:16] [Server thread/INFO]: SamiHatesTurbine left the game
-[21:41:16] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> y rumia?
-[21:41:23] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> ni idea
-[21:41:30] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> preguntele por wps
-[21:41:37] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> esta en wps?
-[21:41:42] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> si
-[21:41:48] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> como crees que se entero del sv
-[21:42:04] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> y bueno en algun momento debe ver el grupo
-[21:42:20] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> tampoco se como es su nombre para mencionarlo ahi
-[21:42:25] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> x2
-[21:42:25] [User Authenticator #6/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:42:31] [Server thread/INFO]: SamiHatesTurbine joined the game
-[21:42:31] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:48601] logged in with entity id 56686 at ([world]-37.03784384177917, 73.0, -17.853507974468492)
-[21:42:31] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
-[21:42:31] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
-[21:42:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:42:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
-[21:42:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
-[21:42:37] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> samir anda lag? xd
-[21:42:41] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> se
-[21:42:48] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> debe ser la lluvia
-[21:43:10] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> la del juego supongo
-[21:43:12] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> xd
-[21:43:52] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> vieron
-[21:43:56] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> que ya viene la 1.21.9
-[21:44:05] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> con los golems de cobre
-[21:44:12] [Async Chat Thread - #60/INFO]: [Not Secure] <~Samir> god
-[21:44:52] [Async Chat Thread - #60/INFO]: [Not Secure] <~Zaty> xddd
-[21:44:58] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
-[21:46:15] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> xd
-[21:46:50] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> se muere
-[21:47:06] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> y no convida
-[21:47:07] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> rata
-[21:47:07] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> hoy estaban con cubre boca 5 personas en mi clases
-[21:47:15] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> XD
-[21:47:27] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> nose
-[21:47:30] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> capaz
-[21:47:30] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> troy
-[21:47:33] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> pa cuando streamer?
-[21:47:44] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> 7 personas?
-[21:47:54] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> ya sos de la elite
-[21:48:05] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> XD
-[21:48:33] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> no avisaste igual hdp
-[21:48:34] [Async Chat Thread - #62/INFO]: [Not Secure] <~Samir> carla a 5km de distancia?
-[21:49:02] [Async Chat Thread - #62/INFO]: [Not Secure] <~Zaty> busca tutoriales ps
-[21:50:23] [Async Chat Thread - #64/INFO]: [Not Secure] <~Zaty> q
-[21:50:29] [Async Chat Thread - #64/INFO]: [Not Secure] <~Zaty> q
-[21:50:38] [Async Chat Thread - #64/INFO]: [Not Secure] <~Zaty> ps usa botellas de exp
-[21:50:43] [Async Chat Thread - #64/INFO]: [Not Secure] <~Zaty> para recuperarlas
-[21:50:52] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> que paso
-[21:51:02] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> se subio mucho?
-[21:51:16] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> ahi esta?
-[21:51:27] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> no lo configure al soundpad todavia por eso
-[21:51:33] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> pero ahi se escucha bien no?
-[21:51:35] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> no
-[21:51:55] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> le pregunte a mi vieja si usaba la notebook que le deje y me dijo que no
-[21:52:02] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> que me la lleve nomas
-[21:52:11] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> nono
-[21:52:20] [Async Chat Thread - #64/INFO]: [Not Secure] <~Derp> porque en la pc no anda el mc
-[21:53:13] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[21:54:56] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
-[21:55:03] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
-[21:55:50] [Server thread/INFO]: Zatanna917 issued server command: /craft
-[21:56:15] [Server thread/INFO]: Zatanna917 issued server command: /craft
-[21:56:38] [Server thread/INFO]: Zatanna917 issued server command: /craft
-[21:57:14] [Server thread/INFO]: Zatanna917 issued server command: /craft
-[21:59:05] [Async Chat Thread - #66/INFO]: [Not Secure] <~Zaty> q haces derp
-[21:59:12] [Async Chat Thread - #66/INFO]: [Not Secure] <~Derp> un moai aldeano
-[21:59:16] [Async Chat Thread - #66/INFO]: [Not Secure] <~Zaty> ah
-[21:59:18] [Async Chat Thread - #66/INFO]: [Not Secure] <~Derp> pero no me esta saliendo
-[21:59:48] [Async Chat Thread - #66/INFO]: [Not Secure] <~Zaty> literal murio toda la casa de troy xd
-[22:00:05] [Async Chat Thread - #66/INFO]: [Not Secure] <~Zaty> ponele puro arbol de jugla alv
-[22:01:48] [Async Chat Thread - #68/INFO]: [Not Secure] <~Zaty> queda feo esos bloques de tierra
-[22:07:05] [Async Chat Thread - #70/INFO]: [Not Secure] <~Derp> ahi esta
-[22:07:13] [Async Chat Thread - #70/INFO]: [Not Secure] <~Derp> un moai
-[22:07:21] [Async Chat Thread - #70/INFO]: [Not Secure] <~Zaty> xd
-[22:07:28] [Async Chat Thread - #70/INFO]: [Not Secure] <~Zaty> ta weno
-[22:07:30] [Async Chat Thread - #70/INFO]: [Not Secure] <~Zaty> che troy
-[22:07:36] [Async Chat Thread - #70/INFO]: [Not Secure] <~Zaty> deberias poner esto en tu choza
-[22:09:42] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> el huevo del snifer es con toque de seda?
-[22:09:51] [Async Chat Thread - #72/INFO]: [Not Secure] <~Zaty> si
-[22:09:58] [Async Chat Thread - #72/INFO]: [Not Secure] <~Zaty> al final fueron a la mansion?
-[22:10:04] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> yo no
-[22:10:05] [Async Chat Thread - #72/INFO]: [Not Secure] <~Samir> nah q paja
-[22:10:10] [Async Chat Thread - #72/INFO]: [Not Secure] <~Zaty> pq
-[22:10:11] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> bueno voy yo entonces
-[22:10:14] [Async Chat Thread - #72/INFO]: [Not Secure] <~Samir> cuando tenga las elytras
-[22:10:20] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> ya que nadie va
-[22:10:24] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> yo quiero hacer algo
-[22:10:33] [Async Chat Thread - #72/INFO]: [Not Secure] <~Samir> bueno t acompaño
-[22:10:37] [Async Chat Thread - #72/INFO]: [Not Secure] <~Samir> yo tengo el mapa
-[22:10:48] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> aversh??
-[22:10:56] [Async Chat Thread - #72/INFO]: [Not Secure] <~Zaty> van a la mansion?
-[22:11:15] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> ok
-[22:11:17] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> para el sur
-[22:11:18] [Async Chat Thread - #72/INFO]: [Not Secure] <~Samir> anda a saber para donde es xdd
-[22:11:19] [Async Chat Thread - #72/INFO]: [Not Secure] <~Zaty> van a la mansion?
-[22:11:23] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> mira
-[22:11:35] [Async Chat Thread - #72/INFO]: [Not Secure] <~Zaty> van a la mansion?
-[22:11:37] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> el mapa hacia arriba es para el norte
-[22:11:41] [Async Chat Thread - #72/INFO]: [Not Secure] <~Derp> para abajo el sur
-[22:11:51] [Server thread/INFO]: Zatanna917 issued server command: /heal
-[22:13:01] [Server thread/INFO]: Zatanna917 issued server command: /heal
-[22:13:21] [Server thread/INFO]: SamiHatesTurbine |||||||||| has reached the goal [Postmortal]
-[22:13:24] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> bueno vamos???
-[22:13:28] [Async Chat Thread - #74/INFO]: [Not Secure] <~Samir> tramposa
-[22:13:30] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> sucio
-[22:13:33] [Async Chat Thread - #74/INFO]: [Not Secure] <~Samir> sisi
-[22:13:38] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> q haces con el totem en el orto
-[22:13:40] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> a ver el mapa
-[22:13:50] [Server thread/INFO]: Zatanna917 issued server command: /fix
-[22:13:52] [Async Chat Thread - #74/INFO]: [Not Secure] <~Samir> q haces curandote entera nuvv
-[22:13:53] [Server thread/INFO]: Zatanna917 issued server command: /fix all
-[22:14:14] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> dale vamos
-[22:14:25] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> seguime
-[22:14:41] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> esta en la loma del orto igual parace
-[22:14:52] [Async Chat Thread - #74/INFO]: [Not Secure] <~Samir> como siempre
-[22:15:12] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> nv troy
-[22:15:18] [Server thread/INFO]: RageMadsonVII lost connection: Disconnected
-[22:15:18] [Server thread/INFO]: [voicechat] Disconnecting client RageMadsonVII
-[22:15:18] [Server thread/INFO]: RageMadsonVII left the game
-[22:15:57] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> no traje ni bloques lpm
-[22:16:40] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> se fue el troy
-[22:16:41] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> xd
-[22:16:46] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> se
-[22:16:49] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> mal
-[22:16:57] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> se aburrio?
-[22:16:57] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> veni zatanna dale
-[22:16:58] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> o q
-[22:17:03] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> pera voy al baño
-[22:17:04] [Async Chat Thread - #74/INFO]: [Not Secure] <~Zaty> xdd
-[22:17:13] [Async Chat Thread - #74/INFO]: [Not Secure] <~Derp> dijo que mas tarde capaz se iba a conectar
-[22:21:07] [Async Chat Thread - #76/INFO]: [Not Secure] <~Zaty> xd
-[22:21:08] [Async Chat Thread - #76/INFO]: [Not Secure] <~Zaty> ok
-[22:21:37] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:21:47] [Async Chat Thread - #76/INFO]: [Not Secure] <~Zaty> Lindo bioma
-[22:22:03] [Async Chat Thread - #76/INFO]: [Not Secure] <~Derp> con el mod esta re piola
-[22:23:08] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:24:52] [Async Chat Thread - #78/INFO]: [Not Secure] <~Zaty> bonita aldea
-[22:24:54] [Async Chat Thread - #78/INFO]: [Not Secure] <~Derp> creo que ya estuve en este
-[22:25:09] [Async Chat Thread - #78/INFO]: [Not Secure] <~Derp> si aca ya anduve
-[22:26:15] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:28:59] [Async Chat Thread - #80/INFO]: [Not Secure] <~Derp> xd
-[22:29:01] [Async Chat Thread - #80/INFO]: [Not Secure] <~Zaty> XD
-[22:29:41] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:29:48] [Server thread/INFO]: Zatanna917 issued server command: /tp SamiHatesTurbine Zatanna917
-[22:30:24] [Server thread/INFO]: Zatanna917 issued server command: /tp SamiHatesTurbine Zatanna917
-[22:31:16] [Async Chat Thread - #82/INFO]: [Not Secure] <~Samir> tremendas montañas
-[22:32:43] [Async Chat Thread - #84/INFO]: [Not Secure] <~Samir> nos estamos acercandosiquiera xdd?
-[22:32:47] [Async Chat Thread - #84/INFO]: [Not Secure] <~Zaty> estamos serca?
-[22:32:47] [Async Chat Thread - #84/INFO]: [Not Secure] <~Derp> si
-[22:34:04] [Server thread/INFO]: Villager Villager['████            '/76605, uuid='37a1a50c-d866-4ccc-a624-af047525eba5', l='ServerLevel[world]', x=3085.03, y=69.00, z=3735.37, cpos=[192, 233], tl=1561, v=true] died, message: '████             was slain by SamiHatesTurbine'
-[22:34:32] [Async Chat Thread - #86/INFO]: [Not Secure] <~Derp> full derecho nomas
-[22:34:41] [Async Chat Thread - #86/INFO]: [Not Secure] <~Derp> el mapa zatanna
-[22:35:30] [Async Chat Thread - #86/INFO]: [Not Secure] <~Derp> esta aca nomas
-[22:36:22] [Server thread/INFO]: Zatanna917 issued server command: /tp SamiHatesTurbine Zatanna917
-[22:36:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2676ms or 53 ticks behind
-[22:36:32] [Server thread/WARN]: SamiHatesTurbine moved too quickly! 12.808082955453301,2.0968727523255097,0.7273781061921909
-[22:36:32] [Server thread/WARN]: Derposito moved too quickly! 9.925965748623184,-3.181269999138351,8.620997972487203
-[22:36:45] [Async Chat Thread - #88/INFO]: [Not Secure] <~Samir> apaa
-[22:36:57] [Async Chat Thread - #88/INFO]: [Not Secure] <~Zaty> :o
-[22:37:11] [Server thread/INFO]: Derposito issued server command: /sethome mansion
-[22:37:12] [Async Chat Thread - #88/INFO]: [Not Secure] <~Samir> epezamos d abajo?
-[22:37:15] [Server thread/INFO]: Zatanna917 issued server command: /sethome mansion del bosque
-[22:37:18] [Async Chat Thread - #88/INFO]: [Not Secure] <~Derp> d1
-[22:37:19] [Server thread/INFO]: Zatanna917 issued server command: /sethome mansion
-[22:38:31] [Server thread/INFO]: SamiHatesTurbine was slain by Vex
-[22:38:33] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3922.300000011921,y=65.04937968196027,z=3912.361725015269,pitch=26.250051,yaw=166.15485}
-[22:38:36] [Async Chat Thread - #90/INFO]: [Not Secure] <~Samir> xddd
-[22:38:42] [Async Chat Thread - #90/INFO]: [Not Secure] <~Samir> me hicieron mrd
-[22:38:57] [Server thread/INFO]: Zatanna917 was slain by Vindicator
-[22:38:59] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3904.0,y=65.0,z=3914.0,pitch=0.0,yaw=0.0}
-[22:39:03] [Async Chat Thread - #90/INFO]: [Not Secure] <~Zaty> pegan lindo los ptos
-[22:39:08] [Server thread/INFO]: Zatanna917 issued server command: /home
-[22:39:09] [Async Chat Thread - #90/INFO]: [Not Secure] <~Samir> sisi
-[22:39:09] [Server thread/INFO]: Zatanna917 issued server command: /home 2
-[22:39:16] [Server thread/INFO]: Zatanna917 was slain by Vindicator
-[22:39:18] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3880.0279376711455,y=69.49033329759862,z=3881.53785785747,pitch=24.449987,yaw=42.85532}
-[22:39:19] [Server thread/INFO]: SamiHatesTurbine issued server command: /tpa Derposito
-[22:39:21] [Server thread/INFO]: Zatanna917 issued server command: /home 2
-[22:39:23] [Server thread/INFO]: Derposito issued server command: /tpaccept
-[22:39:29] [Server thread/INFO]: SamiHatesTurbine was slain by Vindicator
-[22:39:31] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3919.2794818292286,y=63.49520087700592,z=3905.1644279911184,pitch=9.41894,yaw=-27.033434}
-[22:39:38] [Server thread/INFO]: Zatanna917 issued server command: /tp SamiHatesTurbine Zatanna917
-[22:39:40] [Async Chat Thread - #90/INFO]: [Not Secure] <~Zaty> se quema todo
-[22:39:45] [Server thread/INFO]: Zatanna917 issued server command: /heal
-[22:39:48] [User Authenticator #7/INFO]: UUID of player Vorteexcito is 1f450d87-df90-34ad-9618-043d8b73ec6e
-[22:39:50] [Server thread/INFO]: Vorteexcito joined the game
-[22:39:50] [Server thread/INFO]: Vorteexcito[/127.16.148.149:59781] logged in with entity id 80510 at ([world]-95.69999998807907, 74.0, -54.69999998807907)
-[22:39:51] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/80286, uuid='07537ee4-a2fe-4b06-8aa7-05292e800fc1', l='ServerLevel[world]', x=3880.50, y=70.50, z=3881.50, cpos=[242, 242], tl=658, v=true] died: Zatanna917 died here! died
-[22:39:51] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:39:18 UTC 2025'/80287, uuid='10b2a4a1-b984-4300-9aad-f097d0eb1e6c', l='ServerLevel[world]', x=3880.50, y=70.25, z=3881.50, cpos=[242, 242], tl=658, v=true] died: Died at Mon Aug 25 22:39:18 UTC 2025 died
-[22:39:51] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Vindicator'/80288, uuid='3692424c-3d49-4868-bfca-8417254a73a0', l='ServerLevel[world]', x=3880.50, y=70.00, z=3881.50, cpos=[242, 242], tl=658, v=true] died: Reason: Zatanna917 was slain by Vindicator died
-[22:39:51] [Server thread/INFO]: Zatanna917 was slain by Vindicator
-[22:39:52] [Server thread/INFO]: [voicechat] Received secret request of Vorteexcito (18)
-[22:39:52] [Server thread/INFO]: [voicechat] Sent secret to Vorteexcito
-[22:39:52] [Async Chat Thread - #90/INFO]: [Not Secure] <~Derp> tira tp samir
-[22:39:53] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3880.042093353742,y=69.26636799395752,z=3882.126155746358,pitch=61.199997,yaw=-66.19469}
-[22:39:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1f450d87-df90-34ad-9618-043d8b73ec6e
-[22:39:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1f450d87-df90-34ad-9618-043d8b73ec6e
-[22:39:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Vorteexcito (1f450d87-df90-34ad-9618-043d8b73ec6e) successfully connected to voice chat
-[22:39:59] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:40:07] [Server thread/INFO]: Named entity ArmorStand['SamiHatesTurbine died here!'/80342, uuid='20597472-6622-4ef5-855e-3c5d676d4bc7', l='ServerLevel[world]', x=3919.50, y=64.50, z=3905.50, cpos=[244, 244], tl=722, v=true] died: SamiHatesTurbine died here! died
-[22:40:07] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:39:31 UTC 2025'/80343, uuid='10265feb-e74e-40bb-a085-a652bc95486a', l='ServerLevel[world]', x=3919.50, y=64.25, z=3905.50, cpos=[244, 244], tl=722, v=true] died: Died at Mon Aug 25 22:39:31 UTC 2025 died
-[22:40:07] [Server thread/INFO]: Named entity ArmorStand['Reason: SamiHatesTurbine was slain by Vindicator'/80344, uuid='2b7c4064-6621-4081-b0e7-5b9d6d95bdde', l='ServerLevel[world]', x=3919.50, y=64.00, z=3905.50, cpos=[244, 244], tl=722, v=true] died: Reason: SamiHatesTurbine was slain by Vindicator died
-[22:40:13] [Server thread/INFO]: Named entity ArmorStand['SamiHatesTurbine died here!'/79901, uuid='59941e65-0de6-46f8-b745-456ffef0fed3', l='ServerLevel[world]', x=3922.50, y=66.50, z=3912.50, cpos=[245, 244], tl=1991, v=true] died: SamiHatesTurbine died here! died
-[22:40:13] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:38:33 UTC 2025'/79902, uuid='64085539-aed9-4181-b27c-28be8d0474b5', l='ServerLevel[world]', x=3922.50, y=66.25, z=3912.50, cpos=[245, 244], tl=1991, v=true] died: Died at Mon Aug 25 22:38:33 UTC 2025 died
-[22:40:13] [Server thread/INFO]: Named entity ArmorStand['Reason: SamiHatesTurbine was slain by Vex'/79903, uuid='9cb60368-dae0-4b0f-a02f-f19be67fbdfb', l='ServerLevel[world]', x=3922.50, y=66.00, z=3912.50, cpos=[245, 244], tl=1991, v=true] died: Reason: SamiHatesTurbine was slain by Vex died
-[22:40:16] [Server thread/INFO]: Zatanna917 was slain by Vindicator
-[22:40:18] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3910.0,y=65.0,z=3916.0,pitch=0.0,yaw=0.0}
-[22:40:20] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:40:23] [Async Chat Thread - #90/INFO]: [Not Secure] <~Vorteex> NAH
-[22:40:27] [Async Chat Thread - #91/INFO]: [Not Secure] <~Vorteex> DEJATE DE JODER
-[22:40:28] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/80776, uuid='3803e71a-42e1-4b72-9f7b-c0165394516a', l='ServerLevel[world]', x=3910.50, y=66.50, z=3916.50, cpos=[244, 244], tl=195, v=true] died: Zatanna917 died here! died
-[22:40:28] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:40:18 UTC 2025'/80777, uuid='e4f68fc8-408e-4aa3-a0fe-91159b0da1ef', l='ServerLevel[world]', x=3910.50, y=66.25, z=3916.50, cpos=[244, 244], tl=195, v=true] died: Died at Mon Aug 25 22:40:18 UTC 2025 died
-[22:40:28] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Vindicator'/80778, uuid='f88fabb8-38c0-4f11-a98d-39e767572927', l='ServerLevel[world]', x=3910.50, y=66.00, z=3916.50, cpos=[244, 244], tl=195, v=true] died: Reason: Zatanna917 was slain by Vindicator died
-[22:40:34] [Server thread/INFO]: Zatanna917 was slain by Vindicator
-[22:40:35] [Async Chat Thread - #91/INFO]: [Not Secure] <~Vorteex> YA MATARON A CHIMUELO???
-[22:40:36] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=3909.920330934903,y=64.17675927506424,z=3941.8657562101353,pitch=11.538189,yaw=-176.06786}
-[22:40:38] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:40:50] [Async Chat Thread - #91/INFO]: [Not Secure] <~Samir> si
-[22:40:57] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/80161, uuid='1a77faf1-d553-4ebf-9c1e-f04ed8a5b871', l='ServerLevel[world]', x=3904.50, y=66.50, z=3914.50, cpos=[244, 244], tl=2361, v=true] died: Zatanna917 died here! died
-[22:40:57] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:38:59 UTC 2025'/80162, uuid='a23c6b24-b57e-48ca-87a4-abb970403b78', l='ServerLevel[world]', x=3904.50, y=66.25, z=3914.50, cpos=[244, 244], tl=2361, v=true] died: Died at Mon Aug 25 22:38:59 UTC 2025 died
-[22:40:57] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Vindicator'/80163, uuid='99bfc3f7-9630-4103-8f78-b4a3c7ff42af', l='ServerLevel[world]', x=3904.50, y=66.00, z=3914.50, cpos=[244, 244], tl=2361, v=true] died: Reason: Zatanna917 was slain by Vindicator died
-[22:41:10] [Async Chat Thread - #91/INFO]: [Not Secure] <~Derp> se quema la mansioooon
-[22:41:16] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/80908, uuid='182bfccb-e6b2-4160-b6f6-d074f986d027', l='ServerLevel[world]', x=3909.50, y=65.50, z=3941.50, cpos=[244, 246], tl=800, v=true] died: Zatanna917 died here! died
-[22:41:16] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:40:36 UTC 2025'/80909, uuid='07412e6a-8525-4bc9-8089-4359cd39c757', l='ServerLevel[world]', x=3909.50, y=65.25, z=3941.50, cpos=[244, 246], tl=800, v=true] died: Died at Mon Aug 25 22:40:36 UTC 2025 died
-[22:41:16] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Vindicator'/80910, uuid='35be045f-bc4f-4adb-bfbe-99566c591d8f', l='ServerLevel[world]', x=3909.50, y=65.00, z=3941.50, cpos=[244, 246], tl=800, v=true] died: Reason: Zatanna917 was slain by Vindicator died
-[22:41:18] [Server thread/INFO]: Zatanna917 issued server command: /heal
-[22:41:19] [Async Chat Thread - #91/INFO]: [Not Secure] <~Zaty> lo se
-[22:41:58] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/80621, uuid='956d39bd-74b4-4359-a7e1-eaa8c6fb0c6a', l='ServerLevel[world]', x=3880.50, y=70.50, z=3882.50, cpos=[242, 242], tl=2504, v=true] died: Zatanna917 died here! died
-[22:41:58] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Aug 25 22:39:53 UTC 2025'/80622, uuid='55a71986-8487-49a9-a620-a71a40174420', l='ServerLevel[world]', x=3880.50, y=70.25, z=3882.50, cpos=[242, 242], tl=2504, v=true] died: Died at Mon Aug 25 22:39:53 UTC 2025 died
-[22:41:58] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Vindicator'/80623, uuid='749a8216-60b1-4628-b455-5efdb050a8bd', l='ServerLevel[world]', x=3880.50, y=70.00, z=3882.50, cpos=[242, 242], tl=2504, v=true] died: Reason: Zatanna917 was slain by Vindicator died
-[22:42:22] [Async Chat Thread - #93/INFO]: [Not Secure] <~Vorteex> ya vuelvo
-[22:42:26] [Async Chat Thread - #93/INFO]: [Not Secure] <~Vorteex> ire a pedir pizza
-[22:42:28] [Async Chat Thread - #93/INFO]: [Not Secure] <~Vorteex> XD
-[22:42:30] [Async Chat Thread - #93/INFO]: [Not Secure] <~Zaty> xd
-[22:42:40] [Server thread/INFO]: Vorteexcito lost connection: Disconnected
-[22:42:40] [Server thread/INFO]: [voicechat] Disconnecting client Vorteexcito
-[22:42:40] [Server thread/INFO]: Vorteexcito left the game
-[22:42:53] [Async Chat Thread - #93/INFO]: [Not Secure] <~Zaty> encontraron algo?
-[22:43:09] [Async Chat Thread - #93/INFO]: [Not Secure] <~Samir> azadas y pecheras d diamante
-[22:43:20] [Async Chat Thread - #93/INFO]: [Not Secure] <~Derp> un libro de empuje 2
-[22:43:50] [Async Chat Thread - #93/INFO]: [Not Secure] <~Zaty> algo mas valioso?
-[22:45:37] [Async Chat Thread - #94/INFO]: [Not Secure] <~Derp> dioooos
-[22:45:38] [Async Chat Thread - #94/INFO]: [Not Secure] <~Derp> jajajajja
-[22:46:43] [Async Chat Thread - #96/INFO]: [Not Secure] <~Zaty> se fue alv todo
-[22:47:59] [Async Chat Thread - #98/INFO]: [Not Secure] <~Derp> eee
-[22:48:03] [Async Chat Thread - #98/INFO]: [Not Secure] <~Derp> zatanna
-[22:48:05] [Async Chat Thread - #98/INFO]: [Not Secure] <~Zaty> q
-[22:48:07] [Async Chat Thread - #98/INFO]: [Not Secure] <~Derp> mira
-[22:48:10] [Async Chat Thread - #98/INFO]: [Not Secure] <~Derp> aca
-[22:48:19] [Async Chat Thread - #98/INFO]: [Not Secure] <~Zaty> muy bonito y todo
-[22:48:22] [Async Chat Thread - #98/INFO]: [Not Secure] <~Zaty> pero como se lo lleva
-[22:48:29] [Async Chat Thread - #98/INFO]: [Not Secure] <~Derp> una cuerda
-[22:48:30] [Async Chat Thread - #98/INFO]: [Not Secure] <~Samir> q se queme
-[22:48:33] [Async Chat Thread - #98/INFO]: [Not Secure] <~Zaty> no pienso caminar todo
-[22:48:40] [Async Chat Thread - #98/INFO]: [Not Secure] <~Derp> yo me lo llevo
-[22:48:45] [Server thread/INFO]: Derposito has made the advancement [You've Got a Friend in Me]
-[22:49:41] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> no hay loot interesante
-[22:49:50] [Async Chat Thread - #100/INFO]: [Not Secure] <~Samir> no...
-[22:49:56] [Async Chat Thread - #100/INFO]: [Not Secure] <~Derp> tengo los diseño de armadura nomas
-[22:50:12] [Async Chat Thread - #100/INFO]: [Not Secure] <~Derp> diseño de armadura vex
-[22:50:23] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> si va sa lleagrlo
-[22:50:25] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> llevarlo
-[22:50:26] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> lleva a todos
-[22:50:28] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> los que veas
-[22:50:51] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> por ahi vi 2 mas
-[22:50:58] [Async Chat Thread - #100/INFO]: [Not Secure] <~Derp> a
-[22:51:32] [Async Chat Thread - #100/INFO]: [Not Secure] <~Derp> aca llevo 3
-[22:51:37] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> dale
-[22:52:04] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> no seria mejor volver por el nether=
-[22:52:05] [Async Chat Thread - #100/INFO]: [Not Secure] <~Zaty> ?
-[22:52:20] [Async Chat Thread - #100/INFO]: [Not Secure] <~Derp> como se calcula
-[22:52:25] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> no es necesario
-[22:52:27] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> tengo el minimapa
-[22:52:32] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> pongo el punto al otro portal
-[22:52:43] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> y traigo obsiana y hacemos el portal qui
-[22:52:43] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> aqui
-[22:52:45] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> y te llevo
-[22:52:48] [Async Chat Thread - #101/INFO]: [Not Secure] <~Derp> hacelo
-[22:52:50] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> dale
-[22:52:51] [Server thread/INFO]: Zatanna917 issued server command: /home
-[22:52:53] [Server thread/INFO]: Zatanna917 issued server command: /home 1
-[22:53:11] [Async Chat Thread - #101/INFO]: [Not Secure] <~Derp> que hacemos te esperamos o que
-[22:53:18] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> si
-[22:53:21] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> ya voy a ustedes
-[22:53:22] [Async Chat Thread - #101/INFO]: [Not Secure] <~Derp> ok
-[22:53:51] [Async Chat Thread - #101/INFO]: [Not Secure] <~Derp> perdision de los astropodos para que servia?
-[22:54:01] [Async Chat Thread - #101/INFO]: [Not Secure] <~Samir> mas daño a arañas
-[22:54:06] [Async Chat Thread - #101/INFO]: [Not Secure] <~Samir> y ya
-[22:54:09] [Async Chat Thread - #101/INFO]: [Not Secure] <~Derp> a
-[22:54:44] [Async Chat Thread - #101/INFO]: [Not Secure] <~Zaty> tienes encendedor?
-[22:54:51] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 obsidian 39
-[22:54:52] [Async Chat Thread - #101/INFO]: [Not Secure] <~Derp> si
-[22:56:43] [Async Chat Thread - #102/INFO]: [Not Secure] <~Zaty> ya
-[22:56:45] [Server thread/INFO]: Zatanna917 issued server command: /tp Derposito
-[22:57:14] [Async Chat Thread - #102/INFO]: [Not Secure] <~Zaty> entren ps
-[22:57:26] [Async Chat Thread - #102/INFO]: [Not Secure] <~Derp> pero los bichitos
-[22:57:33] [Async Chat Thread - #102/INFO]: [Not Secure] <~Zaty> metelos al nether
-[22:57:38] [Async Chat Thread - #102/INFO]: [Not Secure] <~Derp> tenes cuerda?
-[22:57:41] [Async Chat Thread - #102/INFO]: [Not Secure] <~Zaty> 2
-[22:57:47] [Async Chat Thread - #102/INFO]: [Not Secure] <~Derp> tengo 11 yo
-[22:57:50] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> pasate mas
-[22:58:02] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> ahi entro uno
-[22:58:11] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> otro
-[22:58:16] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> y el ultimo
-[22:58:33] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> pero zatanna
-[22:58:33] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> se fue uno para alla
-[22:58:35] [Async Chat Thread - #103/INFO]: [Not Secure] <~Samir> xddd
-[22:58:37] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> mira donde se fue
-[22:58:48] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> el ghast
-[22:59:13] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> y el otro?
-[22:59:20] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> a vos te siguen
-[22:59:27] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> aya
-[22:59:27] [Async Chat Thread - #103/INFO]: [Not Secure] <~Derp> falta uno
-[22:59:33] [Async Chat Thread - #103/INFO]: [Not Secure] <~Samir> q hdp
-[22:59:38] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> veni
-[22:59:43] [Async Chat Thread - #103/INFO]: [Not Secure] <~Zaty> veni
-[23:00:59] [Async Chat Thread - #104/INFO]: [Not Secure] <~Derp> falta uno todavia
-[23:01:04] [Async Chat Thread - #104/INFO]: [Not Secure] <~Derp> eran 3
-[23:01:07] [Async Chat Thread - #104/INFO]: [Not Secure] <~Samir> q se haga culiar
-[23:01:11] [Async Chat Thread - #104/INFO]: [Not Secure] <~Samir> se fue rre lejos
-[23:01:18] [Server thread/INFO]: Zatanna917 has completed the challenge [Hot Tourist Destinations]
-[23:01:19] [Async Chat Thread - #104/INFO]: [Not Secure] <~Derp> no que lejos
-[23:01:44] [Async Chat Thread - #104/INFO]: [Not Secure] <~Zaty> aqui
-[23:01:51] [Async Chat Thread - #104/INFO]: [Not Secure] <~Derp> agarradlo
-[23:02:06] [Server thread/INFO]: Zatanna917 issued server command: /heal
-[23:02:41] [Async Chat Thread - #104/INFO]: [Not Secure] <~Derp> lo agarraste?
-[23:02:43] [Async Chat Thread - #104/INFO]: [Not Secure] <~Zaty> se
-[23:02:53] [Async Chat Thread - #105/INFO]: [Not Secure] <~Derp> por donde hay que ir ahora?
-[23:03:22] [Async Chat Thread - #105/INFO]: [Not Secure] <~Zaty> perenme
-[23:04:41] [Async Chat Thread - #106/INFO]: [Not Secure] <~Zaty> toma
-[23:05:10] [Async Chat Thread - #106/INFO]: [Not Secure] <~Zaty> a 658 bloques esta el otro portal
-[23:05:15] [Async Chat Thread - #106/INFO]: [Not Secure] <~Derp> vamos
-[23:07:27] [Async Chat Thread - #108/INFO]: [Not Secure] <~Zaty> veni samir
-[23:07:36] [Async Chat Thread - #108/INFO]: [Not Secure] <~Zaty> ayudame a poner bloques pal tunel
-[23:09:41] [Async Chat Thread - #110/INFO]: [Not Secure] <~Zaty> veni samir
-[23:11:05] [Async Chat Thread - #112/INFO]: [Not Secure] <~Zaty> camina ya es lugar cerrado
-[23:11:38] [User Authenticator #8/INFO]: UUID of player Daiki1203 is 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
-[23:11:40] [Server thread/INFO]: Daiki1203 joined the game
-[23:11:40] [Server thread/INFO]: Daiki1203[/127.214.44.158:53045] logged in with entity id 91827 at ([world]-55.30999741793941, 73.0, -22.098659045615108)
-[23:11:41] [Server thread/INFO]: [voicechat] Received secret request of Daiki1203 (18)
-[23:11:41] [Server thread/INFO]: [voicechat] Sent secret to Daiki1203
-[23:11:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
-[23:11:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
-[23:11:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Daiki1203 (5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6) successfully connected to voice chat
-[23:11:54] [Async Chat Thread - #112/INFO]: [Not Secure] <~Rumia> buenas
-[23:11:57] [Async Chat Thread - #112/INFO]: [Not Secure] <~Zaty> oa
-[23:12:01] [Async Chat Thread - #112/INFO]: [Not Secure] <~Derp> oda rumia
-[23:12:02] [Async Chat Thread - #112/INFO]: [Not Secure] <~Samir> oa rumia
-[23:13:03] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> se
-[23:13:52] [Async Chat Thread - #114/INFO]: [Not Secure] <~Samir> bueno m tengo q ir
-[23:13:58] [Async Chat Thread - #114/INFO]: [Not Secure] <~Rumia> nv
-[23:14:01] [Async Chat Thread - #114/INFO]: [Not Secure] <~Derp> nv samir
-[23:14:03] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> dale hacete home en la casa sucio
-[23:14:04] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> nv
-[23:14:08] [Async Chat Thread - #114/INFO]: [Not Secure] <~Samir> vuelvo a las 10 chau
-[23:14:13] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> bye
-[23:14:14] [Async Chat Thread - #114/INFO]: [Not Secure] <~Samir> no hagan el dragon eh
-[23:14:16] [Server thread/INFO]: SamiHatesTurbine lost connection: Disconnected
-[23:14:16] [Server thread/INFO]: [voicechat] Disconnecting client SamiHatesTurbine
-[23:14:16] [Server thread/INFO]: SamiHatesTurbine left the game
-[23:14:41] [Async Chat Thread - #114/INFO]: [Not Secure] <~Derp> lpm
-[23:14:44] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> q
-[23:14:49] [Async Chat Thread - #114/INFO]: [Not Secure] <~Derp> se salio uno
-[23:14:53] [User Authenticator #9/INFO]: UUID of player Vorteexcito is 1f450d87-df90-34ad-9618-043d8b73ec6e
-[23:14:55] [Server thread/INFO]: Vorteexcito joined the game
-[23:14:55] [Server thread/INFO]: Vorteexcito[/127.16.148.149:37025] logged in with entity id 93983 at ([world]-63.30000001192093, 56.875, 12.599675655065244)
-[23:14:55] [Server thread/INFO]: [voicechat] Received secret request of Vorteexcito (18)
-[23:14:55] [Server thread/INFO]: [voicechat] Sent secret to Vorteexcito
-[23:14:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 1f450d87-df90-34ad-9618-043d8b73ec6e
-[23:14:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 1f450d87-df90-34ad-9618-043d8b73ec6e
-[23:14:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Vorteexcito (1f450d87-df90-34ad-9618-043d8b73ec6e) successfully connected to voice chat
-[23:15:09] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> no queda nada ya sucio
-[23:15:09] [Async Chat Thread - #114/INFO]: [Not Secure] <~Rumia> y entra otro
-[23:15:10] [Async Chat Thread - #114/INFO]: [Not Secure] <~Zaty> 320
-[23:18:35] [Async Chat Thread - #116/INFO]: [Not Secure] <~Zaty> vamo
-[23:18:50] [Async Chat Thread - #116/INFO]: [Not Secure] <~Rumia> al end?
-[23:18:55] [Async Chat Thread - #116/INFO]: [Not Secure] <~Zaty> nu
-[23:19:14] [Async Chat Thread - #116/INFO]: [Not Secure] <~Derp> estamos en el nether llevando vex a la base
-[23:19:25] [Server thread/INFO]: Daiki1203 issued server command: /home
-[23:20:14] [Async Chat Thread - #118/INFO]: [Not Secure] <~Zaty> aya esta el portal
-[23:21:45] [Server thread/INFO]: Daiki1203 issued server command: /back
-[23:21:56] [Async Chat Thread - #120/INFO]: [Not Secure] <~Derp> que boludooo
-[23:22:07] [Async Chat Thread - #120/INFO]: [Not Secure] <~Derp> se mete a la lava solo el vex del orto
-[23:22:15] [Async Chat Thread - #120/INFO]: [Not Secure] <~Rumia> xd xd xd
-[23:23:03] [Server thread/INFO]: Vorteexcito issued server command: /back
-[23:23:06] [Server thread/INFO]: Vorteexcito issued server command: /back
-[23:23:09] [Server thread/INFO]: Vorteexcito issued server command: /home home
-[23:23:39] [Async Chat Thread - #122/INFO]: [Not Secure] <~Zaty> el otro
-[23:23:57] [Async Chat Thread - #122/INFO]: [Not Secure] <~Zaty> ya
-[23:24:09] [Async Chat Thread - #122/INFO]: [Not Secure] <~Derp> se quedan aca ya?
-[23:24:14] [Async Chat Thread - #122/INFO]: [Not Secure] <~Zaty> supongo
-[23:24:16] [Async Chat Thread - #122/INFO]: [Not Secure] <~Zaty> aun que te siguen
-[23:24:18] [Async Chat Thread - #122/INFO]: [Not Secure] <~Zaty> por el item
-[23:24:20] [Async Chat Thread - #122/INFO]: [Not Secure] <~Derp> a
-[23:24:36] [Server thread/INFO]: Zatanna917 issued server command: /fix all
-[23:25:11] [Async Chat Thread - #122/INFO]: [Not Secure] <~Derp> nos falta el snifer
-[23:25:36] [Async Chat Thread - #122/INFO]: [Not Secure] <~Zaty> si
-[23:25:49] [Async Chat Thread - #122/INFO]: [Not Secure] <~Derp> toma
-[23:25:59] [Async Chat Thread - #122/INFO]: [Not Secure] <~Derp> agarra eso
-[23:27:36] [Async Chat Thread - #124/INFO]: [Not Secure] <~Vorteex> AFK
-[23:28:02] [Async Chat Thread - #124/INFO]: [Not Secure] <~Rumia> ¿el oro sirve para algo?
-[23:28:02] [Async Chat Thread - #124/INFO]: [Not Secure] <~Vorteex> ME LLEGO MI PEDIDO XD
-[23:28:11] [Async Chat Thread - #124/INFO]: [Not Secure] <~Zaty> q
-[23:28:12] [Async Chat Thread - #124/INFO]: [Not Secure] <~Derp> manzanas y zanahorias doradas
-[23:29:37] [Async Chat Thread - #126/INFO]: [Not Secure] <~Zaty> q
-[23:29:49] [Server thread/INFO]: Zatanna917 issued server command: /heal
-[23:30:08] [Async Chat Thread - #126/INFO]: [Not Secure] <~Zaty> el femboy anda invisible
-[23:30:15] [Async Chat Thread - #126/INFO]: [Not Secure] <~Derp> se
-[23:30:34] [Async Chat Thread - #126/INFO]: [Not Secure] <~Vorteex> PENDEJOS ESTOY COMIENDO MI PIZZA
-[23:30:41] [Async Chat Thread - #126/INFO]: [Not Secure] <~Vorteex> COMO QUE INVISIBLE
-[23:30:45] [Async Chat Thread - #126/INFO]: [Not Secure] <~Derp> hacete
-[23:30:49] [Async Chat Thread - #126/INFO]: [Not Secure] <~Zaty> femboy el mapa te delata
-[23:30:57] [Async Chat Thread - #126/INFO]: [Not Secure] <~Zaty> xd
-[23:31:02] [Async Chat Thread - #126/INFO]: [Not Secure] <~Vorteex> eh?
-[23:31:10] [Async Chat Thread - #126/INFO]: [Not Secure] <~Derp> se te ve en el mini mapa
-[23:31:13] [Async Chat Thread - #126/INFO]: [Not Secure] <~Zaty> el mini mapa
-[23:31:28] [Server thread/INFO]: Vorteexcito issued server command: /minecraft:msg Zatanna917 troleo para troy xd
-[23:31:40] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> ni esta troy femboy
-[23:31:41] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> xd
-[23:31:53] [Server thread/INFO]: Vorteexcito issued server command: /minecraft:msg Zatanna917 CUANDO ENTRA A TROY, HAGO LA BROMA
-[23:31:58] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> xd
-[23:32:16] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> valio kk el arbol de troy
-[23:32:28] [Async Chat Thread - #127/INFO]: [Not Secure] <~Derp> tanto trabajo para eso
-[23:32:34] [Async Chat Thread - #127/INFO]: [Not Secure] <~Rumia> ¿le cayó un rayo?
-[23:32:36] [Async Chat Thread - #127/INFO]: [Not Secure] <~Vorteex> vamo a romper xd
-[23:32:39] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> no
-[23:32:42] [Async Chat Thread - #127/INFO]: [Not Secure] <~Derp> lo rompio el
-[23:32:43] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> el boludo talo donde no devia
-[23:32:45] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> xd
-[23:32:51] [Async Chat Thread - #127/INFO]: [Not Secure] <~Rumia> xd xd xd
-[23:32:54] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> aqui tiene terreno pa construir si quieren
-[23:32:59] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> y atras de la casa de derp tambien
-[23:33:36] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> EN FIN
-[23:33:38] [Async Chat Thread - #127/INFO]: [Not Secure] <~Derp> si nadie lo usa lo uso yo
-[23:33:42] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> paremo ya que se va alv las horas
-[23:33:44] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> usalo ps
-[23:33:49] [Async Chat Thread - #127/INFO]: [Not Secure] <~Derp> bueno
-[23:33:51] [Async Chat Thread - #127/INFO]: [Not Secure] <~Derp> cerra el sv nomas
-[23:33:59] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> ponganse en lugar seguro
-[23:34:02] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> asi cierro el sv sucios
-[23:34:19] [Async Chat Thread - #127/INFO]: [Not Secure] <~Vorteex> listo
-[23:34:21] [Server thread/INFO]: Daiki1203 issued server command: /home
-[23:34:25] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> tas rumia?
-[23:34:25] [Async Chat Thread - #127/INFO]: [Not Secure] <~Rumia> ya
-[23:34:27] [Async Chat Thread - #127/INFO]: [Not Secure] <~Zaty> dale
-[23:34:28] [Server thread/INFO]: Zatanna917 issued server command: /stop
-[23:34:28] [Server thread/INFO]: [Zatanna917: Stopping the server]
-[23:34:28] [Server thread/INFO]: Stopping server
-[23:34:28] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.5.2
-[23:34:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
-[23:34:28] [Server thread/INFO]: [GraveStonesPlus] Disabling GraveStonesPlus v1.8.1
-[23:34:28] [Server thread/INFO]: [GraveStonesPlus] Allowing background tasks to finish, this could take up to 5 seconds
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['badrancio died here!'/125, uuid='ca135a69-2a3c-488e-b16f-a54eaa5f257c', l='ServerLevel[world]', x=7.50, y=64.50, z=188.50, cpos=[0, 11], tl=317879, v=true] died: badrancio died here! died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Died at Thu Aug 21 02:13:52 UTC 2025'/126, uuid='58b917df-5cb8-4d34-a23b-ed70351f6a27', l='ServerLevel[world]', x=7.50, y=64.25, z=188.50, cpos=[0, 11], tl=317879, v=true] died: Died at Thu Aug 21 02:13:52 UTC 2025 died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Reason: badrancio died'/127, uuid='3dde7b1d-9d61-4c91-9c65-097f0d229d81', l='ServerLevel[world]', x=7.50, y=64.00, z=188.50, cpos=[0, 11], tl=317879, v=true] died: Reason: badrancio died died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['badrancio died here!'/128, uuid='03d2d575-0fd4-4e11-b127-e47fc7132d66', l='ServerLevel[world]', x=-11.50, y=64.50, z=12.50, cpos=[-1, 0], tl=317883, v=true] died: badrancio died here! died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Died at Thu Aug 21 02:18:25 UTC 2025'/129, uuid='a5542607-950f-446e-82e9-0a6c6d88347c', l='ServerLevel[world]', x=-11.50, y=64.25, z=12.50, cpos=[-1, 0], tl=317883, v=true] died: Died at Thu Aug 21 02:18:25 UTC 2025 died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Reason: badrancio was shot by Skeleton'/130, uuid='686319e2-da3d-4e31-a5a9-78694dc0d852', l='ServerLevel[world]', x=-11.50, y=64.00, z=12.50, cpos=[-1, 0], tl=317883, v=true] died: Reason: badrancio was shot by Skeleton died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Vorteexcito died here!'/133, uuid='6d5690fa-e1ca-4448-b7cd-97035e257399', l='ServerLevel[world]', x=-186.50, y=57.50, z=-82.50, cpos=[-12, -6], tl=317880, v=true] died: Vorteexcito died here! died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Died at Thu Aug 21 02:35:05 UTC 2025'/134, uuid='9a5e8371-3458-4955-a745-5d32aa1c493f', l='ServerLevel[world]', x=-186.50, y=57.25, z=-82.50, cpos=[-12, -6], tl=317880, v=true] died: Died at Thu Aug 21 02:35:05 UTC 2025 died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Reason: Vorteexcito was slain by Zombie'/135, uuid='7bceed57-80da-4738-b824-8151db22df97', l='ServerLevel[world]', x=-186.50, y=57.00, z=-82.50, cpos=[-12, -6], tl=317880, v=true] died: Reason: Vorteexcito was slain by Zombie died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['CrowSinged died here!'/139, uuid='e40e021f-7c7e-47b8-bb5c-35f8efb05887', l='ServerLevel[world]', x=82.50, y=-14.50, z=-58.50, cpos=[5, -4], tl=317879, v=true] died: CrowSinged died here! died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Died at Thu Aug 21 03:47:02 UTC 2025'/140, uuid='59a9ab70-11d5-4329-98f6-d87eb0b119f8', l='ServerLevel[world]', x=82.50, y=-14.75, z=-58.50, cpos=[5, -4], tl=317879, v=true] died: Died at Thu Aug 21 03:47:02 UTC 2025 died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Reason: CrowSinged fell from a high place'/141, uuid='85eaab53-bd9f-4752-9fdc-b42dc14fc22d', l='ServerLevel[world]', x=82.50, y=-15.00, z=-58.50, cpos=[5, -4], tl=317879, v=true] died: Reason: CrowSinged fell from a high place died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Derposito died here!'/142, uuid='702f66df-6db8-47b7-8b4f-870a4239efa7', l='ServerLevel[world]', x=837.50, y=57.50, z=-1207.50, cpos=[52, -76], tl=317881, v=true] died: Derposito died here! died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Died at Thu Aug 21 20:31:13 UTC 2025'/143, uuid='adfe77d1-c3a4-4d21-8915-6ea495e3a466', l='ServerLevel[world]', x=837.50, y=57.25, z=-1207.50, cpos=[52, -76], tl=317881, v=true] died: Died at Thu Aug 21 20:31:13 UTC 2025 died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Reason: Derposito was slain by Guardian'/144, uuid='879d4231-2f81-4da1-8494-09d6a54c578d', l='ServerLevel[world]', x=837.50, y=57.00, z=-1207.50, cpos=[52, -76], tl=317881, v=true] died: Reason: Derposito was slain by Guardian died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Fiixerr died here!'/157, uuid='1d61b218-5a0e-4ae2-a85e-e7dedde933fa', l='ServerLevel[world_nether]', x=-28.50, y=85.50, z=-133.50, cpos=[-2, -9], tl=8095, v=false] died: Fiixerr died here! died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Died at Sun Aug 24 19:23:45 UTC 2025'/158, uuid='59a40dce-ce25-46d7-917f-c58a41b2d721', l='ServerLevel[world_nether]', x=-28.50, y=85.25, z=-133.50, cpos=[-2, -9], tl=8095, v=false] died: Died at Sun Aug 24 19:23:45 UTC 2025 died
-[23:34:28] [Server thread/INFO]: Named entity ArmorStand['Reason: Fiixerr was slain by Derposito'/159, uuid='a659e89c-f1be-4852-926c-e311ae60ad20', l='ServerLevel[world_nether]', x=-28.50, y=85.00, z=-133.50, cpos=[-2, -9], tl=8095, v=false] died: Reason: Fiixerr was slain by Derposito died
-[23:34:28] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
-[23:34:28] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[23:34:28] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[23:34:28] [Server thread/INFO]: [HealthBar-Reloaded] Disabling HealthBar-Reloaded v2.0.4.2
-[23:34:28] [Server thread/INFO]: HealthBar disabled: all the health bars have been removed.
-[23:34:28] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.6.0
-[23:34:28] [Server thread/INFO]: [CrisTreeCapitator] Disabling CrisTreeCapitator v6.4.4
-[23:34:28] [Server thread/INFO]: [CrisTreeCapitator] Disabled
-[23:34:28] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.32.4-T20250718161642
-[23:34:28] [WebSocketConnectReadThread-1353/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[23:34:29] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
-[23:34:29] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
-[23:34:29] [Server thread/INFO]: [Minepacks]  Minepacks has been disabled.  :( 
-[23:34:29] [Server thread/INFO]: [TerraformGenerator] Disabling TerraformGenerator v21.0.1
-[23:34:29] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.36
-[23:34:29] [Server thread/INFO]: [MyPetDownloader] Disabling MyPetDownloader v1.2
-[23:34:29] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.13
-[23:34:29] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[23:34:29] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[23:34:29] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[23:34:29] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.10
-[23:34:29] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:34:29] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:34:29] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:34:29] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[23:34:29] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[23:34:29] [Server thread/INFO]: Saving players
-[23:34:29] [Server thread/INFO]: Derposito lost connection: Server closed
-[23:34:29] [Server thread/INFO]: Derposito left the game
-[23:34:29] [Server thread/INFO]: Zatanna917 lost connection: Server closed
-[23:34:29] [Server thread/INFO]: Zatanna917 left the game
-[23:34:29] [Server thread/INFO]: Daiki1203 lost connection: Server closed
-[23:34:29] [Server thread/INFO]: Daiki1203 left the game
-[23:34:29] [Server thread/INFO]: Vorteexcito lost connection: Server closed
-[23:34:29] [Server thread/INFO]: Vorteexcito left the game
-[23:34:29] [Server thread/INFO]: Saving worlds
-[23:34:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:34:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:34:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:34:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Saved 352 block chunks, 836 entity chunks, 0 poi chunks in world 'world' in 0.74s
-[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:34:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:34:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Saved 39 block chunks, 134 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:34:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:34:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:34:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:34:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:34:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:34:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:34:31] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[23:34:31] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[23:34:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:34:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[21:37:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (16):
+ - BlockLocker (1.13), CrisTreeCapitator (6.4.4), Essentials (2.21.2), Geyser-Spigot (2.8.3-SNAPSHOT), GraveStonesPlus (1.8.1), HealthBar-Reloaded (2.0.4.2), InstantRestock (2.5.2), LuckPerms (5.5.10), MyPetDownloader (1.2), SkinsRestorer (15.7.10), TerraformGenerator (21.0.1), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a)), sleep-most (5.6.0), voicechat (2.5.36)
+[21:37:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:37:37] [ServerMain/INFO]: Loaded 1407 recipes
+[21:37:37] [ServerMain/INFO]: Loaded 1520 advancements
+[21:37:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:37:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,181.8ms
+[21:37:38] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:37:38] [Server thread/INFO]: Loading properties
+[21:37:38] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:37:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:37:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:37:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:37:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:37:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:37:39] [Server thread/INFO]: Default game type: SURVIVAL
+[21:37:39] [Server thread/INFO]: Generating keypair
+[21:37:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:37:39] [Server thread/INFO]: Using epoll channel type
+[21:37:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:37:39] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:37:40] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[21:37:40] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/Servidor-Turbine-cuy-4.0/servidor_minecraft/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[21:37:40] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[21:37:40] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[21:37:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:37:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:37:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:37:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:37:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.10
+[21:37:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:37:43] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[21:37:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[21:37:44] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:37:45] [Server thread/INFO]: [floodgate] Took 1,072ms to boot Floodgate
+[21:37:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[21:37:45] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
+[21:37:45] [Server thread/INFO]: [MyPetDownloader] Loading server plugin MyPetDownloader v1.2
+[21:37:45] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.36
+[21:37:45] [Server thread/INFO]: [TerraformGenerator] Loading server plugin TerraformGenerator v21.0.1
+[21:37:45] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.32.4-T20250718161642
+[21:37:45] [Server thread/INFO]: [CrisTreeCapitator] Loading server plugin CrisTreeCapitator v6.4.4
+[21:37:45] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.6.0
+[21:37:45] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.4.2
+[21:37:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[21:37:45] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:37:45] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:37:45] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8.1
+[21:37:45] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[21:37:45] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.5.2
+[21:37:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:37:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.10
+[21:37:46] [Server thread/INFO]:         __    
+[21:37:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.10
+[21:37:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:37:46] [Server thread/INFO]: 
+[21:37:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:37:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:37:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:37:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1769ms)
+[21:37:47] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
+[21:37:47] [Server thread/INFO]: [TerraformGenerator] Enabling TerraformGenerator v21.0.1
+[21:37:48] [Server thread/INFO]: [TerraformGenerator] Custom Logger Initialized
+[21:37:48] [Server thread/INFO]: [TerraformGenerator] bStats Metrics enabled.
+[21:37:48] [Server thread/INFO]: [TerraformGenerator] Detected version: 1.21.8, number: 21.8
+[21:37:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[21:37:49] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[21:37:49] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[21:37:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:37:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:37:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:37:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:37:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:37:49] [Server thread/INFO]: Preparing level "world"
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.7.10
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 19ef760
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:37:49] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:37:50] [Server thread/INFO]: [TerraformGenerator] Detected world: world, commencing injection... 
+[21:37:50] [Server thread/INFO]: [TerraformGenerator] Injection success! Proceeding with generation.
+[21:37:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:37:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:37:51] [Server thread/INFO]: Preparing spawn area: 4%
+[21:37:51] [Server thread/INFO]: Preparing spawn area: 4%
+[21:37:51] [Server thread/INFO]: Preparing spawn area: 40%
+[21:37:52] [Server thread/INFO]: Time elapsed: 1936 ms
+[21:37:52] [Server thread/INFO]: [TerraformGenerator] world loaded.
+[21:37:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:37:52] [Server thread/INFO]: Preparing spawn area: 0%
+[21:37:53] [Server thread/INFO]: Preparing spawn area: 8%
+[21:37:53] [Server thread/INFO]: Preparing spawn area: 12%
+[21:37:53] [Server thread/INFO]: Preparing spawn area: 18%
+[21:37:54] [Server thread/INFO]: Preparing spawn area: 34%
+[21:37:54] [Server thread/INFO]: Preparing spawn area: 36%
+[21:37:55] [Server thread/INFO]: Preparing spawn area: 75%
+[21:37:55] [Server thread/INFO]: Time elapsed: 3019 ms
+[21:37:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:37:55] [Server thread/INFO]: Preparing spawn area: 0%
+[21:37:55] [Server thread/INFO]: Time elapsed: 471 ms
+[21:37:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[21:37:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[21:37:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[21:37:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:37:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:37:56] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[21:37:56] [Server thread/INFO]: [Essentials] Using locale en
+[21:37:57] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:37:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:37:57] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[21:37:57] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[21:37:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:37:57] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[21:37:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[21:37:57] [Server thread/INFO]: [MyPetDownloader] Enabling MyPetDownloader v1.2
+[21:37:57] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.36
+[21:37:57] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[21:37:57] [Server thread/INFO]: [voicechat] Compatibility version 18
+[21:37:57] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[21:37:57] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[21:37:57] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.32.4-T20250718161642
+[21:37:57] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[21:37:57] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[21:37:57] [Server thread/WARN]: [Minepacks] Paper support is experimental! Use at your own risk!
+[21:37:57] [Server thread/WARN]: [Minepacks] No guarantee for data integrity! Backup constantly!
+[21:37:57] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: english  Author: GeorgH93
+[21:37:57] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[21:37:58] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[21:37:58] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[21:37:58] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[21:37:58] [Server thread/INFO]: [Minepacks] Finished loading item translations for 826 items.
+[21:37:58] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[21:37:58] [Server thread/INFO]: [CrisTreeCapitator] Enabling CrisTreeCapitator v6.4.4
+[21:37:58] [Server thread/INFO]: [CrisTreeCapitator] WorldGuard not found. Maybe WorldGuard or this plugin are not up to date?
+[21:37:58] [Server thread/INFO]: [CrisTreeCapitator] Logs from JSON: [OAK_LOG, OAK_LOG, OAK_LOG, OAK_LOG]
+[21:37:58] [Server thread/INFO]: [CrisTreeCapitator] Leaves from JSON: [OAK_LEAVES, OAK_LEAVES, OAK_LEAVES, OAK_LEAVES]
+[21:37:58] [Server thread/INFO]: [CrisTreeCapitator] Enabled
+[21:37:58] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.6.0
+[21:37:58] [Server thread/INFO]: [sleep-most] Hooked to Essentials
+[21:37:58] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.4.2
+[21:37:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[21:37:59] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8.1
+[21:37:59] [Server thread/INFO]: [GraveStonesPlus] Loaded LuckPerms hook!
+[21:37:59] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
+[21:37:59] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.5.2
+[21:38:00] [Server thread/INFO]: [InfiniteVillagerTrades] Enabled InstantRestock!
+[21:38:00] [Server thread/INFO]: [spark] Starting background profiler...
+[21:38:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:38:01] [Server thread/INFO]: [Geyser-Spigot] 
+[21:38:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b912 (git-master-dc5fc8f)
+[21:38:01] [Server thread/INFO]: [Geyser-Spigot] 
+[21:38:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:38:04] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[21:38:04] [Server thread/INFO]: [Geyser-Spigot] Done (3.238s)! Run /geyser help for help!
+[21:38:05] [Server thread/INFO]: Done preparing level "world" (15.192s)
+[21:38:05] [Server thread/INFO]: Running delayed init tasks
+[21:38:05] [Craft Scheduler Thread - 4 - HealthBar-Reloaded/INFO]: Found a new version: 2.0.5-beta (Yours: v2.0.4.2)
+[21:38:05] [Craft Scheduler Thread - 4 - HealthBar-Reloaded/INFO]: Download it on spigot:
+[21:38:05] [Craft Scheduler Thread - 4 - HealthBar-Reloaded/INFO]: spigotmc.org/resources/104616
+[21:38:05] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:38:05] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:38:05] [Craft Scheduler Thread - 9 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus has an update available! Your Version: 1.8.1 New Version: 1.9
+[21:38:06] [Server thread/INFO]: Done (48.563s)! For help, type "help"
+[21:38:06] [Server thread/INFO]: [voicechat] Loading plugins
+[21:38:06] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:38:06] [Server thread/INFO]: [voicechat] Initializing plugins
+[21:38:06] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:38:06] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21:38:06] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '147.185.221.31:2070'
+[21:38:06] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 2070
+[21:38:31] [User Authenticator #0/INFO]: UUID of player Zatanna917 is 3d378d1f-5002-34b4-a623-dee3b1bfba31
+[21:38:31] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, SkinsRestorer, Essentials]
+[21:38:33] [Server thread/INFO]: Zatanna917 joined the game
+[21:38:33] [Server thread/INFO]: Zatanna917[/127.225.99.246:56739] logged in with entity id 528 at ([world]-13.09291912622366, 72.0, 8.053487625133677)
+[21:38:34] [Server thread/INFO]: [voicechat] Received secret request of Zatanna917 (18)
+[21:38:34] [Server thread/INFO]: [voicechat] Sent secret to Zatanna917
+[21:38:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3d378d1f-5002-34b4-a623-dee3b1bfba31
+[21:38:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3d378d1f-5002-34b4-a623-dee3b1bfba31
+[21:38:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zatanna917 (3d378d1f-5002-34b4-a623-dee3b1bfba31) successfully connected to voice chat
+[21:38:59] [User Authenticator #0/INFO]: UUID of player Derposito is 564a6847-4eb3-3720-9968-e09063fa1175
+[21:38:59] [pool-33-thread-1/INFO]: [GraveStonesPlus] Detected day changed, processing...
+[21:38:59] [pool-33-thread-1/INFO]: [GraveStonesPlus] Time change event: DAY, Fake: false
+[21:38:59] [pool-33-thread-1/INFO]: [GraveStonesPlus] Finished processing day changes
+[21:39:01] [Server thread/INFO]: Derposito joined the game
+[21:39:01] [Server thread/INFO]: Derposito[/127.209.176.25:36961] logged in with entity id 679 at ([world]-76.90748909241854, 74.0, -2.730385865261052)
+[21:39:02] [Server thread/INFO]: [voicechat] Received secret request of Derposito (18)
+[21:39:02] [Server thread/INFO]: [voicechat] Sent secret to Derposito
+[21:39:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 564a6847-4eb3-3720-9968-e09063fa1175
+[21:39:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 564a6847-4eb3-3720-9968-e09063fa1175
+[21:39:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Derposito (564a6847-4eb3-3720-9968-e09063fa1175) successfully connected to voice chat
+[21:39:47] [Async Chat Thread - #0/INFO]: [Not Secure] <~Zaty> mugroso
+[21:40:51] [Async Chat Thread - #1/INFO]: [Not Secure] <~Derp> oda
+[21:40:54] [Async Chat Thread - #1/INFO]: [Not Secure] <~Zaty> oa sucio
+[21:40:57] [Async Chat Thread - #1/INFO]: [Not Secure] <~Zaty> pone musica sucio
+[21:41:06] [Async Chat Thread - #1/INFO]: [Not Secure] <~Derp> tengo las misma de ayer
+[21:41:09] [Async Chat Thread - #1/INFO]: [Not Secure] <~Zaty> pone
+[21:41:10] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> pone
+[21:41:11] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> pone
+[21:41:12] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> wa
+[21:41:20] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> bueno
+[21:42:01] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> hay que detonar la casa de troy
+[21:42:03] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> che zatanna
+[21:42:13] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> ahi me fije para conseguir los huevos de sniffer
+[21:42:22] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> no son en los monumentos de oceano
+[21:42:30] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> son en ruinas de ahogados
+[21:42:48] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> :o
+[21:42:52] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> vamo?
+[21:42:55] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> y necesitas el pincel este
+[21:42:58] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> donde hay ruina de ahogados
+[21:43:00] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> para limpiar la arena
+[21:43:14] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> y mira en todo los dias que jugamos no me tope con ninguno
+[21:43:15] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> como se hace el pinsel de mrd
+[21:43:29] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> el pincel nose
+[21:43:38] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> me fijo
+[21:43:41] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> xd
+[21:44:05] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> los otros??
+[21:44:09] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> ni idea
+[21:44:15] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> capas no vieron aun el mensaje de wps
+[21:44:44] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> un palo uno de cobre y una pluma
+[21:44:48] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> tenes cobre?
+[21:45:06] [User Authenticator #1/INFO]: UUID of player Daiki1203 is 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
+[21:45:10] [Server thread/INFO]: Daiki1203 joined the game
+[21:45:10] [Server thread/INFO]: Daiki1203[/127.214.44.158:34303] logged in with entity id 1784 at ([world]-56.169315401352996, 73.0, -16.468432358030782)
+[21:45:13] [Server thread/INFO]: [voicechat] Received secret request of Daiki1203 (18)
+[21:45:13] [Server thread/INFO]: [voicechat] Sent secret to Daiki1203
+[21:45:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
+[21:45:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6
+[21:45:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Daiki1203 (5741de36-7c1d-3db2-b68e-b0eeb6dbc2e6) successfully connected to voice chat
+[21:45:20] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> mm
+[21:45:20] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> cobre cobre necesito cobreee
+[21:45:24] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> en los cofres sucio
+[21:45:39] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> no hay ni un putisimo cobre sucia
+[21:45:54] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> aaa
+[21:45:57] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> uy
+[21:45:58] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> a
+[21:45:59] [User Authenticator #1/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
+[21:46:01] [Server thread/INFO]: SamiHatesTurbine joined the game
+[21:46:01] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:52629] logged in with entity id 1965 at ([world_nether]216.84381048720763, 55.0, 273.38422227770934)
+[21:46:01] [Async Chat Thread - #1/INFO]: [Not Secure] <~Zaty> oa rumia
+[21:46:01] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
+[21:46:01] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
+[21:46:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
+[21:46:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
+[21:46:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
+[21:46:03] [Async Chat Thread - #1/INFO]: [Not Secure] <~Derp> quite la musica
+[21:46:06] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> hola rumia
+[21:46:19] [Async Chat Thread - #2/INFO]: [Not Secure] <~Rumia> hola
+[21:46:31] [Async Chat Thread - #2/INFO]: [Not Secure] <~Rumia> ¿cómo les va?
+[21:46:34] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> bien bien
+[21:46:35] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> todo bien
+[21:46:36] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> y tu
+[21:46:39] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
+[21:46:46] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> en el monumento oseanico no hay?
+[21:46:54] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> nao
+[21:47:08] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> en donde hay?
+[21:47:18] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> en las ruinas de ahogados
+[21:47:39] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> samir
+[21:47:41] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:ocean_ruin_warm
+[21:47:42] [Async Chat Thread - #2/INFO]: [Not Secure] <~Samir> q
+[21:47:50] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> sabes donde hay una ruina de ahogados?
+[21:48:03] [Async Chat Thread - #2/INFO]: [Not Secure] <~Samir> nel, en el mar supongo xd
+[21:48:04] [Server thread/INFO]: Daiki1203 lost connection: Disconnected
+[21:48:04] [Server thread/INFO]: [voicechat] Disconnecting client Daiki1203
+[21:48:04] [Server thread/INFO]: Daiki1203 left the game
+[21:48:14] [Server thread/INFO]: Zatanna917 issued server command: /terra locate WarmOceanRuinsPopulator
+[21:48:16] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> ojala encontrar un mar no?
+[21:48:27] [Server thread/INFO]: Zatanna917 issued server command: /tp -2752 80 832
+[21:48:33] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[21:48:52] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> tp
+[21:48:53] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> zatanna esta usando cheats
+[21:49:02] [Server thread/INFO]: Derposito issued server command: /tpa Zatanna917
+[21:49:06] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[21:49:12] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> lo de abajo?
+[21:49:18] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> si
+[21:49:47] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> aqui ya estubo alguien
+[21:49:47] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> ps
+[21:49:59] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> fijate bien
+[21:50:11] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> q
+[21:50:23] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> No hay arena
+[21:50:23] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> xd
+[21:50:26] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> no
+[21:50:32] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> entonces aca no
+[21:50:38] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 39
+[21:51:18] [Async Chat Thread - #2/INFO]: [Not Secure] <~Zaty> No hay arena
+[21:52:06] [Server thread/INFO]: Zatanna917 issued server command: /terra locate
+[21:52:18] [Async Chat Thread - #2/INFO]: [Not Secure] <~Derp> busca otro
+[21:52:21] [Server thread/INFO]: Zatanna917 issued server command: /terra locate WarmOceanRuinsPopulator
+[21:53:52] [Server thread/INFO]: Derposito issued server command: /home piramide
+[21:54:04] [Async Chat Thread - #3/INFO]: [Not Secure] <~Samir> q hacen?
+[21:54:17] [Server thread/INFO]: Derposito issued server command: /home casa
+[21:54:35] [Async Chat Thread - #3/INFO]: [Not Secure] <~Derp> perdi mi pico
+[21:55:23] [Async Chat Thread - #3/INFO]: [Not Secure] <~Derp> coño
+[21:55:25] [Async Chat Thread - #3/INFO]: [Not Secure] <~Zaty> q
+[21:55:32] [Async Chat Thread - #3/INFO]: [Not Secure] <~Derp> perdi mi picooo
+[21:55:48] [Async Chat Thread - #3/INFO]: [Not Secure] <~Zaty> buscalo
+[21:55:48] [Async Chat Thread - #3/INFO]: [Not Secure] <~Derp> donde pija se me abra caido ahora
+[21:56:16] [Server thread/INFO]: Derposito issued server command: /tpa Zatanna917
+[21:56:28] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[21:56:58] [Async Chat Thread - #5/INFO]: [Not Secure] <~Zaty> si o si tiene que ser en la wea de ahogados?
