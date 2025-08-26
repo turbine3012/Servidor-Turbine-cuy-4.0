@@ -4878,3 +4878,4 @@
 [2025-08-26 22:01:43] [INFO   ] [Locate] [WarmOceanRuinsPopulator] Located at X: 4928 Z: -192 
 [2025-08-26 22:02:41] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
 [2025-08-26 22:02:42] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-08-26 22:48:56] [INFO   ] Large Cave at -1216,20,1344 has water level > -10 with populator GenericLargeCavePopulator 
