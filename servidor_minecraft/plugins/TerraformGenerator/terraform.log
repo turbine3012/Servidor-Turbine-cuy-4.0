@@ -4833,3 +4833,48 @@
 [2025-08-26 21:52:30] [INFO   ] Spawning CrystallineClusterCavePopulator at -3096,-24,602 
 [2025-08-26 21:52:33] [INFO   ] Spawning LushClusterCavePopulator at -3136,-32,640 
 [2025-08-26 21:52:33] [INFO   ] Spawning DripstoneClusterCavePopulator at -3136,-24,896 
+[2025-08-26 21:59:45] [INFO   ] -364,52 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2025-08-26 21:59:52] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -380,57 
+[2025-08-26 21:59:52] [INFO   ] Large Cave at -6336,12,832 has water level > -32 with populator GenericLargeCavePopulator 
+[2025-08-26 22:00:00] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: -364,52 
+[2025-08-26 22:00:02] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -379,38 
+[2025-08-26 22:00:09] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -359,47 
+[2025-08-26 22:00:09] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -359,58 
+[2025-08-26 22:00:09] [INFO   ] Spawning Underground Dungeon at -5733,10,942 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -5828 15 1276 in a room of size 13x14 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -5791 15 1316 in a room of size 13x13 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -5801 15 1390 in a room of size 15x13 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -5882 15 1315 in a room of size 15x15 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -5833 15 1379 in a room of size 13x13 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -5751 15 1304 in a room of size 14x13 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -5863 15 1377 in a room of size 15x15 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -5864 15 1320 in a room of size 14x14 
+[2025-08-26 22:00:10] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -5772 15 1351 in a room of size 15x14 
+[2025-08-26 22:00:11] [INFO   ] Large Cave at -6336,22,1344 has water level > -23 with populator LargeLushCavePopulator 
+[2025-08-26 22:01:11] [INFO   ] [Locate] Completed Locate task (22ms) 
+[2025-08-26 22:01:11] [INFO   ] Generating org.terraform.structure.warmoceanruins.WarmOceanRuinsPopulator at chunk: -204,52 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanDomeHutRoom at -3289 25 865 in a room of size 13x12 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanWellRoom at -3277 25 842 in a room of size 11x12 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanAltarRoom at -3272 25 816 in a room of size 12x15 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanAltarRoom at -3244 25 805 in a room of size 13x12 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanWellRoom at -3236 25 860 in a room of size 15x11 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanDomeHutRoom at -3270 25 800 in a room of size 12x10 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanLargeArcRoom at -3229 25 837 in a room of size 25x25 
+[2025-08-26 22:01:11] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanDomeHutRoom at -3297 25 829 in a room of size 10x14 
+[2025-08-26 22:01:11] [INFO   ] Spawning Desert Well at -3277,22,842 
+[2025-08-26 22:01:12] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: -206,50 
+[2025-08-26 22:01:12] [INFO   ] Spawning shipwreck at -3288, 22, 809 with rotation of EAST 
+[2025-08-26 22:01:12] [INFO   ] Spawning Desert Well at -3236,27,860 
+[2025-08-26 22:01:12] [INFO   ] [Locate] [WarmOceanRuinsPopulator] Located at X: -3264 Z: 832 
+[2025-08-26 22:01:13] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -372,75 
+[2025-08-26 22:01:25] [INFO   ] Large Cave at 5952,16,832 has water level > -24 with populator GenericLargeCavePopulator 
+[2025-08-26 22:01:27] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 377,52 
+[2025-08-26 22:01:27] [INFO   ] Spawning Underground Dungeon at 6041,45,846 
+[2025-08-26 22:01:28] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: 372,52 
+[2025-08-26 22:01:32] [INFO   ] Spawning Creaking Heart at 5883,66,749 
+[2025-08-26 22:01:32] [INFO   ] Spawning Creaking Heart at 5833,67,772 
+[2025-08-26 22:01:33] [INFO   ] Spawning Creaking Heart at 5882,70,733 
+[2025-08-26 22:01:42] [INFO   ] [Locate] Completed Locate task (25ms) 
+[2025-08-26 22:01:43] [INFO   ] [Locate] [WarmOceanRuinsPopulator] Located at X: 4928 Z: -192 
+[2025-08-26 22:02:41] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
+[2025-08-26 22:02:42] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
