@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756250075249
+  lastteleport: 1756252191763
   lastheal: 0
   mute: 0
   jail: 0
@@ -30,13 +30,13 @@ logoutlocation:
   pitch: 14.550106048583984
 nickname: §d§lZaty
 lastlocation:
-  world: 7f456015-ab58-4878-938c-fc2b9c35de9a
-  world-name: world_the_end
-  x: -1174.300000011921
-  y: 119.20000004768372
-  z: -863.985377579879
-  yaw: 50.847450256347656
-  pitch: 10.799956321716309
+  world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+  world-name: world
+  x: -7.349827621101535
+  y: 58.02136622875224
+  z: 8.288739038135375
+  yaw: -138.00244140625
+  pitch: 7.050195693969727
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811

@@ -889,3 +889,43 @@
 [23:38:13] [Async Chat Thread - #50/INFO]: [Not Secure] <~Zaty> xd
 [23:39:43] [Async Chat Thread - #52/INFO]: [Not Secure] <~Zaty> propongo q vayamos al turbine a pegarle a la gente
 [23:39:51] [Async Chat Thread - #52/INFO]: [Not Secure] <~Derp> todavia nop
+[23:40:34] [User Authenticator #6/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
+[23:40:35] [Server thread/INFO]: SamiHatesTurbine joined the game
+[23:40:35] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:49969] logged in with entity id 64961 at ([world]-63.02403677368791, 59.0, -2.164780087727596)
+[23:40:35] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
+[23:40:35] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
+[23:40:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
+[23:40:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
+[23:40:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
+[23:41:10] [Async Chat Thread - #54/INFO]: [Not Secure] <~Zaty> q
+[23:41:18] [Server thread/INFO]: Derposito has reached the goal [Sky's the Limit]
+[23:41:44] [Server thread/INFO]: Derposito issued server command: /sethome barco end
+[23:41:47] [Server thread/INFO]: Derposito issued server command: /home casa
+[23:41:59] [Server thread/WARN]: SamiHatesTurbine was kicked for floating too long!
+[23:41:59] [Server thread/INFO]: SamiHatesTurbine lost connection: Flying is not enabled on this server
+[23:41:59] [Server thread/INFO]: [voicechat] Disconnecting client SamiHatesTurbine
+[23:41:59] [Server thread/INFO]: SamiHatesTurbine left the game
+[23:42:02] [Async Chat Thread - #54/INFO]: [Not Secure] <~Zaty> q pto
+[23:42:04] [Async Chat Thread - #54/INFO]: [Not Secure] <~Zaty> se desconecto
+[23:42:25] [User Authenticator #7/INFO]: UUID of player SamiHatesTurbine is bd29d369-0633-3c23-a47f-15bd00f6f57e
+[23:42:27] [Server thread/INFO]: SamiHatesTurbine joined the game
+[23:42:27] [Server thread/INFO]: SamiHatesTurbine[/127.101.203.244:57057] logged in with entity id 65898 at ([world]-67.55276572117471, 56.0361253090856, 5.612553428700724)
+[23:42:27] [Server thread/INFO]: [voicechat] Received secret request of SamiHatesTurbine (18)
+[23:42:27] [Server thread/INFO]: [voicechat] Sent secret to SamiHatesTurbine
+[23:42:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player bd29d369-0633-3c23-a47f-15bd00f6f57e
+[23:42:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player bd29d369-0633-3c23-a47f-15bd00f6f57e
+[23:42:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player SamiHatesTurbine (bd29d369-0633-3c23-a47f-15bd00f6f57e) successfully connected to voice chat
+[23:42:33] [Async Chat Thread - #54/INFO]: [Not Secure] <~Samir> ay
+[23:44:17] [Async Chat Thread - #56/INFO]: [Not Secure] <~Zaty> dAME TU COLA
+[23:45:31] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> q haces
+[23:45:32] [Async Chat Thread - #58/INFO]: [Not Secure] <~Zaty> wa
+[23:47:08] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> dale zatanna
+[23:47:13] [Async Chat Thread - #60/INFO]: [Not Secure] <~Derp> sos full netherite
+[23:48:47] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> dale samiir
+[23:49:01] [Async Chat Thread - #62/INFO]: [Not Secure] <~Derp> noooo
+[23:49:48] [Server thread/INFO]: SamiHatesTurbine issued server command: /home home
+[23:49:51] [Server thread/INFO]: Zatanna917 issued server command: /tp SamiHatesTurbine
+[23:50:15] [Server thread/INFO]: SamiHatesTurbine was slain by Zatanna917
+[23:50:17] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-47.226439640901816,y=73.58230961125521,z=-14.128174401651357,pitch=16.350075,yaw=51.90679}
+[23:50:23] [Async Chat Thread - #64/INFO]: [Not Secure] <~Zaty> dame esa cola sucia
+[23:50:23] [Async Chat Thread - #64/INFO]: [Not Secure] <~Samir> ya era mucho
