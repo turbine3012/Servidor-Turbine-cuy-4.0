@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756244799613
+  lastteleport: 1756249229391
   lastheal: 0
   mute: 0
   jail: 0
@@ -30,13 +30,13 @@ logoutlocation:
   pitch: 9.750194549560547
 nickname: §c§lSamir
 lastlocation:
-  world: 6f7638f2-c5c8-4fa9-9317-b9041ff99597
-  world-name: world_nether
-  x: 213.94023386978608
-  y: 55.0
-  z: 280.113367444803
-  yaw: -125.43850708007812
-  pitch: -9.299820899963379
+  world: 3d3d7510-3aa1-4b52-936b-654cf20de811
+  world-name: world
+  x: -17.5
+  y: 79.5625
+  z: -31.5
+  yaw: -88.20001220703125
+  pitch: 10.650001525878906
 homes:
   home:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811

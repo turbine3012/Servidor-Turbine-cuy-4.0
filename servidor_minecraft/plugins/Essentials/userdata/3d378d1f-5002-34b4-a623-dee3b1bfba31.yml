@@ -30,13 +30,13 @@ logoutlocation:
   pitch: 14.550106048583984
 nickname: §d§lZaty
 lastlocation:
-  world: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  world-name: world
-  x: -51.690666315133214
-  y: 73.0
-  z: 10.702912716603862
-  yaw: -171.00003051757812
-  pitch: 11.250016212463379
+  world: 7f456015-ab58-4878-938c-fc2b9c35de9a
+  world-name: world_the_end
+  x: -335.09467305671774
+  y: 63.0
+  z: -959.2311692320349
+  yaw: 23.998050689697266
+  pitch: 59.25012969970703
 homes:
   casa:
     world: 3d3d7510-3aa1-4b52-936b-654cf20de811

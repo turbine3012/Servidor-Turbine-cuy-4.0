@@ -1342,6 +1342,183 @@ graves:
   World: 3d3d7510-3aa1-4b52-936b-654cf20de811
   EXP: 0
   DeathMessage: Kenyktom was slain by Zatanna917
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 0
+  Destroyed: false
+  PlayerName: SamiHatesTurbine
+  X: 959
+  Y: 0
+  Time: 1756249212270
+  Z: -386
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_sword
+      count: 1
+      components:
+        minecraft:repair_cost: '63'
+        minecraft:custom_name: '"The EYElander"'
+        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}'
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 14
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_helmet
+      count: 1
+      components:
+        minecraft:repair_cost: '31'
+        minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:unbreaking":3}'
+        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:coast"}'
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bow
+      count: 1
+      components:
+        minecraft:repair_cost: '31'
+        minecraft:enchantments: '{"minecraft:flame":1,"minecraft:mending":1,"minecraft:power":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_chestplate
+      count: 1
+      components:
+        minecraft:repair_cost: '7'
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
+        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:coast"}'
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diamond_axe
+      count: 1
+      components:
+        minecraft:repair_cost: '15'
+        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3}'
+        minecraft:custom_name: '"The Horseless Headless Horsemann''s Headtaker"'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_leggings
+      count: 1
+      components:
+        minecraft:repair_cost: '7'
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
+        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:eye"}'
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diamond_pickaxe
+      count: 1
+      components:
+        minecraft:repair_cost: '31'
+        minecraft:custom_name: '"The Escape Plan"'
+        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
+        minecraft:damage: '3'
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:pale_oak_log
+      count: 64
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_boots
+      count: 1
+      components:
+        minecraft:repair_cost: '15'
+        minecraft:enchantments: '{"minecraft:feather_falling":4,"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
+        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:eye"}'
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:ender_pearl
+      count: 4
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:banner_patterns: '[{color:"black",pattern:"minecraft:skull"},{color:"blue",pattern:"minecraft:gradient_up"}]'
+        minecraft:repair_cost: '7'
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:unbreaking":3}'
+        minecraft:base_color: '"white"'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:golden_apple
+      count: 18
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:golden_carrot
+      count: 35
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherrack
+      count: 29
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:end_stone
+      count: 2
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:tipped_arrow
+      count: 49
+      components:
+        minecraft:potion_contents: '{potion:"minecraft:strong_poison"}'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:tipped_arrow
+      count: 64
+      components:
+        minecraft:potion_contents: '{potion:"minecraft:strong_poison"}'
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+  UUID: bd29d369-0633-3c23-a47f-15bd00f6f57e
+  World: 7f456015-ab58-4878-938c-fc2b9c35de9a
+  EXP: 100
+  DeathMessage: SamiHatesTurbine fell out of the world
 brokengraves:
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
   DestroyedTime: 1756247389555
