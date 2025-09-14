@@ -1,298 +1,255 @@
-graves:
+graves: []
+brokengraves:
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: badrancio
-  X: 7
-  Y: 63
-  Time: 1755742432221
-  Z: 188
+  DestroyedTime: 1757821990865
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 185
+  Y: -18
+  Time: 1757821961361
+  Z: 179
   Items:
     0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:player_head
-      count: 1
+      count: 13
       components:
         minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
         minecraft:custom_name: '"§eBackpack"'
       schema_version: 1
     -1:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     1:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:stone_pickaxe
+      id: minecraft:stone_sword
       count: 1
+      components:
+        minecraft:damage: '64'
       schema_version: 1
     -2:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     2:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:crafting_table
+      id: minecraft:iron_pickaxe
       count: 1
+      components:
+        minecraft:damage: '53'
       schema_version: 1
     -3:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     3:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:wooden_axe
+      id: minecraft:stone_axe
       count: 1
       components:
-        minecraft:damage: '2'
+        minecraft:damage: '54'
       schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:cobblestone
-      count: 9
+      id: minecraft:cobbled_deepslate
+      count: 5
       schema_version: 1
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    5:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:andesite
-      count: 1
-      schema_version: 1
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:andesite_slab
-      count: 1
-      schema_version: 1
-    20:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:jungle_planks
-      count: 4
-      schema_version: 1
-    21:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:stick
-      count: 14
-      schema_version: 1
-    28:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:wooden_pickaxe
-      count: 1
-      components:
-        minecraft:damage: '14'
-      schema_version: 1
-  UUID: 70d9c4f5-cf1a-349a-b0fc-3ac7280fac5f
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 0
-  DeathMessage: badrancio died
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: badrancio
-  X: -12
-  Y: 63
-  Time: 1755742705016
-  Z: 12
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:jungle_wood
-      count: 14
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-  UUID: 70d9c4f5-cf1a-349a-b0fc-3ac7280fac5f
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 0
-  DeathMessage: badrancio was shot by Skeleton
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Vorteexcito
-  X: -187
-  Y: 56
-  Time: 1755743705416
-  Z: -83
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 3
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:wooden_sword
-      count: 1
-      components:
-        minecraft:damage: '9'
-      schema_version: 1
-    33:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:dirt
-      count: 1
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:raw_iron
-      count: 4
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:iron_ingot
-      count: 1
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
     -5:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:shield
       count: 1
       components:
-        minecraft:damage: '10'
+        minecraft:damage: '147'
       schema_version: 1
     5:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:cobblestone
-      count: 10
+      id: minecraft:raw_iron
+      count: 3
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
       schema_version: 1
     7:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:stone_pickaxe
+      id: minecraft:rotten_flesh
       count: 1
-      components:
-        minecraft:damage: '65'
       schema_version: 1
     8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:oak_planks
-      count: 3
+      id: minecraft:torch
+      count: 46
       schema_version: 1
     9:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diorite
+      id: minecraft:mossy_cobblestone
       count: 3
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
       schema_version: 1
     11:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:granite
-      count: 3
+      id: minecraft:acacia_sapling
+      count: 2
       schema_version: 1
     12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diamond
+      count: 3
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_gold
+      count: 6
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 30
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 4
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:wooden_pickaxe
       count: 1
       components:
-        minecraft:damage: '16'
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 17
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 5
       schema_version: 1
     30:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:oak_sapling
-      count: 7
+      id: minecraft:arrow
+      count: 3
       schema_version: 1
-  UUID: 1f450d87-df90-34ad-9618-043d8b73ec6e
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 7
-  DeathMessage: Vorteexcito was slain by Zombie
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 21
+  DeathMessage: El_Heinsenberga was slain by Zombie
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: CrowSinged
-  X: 82
-  Y: -16
-  Time: 1755748022366
-  Z: -59
+  DestroyedTime: 1757828380856
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: -709
+  Y: 66
+  Time: 1757828368611
+  Z: 285
   Items:
     0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:player_head
-      count: 4
+      count: 22
       components:
         minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
         minecraft:custom_name: '"§eBackpack"'
@@ -303,15 +260,15 @@ graves:
       id: minecraft:iron_helmet
       count: 1
       components:
-        minecraft:damage: '40'
+        minecraft:damage: '18'
       schema_version: 1
     1:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:iron_sword
+      id: minecraft:stone_sword
       count: 1
       components:
-        minecraft:damage: '101'
+        minecraft:damage: '119'
       schema_version: 1
     -2:
       ==: org.bukkit.inventory.ItemStack
@@ -319,7 +276,7 @@ graves:
       id: minecraft:iron_chestplate
       count: 1
       components:
-        minecraft:damage: '26'
+        minecraft:damage: '24'
       schema_version: 1
     2:
       ==: org.bukkit.inventory.ItemStack
@@ -327,7 +284,7 @@ graves:
       id: minecraft:iron_pickaxe
       count: 1
       components:
-        minecraft:damage: '170'
+        minecraft:damage: '189'
       schema_version: 1
     -3:
       ==: org.bukkit.inventory.ItemStack
@@ -335,15 +292,15 @@ graves:
       id: minecraft:iron_leggings
       count: 1
       components:
-        minecraft:damage: '26'
+        minecraft:damage: '18'
       schema_version: 1
     3:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:stone_pickaxe
+      id: minecraft:white_banner
       count: 1
       components:
-        minecraft:damage: '100'
+        minecraft:banner_patterns: '[{color:"red",pattern:"minecraft:gradient"},{color:"blue",pattern:"minecraft:small_stripes"},{color:"orange",pattern:"minecraft:rhombus"}]'
       schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
@@ -351,13 +308,13 @@ graves:
       id: minecraft:iron_boots
       count: 1
       components:
-        minecraft:damage: '51'
+        minecraft:damage: '24'
       schema_version: 1
     4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:raw_iron
-      count: 9
+      id: minecraft:stick
+      count: 30
       schema_version: 1
     -5:
       ==: org.bukkit.inventory.ItemStack
@@ -365,472 +322,554 @@ graves:
       id: minecraft:shield
       count: 1
       components:
-        minecraft:damage: '64'
+        minecraft:damage: '264'
       schema_version: 1
     5:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diamond
-      count: 5
-      schema_version: 1
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:pale_oak_planks
-      count: 54
+      id: minecraft:jungle_wood
+      count: 34
       schema_version: 1
     7:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:bucket
-      count: 1
+      id: minecraft:torch
+      count: 64
       schema_version: 1
     8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:bucket
+      id: minecraft:iron_axe
       count: 1
+      components:
+        minecraft:damage: '79'
       schema_version: 1
     9:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:lapis_lazuli
-      count: 20
+      id: minecraft:cocoa_beans
+      count: 5
       schema_version: 1
     10:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:coal
-      count: 45
+      id: minecraft:black_wool
+      count: 1
       schema_version: 1
     11:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:leather
-      count: 9
+      id: minecraft:wheat_seeds
+      count: 2
       schema_version: 1
     12:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:coal
-      count: 25
+      id: minecraft:stick
+      count: 1
       schema_version: 1
     13:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:string
-      count: 3
+      id: minecraft:oak_log
+      count: 64
       schema_version: 1
     14:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:cobblestone
-      count: 4
+      id: minecraft:stick
+      count: 11
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 30
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 2
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 14
       schema_version: 1
     18:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:spider_eye
-      count: 2
+      id: minecraft:red_dye
+      count: 1
       schema_version: 1
     19:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:bone_meal
+      id: minecraft:white_banner
       count: 1
       schema_version: 1
     20:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:raw_gold
-      count: 5
+      id: minecraft:bundle
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bundle
+      count: 1
       schema_version: 1
     22:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:redstone
-      count: 24
-      schema_version: 1
-    23:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:gray_wool
-      count: 2
-      schema_version: 1
-    24:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:oak_log
-      count: 61
+      id: minecraft:oak_planks
+      count: 16
       schema_version: 1
     25:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:dirt
-      count: 15
+      id: minecraft:white_wool
+      count: 8
       schema_version: 1
     27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 3
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 1
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:pink_dye
+      count: 1
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:water_bucket
+      count: 1
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:magenta_dye
+      count: 1
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 14
+  DeathMessage: El_Heinsenberga was slain by Iron Golem
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757819262153
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 86
+  Y: 56
+  Time: 1757818856811
+  Z: -62
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 4
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 1
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 2
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 1
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: El_Heinsenberga was slain by Zombie
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757819139979
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 79
+  Y: 57
+  Time: 1757819065161
+  Z: -67
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 3
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:sugar_cane
+      count: 9
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '37'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 7
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    7:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:wooden_axe
       count: 1
       components:
-        minecraft:damage: '30'
+        minecraft:damage: '28'
       schema_version: 1
-    28:
+    8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:iron_sword
+      id: minecraft:stick
+      count: 9
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
       count: 1
-      components:
-        minecraft:damage: '241'
       schema_version: 1
-    29:
+    10:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:bone
-      count: 5
-      schema_version: 1
-    30:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:bow
-      count: 1
-      components:
-        minecraft:damage: '146'
-      schema_version: 1
-    31:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:salmon
-      count: 5
-      schema_version: 1
-    32:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sugar_cane
-      count: 3
-      schema_version: 1
-    33:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:charcoal
+      id: minecraft:raw_iron
       count: 2
       schema_version: 1
-    34:
+    13:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:wooden_pickaxe
-      count: 1
-      components:
-        minecraft:damage: '21'
+      id: minecraft:acacia_sapling
+      count: 20
       schema_version: 1
-    35:
+    14:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:arrow
-      count: 8
+      id: minecraft:granite
+      count: 12
       schema_version: 1
-  UUID: 983558ea-dd44-36da-a61c-6d16b500cfa3
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 42
-  DeathMessage: CrowSinged fell from a high place
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diorite
+      count: 6
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 7
+      schema_version: 1
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: Zatanna917 was shot by Skeleton
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Derposito
-  X: 837
+  DestroyedTime: 1757818923013
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 88
   Y: 56
-  Time: 1755808273718
-  Z: -1208
+  Time: 1757818848011
+  Z: -62
   Items:
     0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:player_head
-      count: 1
+      count: 2
       components:
         minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
         minecraft:custom_name: '"§eBackpack"'
       schema_version: 1
     -1:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 20
+      schema_version: 1
     -2:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 1
+      schema_version: 1
     -3:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 1
+      schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:iron_boots
-      count: 1
-      components:
-        minecraft:damage: '27'
       schema_version: 1
-    -5:
-      ==: org.bukkit.inventory.ItemStack
       id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    8:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_sapling
-      count: 35
-      schema_version: 1
-  UUID: 564a6847-4eb3-3720-9968-e09063fa1175
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 0
-  DeathMessage: Derposito was slain by Guardian
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Fiixerr
-  X: -29
-  Y: 84
-  Time: 1756063425177
-  Z: -134
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:stone_axe
-      count: 1
-      components:
-        minecraft:damage: '16'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    1:
+    4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:stone_pickaxe
       count: 1
       components:
-        minecraft:damage: '118'
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_planks
-      count: 64
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_planks
-      count: 64
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_planks
-      count: 61
+        minecraft:damage: '11'
       schema_version: 1
     -5:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 15
+      schema_version: 1
+    6:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:wooden_pickaxe
       count: 1
       components:
-        minecraft:damage: '6'
-      schema_version: 1
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:gold_nugget
-      count: 15
+        minecraft:damage: '10'
       schema_version: 1
     7:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:spruce_log
-      count: 64
+      id: minecraft:wooden_axe
+      count: 1
+      components:
+        minecraft:damage: '27'
       schema_version: 1
     8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:netherrack
-      count: 64
+      id: minecraft:stick
+      count: 11
       schema_version: 1
     9:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:coal
-      count: 18
-      schema_version: 1
-    10:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:cobblestone
-      count: 64
-      schema_version: 1
-    11:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherrack
-      count: 61
-      schema_version: 1
-    12:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_log
-      count: 64
-      schema_version: 1
-    13:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:andesite
-      count: 4
-      schema_version: 1
-    14:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_planks
-      count: 54
-      schema_version: 1
-    15:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:cobblestone
-      count: 21
-      schema_version: 1
-    16:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:dirt
-      count: 10
-      schema_version: 1
-    17:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    24:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:stick
-      count: 58
-      schema_version: 1
-    35:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:crafting_table
       count: 1
       schema_version: 1
-  UUID: 0768c8c3-cd11-3ebd-9487-b9cabf9f0b3c
-  World: 6f7638f2-c5c8-4fa9-9317-b9041ff99597
-  EXP: 21
-  DeathMessage: Fiixerr was slain by Derposito
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 2
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 4
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 20
+      schema_version: 1
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: Zatanna917 was slain by Spider
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Sifon_D3_S0d4
-  X: 7248
-  Y: 124
-  Time: 1756067972377
-  Z: 1392
+  DestroyedTime: 1757821852965
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 137
+  Y: -4
+  Time: 1757821811511
+  Z: 175
   Items:
     0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:stone_axe
+      id: minecraft:iron_sword
       count: 1
       components:
-        minecraft:damage: '45'
+        minecraft:damage: '33'
       schema_version: 1
     -1:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     1:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:stone_pickaxe
+      id: minecraft:iron_pickaxe
       count: 1
       components:
-        minecraft:damage: '115'
-      schema_version: 1
-    33:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:golden_leggings
-      count: 1
-      components:
-        minecraft:enchantments: '{"minecraft:blast_protection":4}'
+        minecraft:damage: '177'
       schema_version: 1
     -2:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      id: minecraft:iron_chestplate
+      count: 1
+      components:
+        minecraft:damage: '25'
+      schema_version: 1
     2:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:player_head
+      id: minecraft:iron_axe
       count: 1
       components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
+        minecraft:damage: '5'
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 21
       schema_version: 1
     -3:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     3:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:white_wool
-      count: 3
+      id: minecraft:torch
+      count: 55
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 6
       schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:dirt
-      count: 1
+      id: minecraft:apple
+      count: 26
       schema_version: 1
     -5:
       ==: org.bukkit.inventory.ItemStack
@@ -838,21 +877,249 @@ graves:
       id: minecraft:shield
       count: 1
       components:
-        minecraft:damage: '55'
-      schema_version: 1
-    5:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:melon_slice
-      count: 9
+        minecraft:damage: '127'
       schema_version: 1
     6:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:spruce_boat
+      id: minecraft:shears
       count: 1
       schema_version: 1
     7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 12
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 6
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:andesite
+      count: 1
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobbled_deepslate
+      count: 3
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 1
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:crafting_table
+      count: 2
+      schema_version: 1
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 49
+  DeathMessage: Zatanna917 was shot by Skeleton
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757823286153
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 93
+  Y: 7
+  Time: 1757821440861
+  Z: 87
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: El_Heinsenberga fell from a high place
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757818837951
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 82
+  Y: 52
+  Time: 1757818653815
+  Z: -55
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: El_Heinsenberga fell from a high place
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757818829780
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 78
+  Y: 55
+  Time: 1757818780461
+  Z: -61
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 4
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 20
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 17
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 15
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_axe
+      count: 1
+      components:
+        minecraft:damage: '23'
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 11
+      schema_version: 1
+    9:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:crafting_table
@@ -861,410 +1128,716 @@ graves:
     10:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:leather
-      count: 27
+      id: minecraft:raw_iron
+      count: 2
       schema_version: 1
-    12:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:cobblestone
-      count: 27
-      schema_version: 1
-    14:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:stick
-      count: 16
-      schema_version: 1
-    17:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:furnace
-      count: 1
-      schema_version: 1
-    21:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:coal
-      count: 8
-      schema_version: 1
-    24:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:oak_planks
-      count: 35
-      schema_version: 1
-    25:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:mutton
-      count: 3
-      schema_version: 1
-    26:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:beef
-      count: 58
-      schema_version: 1
-    27:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:porkchop
-      count: 6
-      schema_version: 1
-  UUID: 3c32793c-6a98-3832-b39f-1f12b0c60781
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 49
-  DeathMessage: Sifon_D3_S0d4 fell from a high place
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: Zatanna917 was blown up by Creeper
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Kenyktom
-  X: -36
-  Y: 73
-  Time: 1756247176970
-  Z: -20
+  DestroyedTime: 1757818777715
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 79
+  Y: 53
+  Time: 1757818714961
+  Z: -58
   Items:
     0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:dirt
-      count: 6
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
       schema_version: 1
     -1:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     1:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:lantern
+      id: minecraft:oak_sapling
       count: 1
       schema_version: 1
     -2:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
     2:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:dark_oak_fence
-      count: 2
+      id: minecraft:oak_log
+      count: 4
       schema_version: 1
     -3:
       ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
       id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:carrot
-      count: 64
-      schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
       id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:carrot
-      count: 64
-      schema_version: 1
     -5:
       ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
       id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    5:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:potato
-      count: 64
-      schema_version: 1
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:carrot
-      count: 10
-      schema_version: 1
-    7:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:potato
-      count: 35
-      schema_version: 1
-    8:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:black_banner
-      count: 16
-      schema_version: 1
-    9:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:lead
-      count: 1
-      schema_version: 1
-    10:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sweet_berries
-      count: 3
-      schema_version: 1
-    11:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:bamboo_slab
-      count: 1
-      schema_version: 1
-    12:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:white_banner
-      count: 2
-      components:
-        minecraft:banner_patterns: '[{color:"cyan",pattern:"minecraft:rhombus"},{color:"light_gray",pattern:"minecraft:stripe_bottom"},{color:"gray",pattern:"minecraft:stripe_center"},{color:"light_gray",pattern:"minecraft:border"},{color:"black",pattern:"minecraft:stripe_middle"},{color:"light_gray",pattern:"minecraft:half_horizontal"},{color:"light_gray",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:border"}]'
-        minecraft:tooltip_display: '{hidden_components:["minecraft:banner_patterns"]}'
-        minecraft:rarity: '"uncommon"'
-        minecraft:item_name: '{translate:"block.minecraft.ominous_banner"}'
-      schema_version: 1
-    13:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:black_banner
-      count: 1
-      schema_version: 1
-    14:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:barrel
-      count: 1
-      schema_version: 1
-    15:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:pale_oak_planks
-      count: 1
-      schema_version: 1
-    16:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:white_carpet
-      count: 1
-      schema_version: 1
-    17:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:cherry_log
-      count: 1
-      schema_version: 1
-    18:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:chest
-      count: 2
-      schema_version: 1
-    19:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sand
-      count: 64
-      schema_version: 1
-    20:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    21:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sand
-      count: 50
-      schema_version: 1
-    22:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:chiseled_red_sandstone
-      count: 64
-      schema_version: 1
-    23:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:chiseled_red_sandstone
-      count: 10
-      schema_version: 1
-  UUID: 151721a4-d0d2-33d7-a71a-4a581d3bc23c
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
   EXP: 0
-  DeathMessage: Kenyktom was shot by SamiHatesTurbine
+  DeathMessage: El_Heinsenberga fell from a high place
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Kenyktom
-  X: -61
+  DestroyedTime: 1757820191490
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 94
   Y: 73
-  Time: 1756247367220
-  Z: -36
+  Time: 1757820174561
+  Z: -49
   Items:
     0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:tipped_arrow
-      count: 1
-      components:
-        minecraft:potion_contents: '{potion:"minecraft:strong_poison"}'
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sugar_cane
-      count: 64
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sugar_cane
-      count: 8
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:torch
-      count: 1
+      count: 22
       schema_version: 1
-    -5:
+    -1:
       ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
       id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    5:
+    1:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:chest
-      count: 5
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '18'
       schema_version: 1
-    6:
+    -2:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:magma_cream
-      count: 6
       schema_version: 1
-    7:
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '102'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '35'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:wheat_seeds
       count: 3
       schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '49'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 18
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 24
+      schema_version: 1
     8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:gold_nugget
+      id: minecraft:player_head
+      count: 6
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 2
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 1
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 5
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 3
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 23
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mutton
+      count: 2
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    26:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 4
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 2
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 1
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 3
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 28
+  DeathMessage: El_Heinsenberga was slain by Zombie
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757823966160
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 57
+  Y: 46
+  Time: 1757823895761
+  Z: 17
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 18
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '83'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '184'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '70'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:beef
+      count: 5
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '264'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 3
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 33
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_ingot
       count: 2
       schema_version: 1
     9:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 64
+      id: minecraft:wheat_seeds
+      count: 1
       schema_version: 1
     10:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:gilded_blackstone
-      count: 7
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
       schema_version: 1
     11:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:bamboo
-      count: 64
+      id: minecraft:acacia_sapling
+      count: 2
       schema_version: 1
     12:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:golden_boots
+      id: minecraft:leather
       count: 1
-      components:
-        minecraft:enchantments: '{"minecraft:soul_speed":1}'
       schema_version: 1
     13:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:saddle
-      count: 1
+      id: minecraft:acacia_planks
+      count: 9
       schema_version: 1
     14:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:saddle
-      count: 1
-      schema_version: 1
-    15:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:saddle
-      count: 1
+      id: minecraft:red_mushroom
+      count: 4
       schema_version: 1
     16:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:saddle
+      id: minecraft:cobbled_deepslate_wall
       count: 1
       schema_version: 1
     17:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:saddle
+      id: minecraft:crafting_table
       count: 1
       schema_version: 1
     18:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:white_banner
-      count: 4
+      id: minecraft:bone
+      count: 8
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 6
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
       components:
-        minecraft:banner_patterns: '[{color:"cyan",pattern:"minecraft:rhombus"},{color:"light_gray",pattern:"minecraft:stripe_bottom"},{color:"gray",pattern:"minecraft:stripe_center"},{color:"light_gray",pattern:"minecraft:border"},{color:"black",pattern:"minecraft:stripe_middle"},{color:"light_gray",pattern:"minecraft:half_horizontal"},{color:"light_gray",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:border"}]'
-        minecraft:tooltip_display: '{hidden_components:["minecraft:banner_patterns"]}'
-        minecraft:rarity: '"uncommon"'
-        minecraft:item_name: '{translate:"block.minecraft.ominous_banner"}'
+        minecraft:damage: '10'
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 5
+      schema_version: 1
+    26:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:brown_mushroom
+      count: 1
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 6
+      schema_version: 1
+    29:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 7
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 9
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lava_bucket
+      count: 1
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 42
+  DeathMessage: El_Heinsenberga died
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757823907658
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: -1
+  Y: 63
+  Time: 1757821975561
+  Z: -4
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: El_Heinsenberga fell from a high place
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757822264927
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 169
+  Y: -49
+  Time: 1757822249561
+  Z: 224
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 14
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '66'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '66'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '57'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobbled_deepslate
+      count: 9
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '159'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cooked_beef
+      count: 2
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bucket
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 30
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 3
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 5
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:furnace
+      count: 1
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 29
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 4
       schema_version: 1
     19:
       ==: org.bukkit.inventory.ItemStack
@@ -1275,178 +1848,767 @@ graves:
     20:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:saddle
+      id: minecraft:spider_eye
       count: 1
       schema_version: 1
     21:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:spruce_sapling
-      count: 64
-      schema_version: 1
-    22:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:spruce_sapling
-      count: 64
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
       schema_version: 1
     23:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:raw_copper
-      count: 2
-      schema_version: 1
-    24:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:soul_sand
-      count: 18
+      id: minecraft:acacia_planks
+      count: 10
       schema_version: 1
     25:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:nether_wart
-      count: 16
-      schema_version: 1
-    26:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:oak_planks
-      count: 20
+      id: minecraft:cobblestone
+      count: 9
       schema_version: 1
     27:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:light_blue_bed
+      id: minecraft:stone_pickaxe
       count: 1
+      components:
+        minecraft:damage: '104'
       schema_version: 1
     28:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:white_bed
-      count: 1
-      schema_version: 1
-    29:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:yellow_bed
-      count: 1
+      id: minecraft:string
+      count: 5
       schema_version: 1
     30:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:cactus
-      count: 2
+      id: minecraft:arrow
+      count: 3
       schema_version: 1
-  UUID: 151721a4-d0d2-33d7-a71a-4a581d3bc23c
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 0
-  DeathMessage: Kenyktom was slain by Zatanna917
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: SamiHatesTurbine
-  X: 959
-  Y: 0
-  Time: 1756249212270
-  Z: -386
-  Items:
-    0:
+    31:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:netherite_sword
-      count: 1
-      components:
-        minecraft:repair_cost: '63'
-        minecraft:custom_name: '"The EYElander"'
-        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}'
+      id: minecraft:acacia_log
+      count: 14
       schema_version: 1
     32:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:torch
-      count: 14
+      count: 64
       schema_version: 1
-    -1:
+    33:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:netherite_helmet
-      count: 1
-      components:
-        minecraft:repair_cost: '31'
-        minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:unbreaking":3}'
-        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:coast"}'
+      id: minecraft:oak_sapling
+      count: 2
       schema_version: 1
-    1:
+    34:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:bow
+      id: minecraft:stone_axe
       count: 1
       components:
-        minecraft:repair_cost: '31'
-        minecraft:enchantments: '{"minecraft:flame":1,"minecraft:mending":1,"minecraft:power":5,"minecraft:unbreaking":3}'
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_chestplate
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:coast"}'
-      schema_version: 1
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_axe
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3}'
-        minecraft:custom_name: '"The Horseless Headless Horsemann''s Headtaker"'
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_leggings
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:eye"}'
-      schema_version: 1
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_pickaxe
-      count: 1
-      components:
-        minecraft:repair_cost: '31'
-        minecraft:custom_name: '"The Escape Plan"'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
-        minecraft:damage: '3'
+        minecraft:damage: '4'
       schema_version: 1
     35:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:pale_oak_log
-      count: 64
+      id: minecraft:rotten_flesh
+      count: 1
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 21
+  DeathMessage: El_Heinsenberga was shot by Skeleton
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757819408676
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 68
+  Y: 43
+  Time: 1757819393311
+  Z: -37
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 4
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:sugar_cane
+      count: 9
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 2
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '63'
       schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:netherite_boots
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
       count: 1
       components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:feather_falling":4,"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:trim: '{material:"minecraft:quartz",pattern:"minecraft:eye"}'
+        minecraft:damage: '36'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 8
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_axe
+      count: 1
+      components:
+        minecraft:damage: '36'
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 18
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 1
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diorite
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 5
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 1
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 7
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:granite
+      count: 13
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 1
+      schema_version: 1
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 14
+  DeathMessage: Zatanna917 was slain by Zombie
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821277937
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 67
+  Y: 15
+  Time: 1757821256711
+  Z: 71
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 2
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '43'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '13'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '52'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 27
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '83'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 3
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 3
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 7
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 2
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lapis_lazuli
+      count: 50
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 34
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_ingot
+      count: 1
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 2
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 9
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 15
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 5
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 1
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 35
+  DeathMessage: El_Heinsenberga was slain by Zombie
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757828363264
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: -707
+  Y: 69
+  Time: 1757828348811
+  Z: 286
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 21
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_helmet
+      count: 1
+      components:
+        minecraft:damage: '12'
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '116'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_chestplate
+      count: 1
+      components:
+        minecraft:damage: '18'
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '189'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_leggings
+      count: 1
+      components:
+        minecraft:damage: '12'
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:white_banner
+      count: 1
+      components:
+        minecraft:banner_patterns: '[{color:"red",pattern:"minecraft:gradient"},{color:"blue",pattern:"minecraft:small_stripes"},{color:"orange",pattern:"minecraft:rhombus"}]'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_boots
+      count: 1
+      components:
+        minecraft:damage: '18'
       schema_version: 1
     4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:ender_pearl
+      id: minecraft:stick
+      count: 30
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '264'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:jungle_wood
+      count: 34
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_axe
+      count: 1
+      components:
+        minecraft:damage: '79'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cocoa_beans
+      count: 5
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:black_wool
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 1
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 64
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 11
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 30
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 2
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 14
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:red_dye
+      count: 1
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:white_banner
+      count: 1
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bundle
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bundle
+      count: 1
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 16
+      schema_version: 1
+    25:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:white_wool
+      count: 8
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 3
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 1
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:pink_dye
+      count: 1
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:water_bucket
+      count: 1
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:magenta_dye
+      count: 1
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 21
+  DeathMessage: El_Heinsenberga was slain by Iron Golem
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821793466
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 90
+  Y: -9
+  Time: 1757821780961
+  Z: 167
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 56
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '57'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '39'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '54'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobbled_deepslate
       count: 4
       schema_version: 1
     -5:
@@ -1455,24 +2617,618 @@ graves:
       id: minecraft:shield
       count: 1
       components:
-        minecraft:banner_patterns: '[{color:"black",pattern:"minecraft:skull"},{color:"blue",pattern:"minecraft:gradient_up"}]'
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:unbreaking":3}'
-        minecraft:base_color: '"white"'
+        minecraft:damage: '138'
       schema_version: 1
     5:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:golden_apple
-      count: 18
+      id: minecraft:raw_iron
+      count: 2
       schema_version: 1
     6:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 35
+      id: minecraft:gunpowder
+      count: 2
       schema_version: 1
     7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 2
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 11
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 3
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 30
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 4
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 17
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 5
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 1
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 8
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 28
+  DeathMessage: El_Heinsenberga was shot by Skeleton
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757827879506
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: -708
+  Y: 67
+  Time: 1757827873811
+  Z: 321
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 20
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_helmet
+      count: 1
+      components:
+        minecraft:damage: '3'
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '98'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_chestplate
+      count: 1
+      components:
+        minecraft:damage: '9'
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '189'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_leggings
+      count: 1
+      components:
+        minecraft:damage: '3'
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:jungle_sapling
+      count: 6
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_boots
+      count: 1
+      components:
+        minecraft:damage: '9'
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 30
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '264'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:jungle_wood
+      count: 37
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_axe
+      count: 1
+      components:
+        minecraft:damage: '75'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cocoa_beans
+      count: 5
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 1
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 3
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 64
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 11
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 30
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 2
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 14
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 16
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 3
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 1
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:water_bucket
+      count: 1
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 35
+  DeathMessage: El_Heinsenberga was slain by Zatanna917
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821395508
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 126
+  Y: 10
+  Time: 1757821373061
+  Z: 114
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_sword
+      count: 1
+      components:
+        minecraft:damage: '27'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '151'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_chestplate
+      count: 1
+      components:
+        minecraft:damage: '21'
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_axe
+      count: 1
+      components:
+        minecraft:damage: '5'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:apple
+      count: 28
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '120'
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shears
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 2
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 5
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 10
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 21
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:leather
+      count: 3
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 3
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_ingot
+      count: 2
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:glow_ink_sac
+      count: 2
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:white_wool
+      count: 2
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 1
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 2
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 25
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 3
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:sugar_cane
+      count: 9
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:amethyst_shard
+      count: 36
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:pointed_dripstone
+      count: 20
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 1
+      schema_version: 1
+    24:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '23'
+      schema_version: 1
+    25:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:crafting_table
+      count: 2
+      schema_version: 1
+    26:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 17
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 31
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 12
+      schema_version: 1
+    29:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_gold
+      count: 2
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:amethyst_shard
+      count: 64
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 42
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lapis_lazuli
+      count: 36
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 64
+      schema_version: 1
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 77
+  DeathMessage: Zatanna917 tried to swim in lava
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821859829
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: 120
+  Y: -5
+  Time: 1757821839861
+  Z: 177
+  Items:
+    0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:player_head
@@ -1481,827 +3237,570 @@ graves:
         minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
         minecraft:custom_name: '"§eBackpack"'
       schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diamond
+      count: 1
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: Zatanna917 was shot by Skeleton
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757820978084
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 123
+  Y: 28
+  Time: 1757820951861
+  Z: 73
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 7
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '8'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '8'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '52'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '62'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 3
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
     8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:netherrack
-      count: 29
+      id: minecraft:player_head
+      count: 7
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
       schema_version: 1
     9:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:end_stone
+      id: minecraft:mossy_cobblestone
+      count: 2
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 5
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lapis_lazuli
+      count: 31
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 10
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 1
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 9
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 8
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    26:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
       count: 2
       schema_version: 1
     27:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:tipped_arrow
-      count: 49
+      id: minecraft:stone_pickaxe
+      count: 1
       components:
-        minecraft:potion_contents: '{potion:"minecraft:strong_poison"}'
+        minecraft:damage: '104'
       schema_version: 1
     28:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:tipped_arrow
-      count: 64
-      components:
-        minecraft:potion_contents: '{potion:"minecraft:strong_poison"}'
-      schema_version: 1
-    31:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:totem_of_undying
-      count: 1
-      schema_version: 1
-  UUID: bd29d369-0633-3c23-a47f-15bd00f6f57e
-  World: 7f456015-ab58-4878-938c-fc2b9c35de9a
-  EXP: 100
-  DeathMessage: SamiHatesTurbine fell out of the world
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: SamiHatesTurbine
-  X: -48
-  Y: 73
-  Time: 1756252217120
-  Z: -15
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_sword
-      count: 1
-      components:
-        minecraft:repair_cost: '63'
-        minecraft:enchantments: '{"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '40'
-      schema_version: 1
-    32:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 11
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_axe
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3}'
-        minecraft:damage: '7'
-      schema_version: 1
-    33:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_chestplate
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '408'
-      schema_version: 1
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_pickaxe
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
-      schema_version: 1
-    34:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_leggings
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '405'
-      schema_version: 1
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:sweet_berries
-      count: 7
-      schema_version: 1
-    35:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_boots
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:feather_falling":3,"minecraft:frost_walker":2,"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '397'
-      schema_version: 1
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 41
-      schema_version: 1
-    7:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    28:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond
-      count: 2
-      schema_version: 1
-    29:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:elytra
-      count: 1
+      id: minecraft:string
+      count: 4
       schema_version: 1
     30:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
-      schema_version: 1
-    31:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
-      schema_version: 1
-  UUID: bd29d369-0633-3c23-a47f-15bd00f6f57e
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 35
-  DeathMessage: SamiHatesTurbine was slain by Zatanna917
-brokengraves:
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 1756247389555
-  Destroyed: true
-  PlayerName: Kenyktom
-  X: -4
-  Y: 73
-  Time: 1756247254170
-  Z: -30
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
+      id: minecraft:arrow
       count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-  UUID: 151721a4-d0d2-33d7-a71a-4a581d3bc23c
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 0
-  DeathMessage: Kenyktom was slain by SamiHatesTurbine using The EYElander
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 1756247405734
-  Destroyed: true
-  PlayerName: Kenyktom
-  X: -16
-  Y: 73
-  Time: 1756247228220
-  Z: -57
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:pink_petals
-      count: 2
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:totem_of_undying
-      count: 1
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-  UUID: 151721a4-d0d2-33d7-a71a-4a581d3bc23c
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 0
-  DeathMessage: Kenyktom was slain by SamiHatesTurbine using The EYElander
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 1756250933968
-  Destroyed: true
-  PlayerName: Vorteexcito
-  X: -71
-  Y: 56
-  Time: 1756250908820
-  Z: 1
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_helmet
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:respiration":3,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '67'
-      schema_version: 1
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_sword
-      count: 1
-      components:
-        minecraft:repair_cost: '63'
-        minecraft:custom_name: '"El Poder de los Furros"'
-        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:knockback":1,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '4'
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_chestplate
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '39'
-      schema_version: 1
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_axe
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":2}'
-        minecraft:damage: '393'
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_leggings
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":3,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '42'
-      schema_version: 1
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:bow
-      count: 1
-      components:
-        minecraft:enchantments: '{"minecraft:power":2,"minecraft:unbreaking":2}'
-        minecraft:damage: '7'
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_boots
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:blast_protection":3,"minecraft:feather_falling":4,"minecraft:mending":1,"minecraft:thorns":3}'
-        minecraft:damage: '111'
-      schema_version: 1
-    4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    5:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 5
-      schema_version: 1
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_pickaxe
-      count: 1
-      components:
-        minecraft:repair_cost: '31'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
-        minecraft:damage: '632'
-      schema_version: 1
-    8:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:baked_potato
-      count: 2
-      schema_version: 1
-    10:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 44
-      schema_version: 1
-  UUID: 1f450d87-df90-34ad-9618-043d8b73ec6e
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 49
-  DeathMessage: Vorteexcito was slain by SamiHatesTurbine
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 1756251077116
-  Destroyed: true
-  PlayerName: Vorteexcito
-  X: -71
-  Y: 59
-  Time: 1756251042520
-  Z: 8
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 2
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_helmet
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:respiration":3,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '106'
-      schema_version: 1
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_sword
-      count: 1
-      components:
-        minecraft:repair_cost: '63'
-        minecraft:custom_name: '"El Poder de los Furros"'
-        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:knockback":1,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '4'
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_chestplate
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '63'
-      schema_version: 1
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_axe
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":2}'
-        minecraft:damage: '393'
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_leggings
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":3,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '77'
-      schema_version: 1
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:bow
-      count: 1
-      components:
-        minecraft:enchantments: '{"minecraft:power":2,"minecraft:unbreaking":2}'
-        minecraft:damage: '7'
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_boots
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:blast_protection":3,"minecraft:feather_falling":4,"minecraft:mending":1,"minecraft:thorns":3}'
-        minecraft:damage: '143'
-      schema_version: 1
-    4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    5:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 2
-      schema_version: 1
-    6:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_pickaxe
-      count: 1
-      components:
-        minecraft:repair_cost: '31'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
-        minecraft:damage: '632'
-      schema_version: 1
-    8:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:baked_potato
-      count: 2
-      schema_version: 1
-    10:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 44
-      schema_version: 1
-  UUID: 1f450d87-df90-34ad-9618-043d8b73ec6e
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 28
-  DeathMessage: Vorteexcito was slain by SamiHatesTurbine
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 1756250881241
-  Destroyed: true
-  PlayerName: Vorteexcito
-  X: -71
-  Y: 56
-  Time: 1756250862520
-  Z: 1
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_pickaxe
-      count: 1
-      components:
-        minecraft:repair_cost: '31'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
-        minecraft:damage: '632'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_helmet
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:respiration":3,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '58'
-      schema_version: 1
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_sword
-      count: 1
-      components:
-        minecraft:repair_cost: '63'
-        minecraft:custom_name: '"El Poder de los Furros"'
-        minecraft:enchantments: '{"minecraft:fire_aspect":2,"minecraft:knockback":1,"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '1'
-      schema_version: 1
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_chestplate
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:projectile_protection":4,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '43'
-      schema_version: 1
-    2:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_axe
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":2}'
-        minecraft:damage: '393'
-      schema_version: 1
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_leggings
-      count: 1
-      components:
-        minecraft:repair_cost: '3'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":3,"minecraft:thorns":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '18'
-      schema_version: 1
-    3:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:bow
-      count: 1
-      components:
-        minecraft:enchantments: '{"minecraft:power":2,"minecraft:unbreaking":2}'
-        minecraft:damage: '7'
-      schema_version: 1
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:netherite_boots
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:blast_protection":3,"minecraft:feather_falling":4,"minecraft:mending":1,"minecraft:thorns":3}'
-        minecraft:damage: '91'
-      schema_version: 1
-    4:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
-      DataVersion: 4440
-    5:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 5
-      schema_version: 1
-    8:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:baked_potato
-      count: 2
-      schema_version: 1
-    10:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 44
-      schema_version: 1
-  UUID: 1f450d87-df90-34ad-9618-043d8b73ec6e
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 100
-  DeathMessage: Vorteexcito was slain by SamiHatesTurbine
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 1756251388690
-  Destroyed: true
-  PlayerName: SamiHatesTurbine
-  X: -66
-  Y: 56
-  Time: 1756251330220
-  Z: 12
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_sword
-      count: 1
-      components:
-        minecraft:repair_cost: '63'
-        minecraft:enchantments: '{"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}'
-      schema_version: 1
-    32:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_helmet
-      count: 1
-      components:
-        minecraft:repair_cost: '31'
-        minecraft:enchantments: '{"minecraft:aqua_affinity":1,"minecraft:mending":1,"minecraft:protection":4,"minecraft:respiration":3,"minecraft:unbreaking":3}'
-        minecraft:damage: '57'
-      schema_version: 1
-    1:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:diamond_axe
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:efficiency":3,"minecraft:mending":1,"minecraft:sharpness":5,"minecraft:unbreaking":3}'
       schema_version: 1
     33:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 35
+  DeathMessage: El_Heinsenberga was blown up by Creeper
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821888675
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 103
+  Y: -12
+  Time: 1757821874211
+  Z: 167
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 62
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '59'
       schema_version: 1
     -2:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diamond_chestplate
-      count: 1
-      components:
-        minecraft:repair_cost: '7'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '59'
       schema_version: 1
+      id: minecraft:air
     2:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diamond_pickaxe
+      id: minecraft:iron_pickaxe
       count: 1
       components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:unbreaking":3}'
-      schema_version: 1
-    34:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
+        minecraft:damage: '51'
       schema_version: 1
     -3:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diamond_leggings
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '62'
       schema_version: 1
+      id: minecraft:air
     3:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:emerald
-      count: 11
-      schema_version: 1
-    35:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '54'
       schema_version: 1
     -4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diamond_boots
-      count: 1
-      components:
-        minecraft:repair_cost: '15'
-        minecraft:enchantments: '{"minecraft:feather_falling":3,"minecraft:frost_walker":2,"minecraft:mending":1,"minecraft:protection":4,"minecraft:unbreaking":3}'
-        minecraft:damage: '60'
       schema_version: 1
+      id: minecraft:air
     4:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:emerald
-      count: 64
+      id: minecraft:cobbled_deepslate
+      count: 4
       schema_version: 1
     -5:
       ==: org.bukkit.inventory.ItemStack
-      id: minecraft:air
-      schema_version: 1
       DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '142'
+      schema_version: 1
     5:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:enchanted_book
-      count: 1
-      components:
-        minecraft:stored_enchantments: '{"minecraft:efficiency":5}'
+      id: minecraft:raw_iron
+      count: 2
       schema_version: 1
     6:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:golden_carrot
-      count: 53
+      id: minecraft:gunpowder
+      count: 2
       schema_version: 1
     7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 12
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 3
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diamond
+      count: 3
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_gold
+      count: 6
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 30
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 4
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 17
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 5
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 3
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 28
+  DeathMessage: El_Heinsenberga was slain by Enderman
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757818832129
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 79
+  Y: 53
+  Time: 1757818780466
+  Z: -58
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 2
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 1
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 4
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 1
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: El_Heinsenberga was blown up by Creeper
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821042941
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 139
+  Y: 29
+  Time: 1757821011761
+  Z: 74
+  Items:
+    0:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
       id: minecraft:player_head
@@ -2310,31 +3809,863 @@ brokengraves:
         minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
         minecraft:custom_name: '"§eBackpack"'
       schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '13'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '8'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '52'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 5
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '69'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 3
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
     8:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:experience_bottle
-      count: 32
+      id: minecraft:player_head
+      count: 7
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 2
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 5
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lapis_lazuli
+      count: 31
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 10
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 9
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 8
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    26:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_planks
+      count: 2
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
       schema_version: 1
     28:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:diamond
-      count: 2
+      id: minecraft:string
+      count: 4
       schema_version: 1
-    29:
+    30:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:elytra
+      id: minecraft:arrow
       count: 1
       schema_version: 1
     31:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4440
-      id: minecraft:emerald
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 28
+  DeathMessage: El_Heinsenberga was slain by Zombie
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757821462072
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 55
+  Y: 16
+  Time: 1757821364511
+  Z: 133
+  Items:
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '47'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '19'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '54'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 18
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '87'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:dirt
+      count: 3
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 4
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 10
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 2
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lapis_lazuli
+      count: 50
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 9
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 34
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_ingot
+      count: 1
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 2
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 15
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 15
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 5
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 1
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 28
+  DeathMessage: El_Heinsenberga was blown up by Creeper
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757823009664
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 171
+  Y: -45
+  Time: 1757822992961
+  Z: 207
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 0
+  DeathMessage: El_Heinsenberga fell from a high place
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757819331454
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 50
+  Y: 49
+  Time: 1757819299311
+  Z: -53
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '7'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '6'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_log
+      count: 2
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wheat_seeds
+      count: 1
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone
+      count: 2
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 2
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 6
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 21
+      schema_version: 1
+    25:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 2
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 5
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 2
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 7
+  DeathMessage: El_Heinsenberga was blown up by Creeper
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1757823035931
+  Destroyed: true
+  PlayerName: El_Heinsenberga
+  X: 175
+  Y: -48
+  Time: 1757822972311
+  Z: 223
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 15
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:damage: '75'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '118'
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '60'
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      schema_version: 1
+      id: minecraft:air
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone_wall
+      count: 1
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:damage: '217'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:coal
+      count: 6
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:gunpowder
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:water_bucket
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 12
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:redstone
+      count: 33
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mossy_cobblestone_wall
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_sapling
+      count: 2
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobbled_deepslate
+      count: 2
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 1
+      schema_version: 1
+    15:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:furnace
+      count: 1
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobbled_deepslate_wall
+      count: 1
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 8
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_gold
+      count: 2
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spider_eye
+      count: 1
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wooden_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '10'
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:crafting_table
+      count: 1
+      schema_version: 1
+    23:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_planks
+      count: 10
+      schema_version: 1
+    24:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:lapis_lazuli
+      count: 9
+      schema_version: 1
+    26:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:brown_mushroom
+      count: 1
+      schema_version: 1
+    27:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '104'
+      schema_version: 1
+    28:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:string
+      count: 5
+      schema_version: 1
+    29:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 7
+      schema_version: 1
+    30:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:light_gray_wool
+      count: 1
+      schema_version: 1
+    31:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:acacia_log
+      count: 14
+      schema_version: 1
+    32:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
       count: 64
       schema_version: 1
-  UUID: bd29d369-0633-3c23-a47f-15bd00f6f57e
-  World: 3d3d7510-3aa1-4b52-936b-654cf20de811
-  EXP: 98
-  DeathMessage: SamiHatesTurbine was slain by Vorteexcito using El Poder de los Furros
+    33:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:oak_sapling
+      count: 2
+      schema_version: 1
+    34:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:damage: '4'
+      schema_version: 1
+    35:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:rotten_flesh
+      count: 3
+      schema_version: 1
+  UUID: 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 56
+  DeathMessage: El_Heinsenberga fell from a high place

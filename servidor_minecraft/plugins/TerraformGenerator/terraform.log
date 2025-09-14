@@ -4879,3 +4879,333 @@
 [2025-08-26 22:02:41] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
 [2025-08-26 22:02:42] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure invoked. 
 [2025-08-26 22:48:56] [INFO   ] Large Cave at -1216,20,1344 has water level > -10 with populator GenericLargeCavePopulator 
+[2025-09-14 02:48:50] [INFO   ]  Custom Logger Initialized 
+[2025-09-14 02:48:51] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-09-14 02:48:51] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-09-14 02:48:51] [INFO   ] Watchdog Thread hooked. 
+[2025-09-14 02:48:51] [INFO   ]  bStats Metrics enabled. 
+[2025-09-14 02:48:51] [INFO   ]  Detected version: 1.21.8, number: 21.8 
+[2025-09-14 02:48:51] [INFO   ] Unfreezing biome registry... 
+[2025-09-14 02:48:51] [INFO   ] Registered custom biome: muddy_bog 
+[2025-09-14 02:48:51] [INFO   ] Registered custom biome: cherry_grove 
+[2025-09-14 02:48:51] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-09-14 02:48:51] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-09-14 02:48:51] [INFO   ] Freezing biome registry 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-09-14 02:48:51] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-09-14 02:48:51] [INFO   ] Creating TW instance: world - 3693881940469567080 
+[2025-09-14 02:48:51] [INFO   ]  Detected world: world, commencing injection...  
+[2025-09-14 02:48:51] [INFO   ] Creating TW instance: world - 3693881940469567080 
+[2025-09-14 02:48:51] [INFO   ] NMSChunkGenerator Delegate is of type CustomChunkGenerator 
+[2025-09-14 02:48:51] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
+[2025-09-14 02:48:51] [INFO   ]  Injection success! Proceeding with generation. 
+[2025-09-14 02:48:55] [INFO   ] Will spawn stronghold at: CoordPair[x=-740, z=1197] 
+[2025-09-14 02:48:59] [INFO   ] Spawning CaveFluidClusterPopulator at 0,-15,0 
+[2025-09-14 02:48:59] [INFO   ] Spawning DeepCavePopulator at 0,-44,0 
+[2025-09-14 02:48:59] [INFO   ] Spawning MossyCavePopulator at 0,-15,1 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -187 24 315 in a room of size 14x15 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -263 24 332 in a room of size 13x13 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -150 24 262 in a room of size 14x14 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -202 24 289 in a room of size 15x13 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -225 24 349 in a room of size 14x14 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -203 24 303 in a room of size 13x14 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -186 24 339 in a room of size 14x15 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -237 24 375 in a room of size 15x14 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -162 24 374 in a room of size 15x15 
+[2025-09-14 02:48:59] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -261 24 293 in a room of size 15x14 
+[2025-09-14 02:48:59] [INFO   ] Large Cave at 320,23,-192 has water level > -20 with populator LargeLushCavePopulator 
+[2025-09-14 02:49:00] [INFO   ] Spawning FrozenCavePopulator at -16,15,-16 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -219 30 -130 in a room of size 14x13 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -154 30 -237 in a room of size 15x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -202 30 -190 in a room of size 13x13 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -160 30 -262 in a room of size 14x14 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -121 30 -267 in a room of size 14x13 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -188 30 -251 in a room of size 13x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -241 30 -149 in a room of size 13x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -236 30 -170 in a room of size 15x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -126 30 -223 in a room of size 15x14 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -136 30 -174 in a room of size 14x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -263 45 -209 in a room of size 13x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -219 45 -253 in a room of size 14x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -136 45 -207 in a room of size 13x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -246 45 -138 in a room of size 13x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -136 45 -174 in a room of size 14x6 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -155 45 -132 in a room of size 15x13 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -202 45 -190 in a room of size 13x7 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -189 45 -196 in a room of size 13x13 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -118 45 -203 in a room of size 13x13 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -205 45 -235 in a room of size 13x15 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -219 45 -130 in a room of size 14x7 
+[2025-09-14 02:49:00] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -213 45 -164 in a room of size 13x15 
+[2025-09-14 02:49:02] [INFO   ] Spawning LushClusterCavePopulator at 64,-26,0 
+[2025-09-14 02:49:02] [INFO   ] Spawning DripstoneClusterCavePopulator at -64,41,0 
+[2025-09-14 02:49:03] [INFO   ]  world loaded. 
+[2025-09-14 02:51:43] [INFO   ] Spawning CrystallineClusterCavePopulator at 86,24,-86 
+[2025-09-14 02:51:46] [INFO   ] Spawning ForestedMountainsCavePopulator at -144,54,-32 
+[2025-09-14 02:51:51] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -5,10 
+[2025-09-14 02:51:51] [INFO   ] Spawning Underground Dungeon at -66,41,166 
+[2025-09-14 02:51:55] [INFO   ] Spawning Creaking Heart at -175,72,115 
+[2025-09-14 02:51:56] [INFO   ] 20,20 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2025-09-14 02:51:56] [INFO   ] Spawning Creaking Heart at -132,71,163 
+[2025-09-14 02:51:56] [INFO   ] Minecart with chest at: -135, 30, -198 
+[2025-09-14 02:51:56] [INFO   ] Spawning Creaking Heart at -125,69,196 
+[2025-09-14 02:51:57] [INFO   ] Spawning Creaking Heart at -167,65,179 
+[2025-09-14 02:51:57] [INFO   ] Minecart with chest at: -134, 30, -222 
+[2025-09-14 02:51:57] [INFO   ] Minecart with chest at: -135, 30, -213 
+[2025-09-14 02:51:57] [INFO   ] Minecart with chest at: -135, 45, -212 
+[2025-09-14 02:51:57] [INFO   ] Minecart with chest at: -165, 45, -195 
+[2025-09-14 02:51:58] [INFO   ] Minecart with chest at: -175, 30, -222 
+[2025-09-14 02:51:58] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -13,-12 
+[2025-09-14 02:51:58] [INFO   ] Spawning Underground Dungeon at -208,29,-191 
+[2025-09-14 02:51:58] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: -12,-12 
+[2025-09-14 02:52:20] [INFO   ] Spawning Creaking Heart at -223,70,132 
+[2025-09-14 02:52:20] [INFO   ] Spawning Creaking Heart at -213,66,171 
+[2025-09-14 02:54:07] [INFO   ]  Custom Logger Initialized 
+[2025-09-14 02:54:07] [INFO   ] [NOTICE] TerraformGenerator will suppress the server's watchdog while generating chunks to prevent unnecessary stacktrace warnings. Unless you specifically need thewatchdog now (to take aikar timings or debug lag), you don't need to take any action. 
+[2025-09-14 02:54:07] [INFO   ] It is recommended to pregenerate to reduce lag problems. 
+[2025-09-14 02:54:07] [INFO   ] Watchdog Thread hooked. 
+[2025-09-14 02:54:07] [INFO   ]  bStats Metrics enabled. 
+[2025-09-14 02:54:07] [INFO   ]  Detected version: 1.21.8, number: 21.8 
+[2025-09-14 02:54:07] [INFO   ] Unfreezing biome registry... 
+[2025-09-14 02:54:07] [INFO   ] Registered custom biome: muddy_bog 
+[2025-09-14 02:54:07] [INFO   ] Registered custom biome: cherry_grove 
+[2025-09-14 02:54:07] [INFO   ] Registered custom biome: scarlet_forest 
+[2025-09-14 02:54:07] [INFO   ] Registered custom biome: crystalline_cluster 
+[2025-09-14 02:54:07] [INFO   ] Freezing biome registry 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: VillageHousePopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: VillagePopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: OutpostPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: PyramidPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: MonumentPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: StrongholdPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: MansionPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: AncientCityPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: TrialChamberPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: LargeCavePopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: MineshaftPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: CatacombsPopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: BadlandsMinePopulator 
+[2025-09-14 02:54:07] [INFO   ] [Structure Registry] Registered Large Structure: WarmOceanRuinsPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Large Structure: TrailRuinsPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: SmallDungeonPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: ShipwreckPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: BuriedTreasurePopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: RuinedPortalPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: IglooPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: DesertWellPopulator 
+[2025-09-14 02:54:08] [INFO   ] [Structure Registry] Registered Small Structure: WitchHutPopulator 
+[2025-09-14 02:54:08] [INFO   ] Creating TW instance: world - 3693881940469567080 
+[2025-09-14 02:54:08] [INFO   ]  Detected world: world, commencing injection...  
+[2025-09-14 02:54:08] [INFO   ] Creating TW instance: world - 3693881940469567080 
+[2025-09-14 02:54:08] [INFO   ] NMSChunkGenerator Delegate is of type CustomChunkGenerator 
+[2025-09-14 02:54:08] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
+[2025-09-14 02:54:08] [INFO   ]  Injection success! Proceeding with generation. 
+[2025-09-14 02:54:09] [INFO   ]  world loaded. 
+[2025-09-14 02:55:48] [INFO   ] Will spawn stronghold at: CoordPair[x=-740, z=1197] 
+[2025-09-14 02:55:50] [INFO   ] Large Cave at 320,23,-192 has water level > -20 with populator LargeLushCavePopulator 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -188 9 -251 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -160 9 -262 in a room of size 14x14 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -121 9 -267 in a room of size 14x13 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -241 9 -149 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -236 9 -170 in a room of size 15x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -136 9 -174 in a room of size 14x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -202 9 -190 in a room of size 13x13 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -126 9 -223 in a room of size 15x14 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -219 9 -130 in a room of size 14x13 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -154 9 -237 in a room of size 15x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -241 24 -149 in a room of size 13x5 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -154 24 -237 in a room of size 15x5 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -246 24 -138 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -205 24 -235 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -213 24 -164 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -263 24 -209 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -202 24 -190 in a room of size 13x7 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -136 24 -207 in a room of size 13x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -219 24 -253 in a room of size 14x15 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -118 24 -203 in a room of size 13x13 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -160 24 -262 in a room of size 14x7 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -188 24 -251 in a room of size 13x5 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -189 24 -196 in a room of size 13x13 
+[2025-09-14 02:55:53] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -155 24 -132 in a room of size 15x13 
+[2025-09-14 02:55:54] [INFO   ] Spawning MossyCavePopulator at 272,-27,-48 
+[2025-09-14 02:55:54] [INFO   ] Spawning DeepCavePopulator at 272,-33,-40 
+[2025-09-14 02:55:54] [INFO   ] Spawning CaveFluidClusterPopulator at 280,-30,-40 
+[2025-09-14 02:56:01] [INFO   ] Spawning CrystallineClusterCavePopulator at 86,-9,-258 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -150 1 262 in a room of size 14x14 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -202 1 289 in a room of size 15x13 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -261 1 293 in a room of size 15x14 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -187 1 315 in a room of size 14x15 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -237 1 375 in a room of size 15x14 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -203 1 303 in a room of size 13x14 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -263 1 332 in a room of size 13x13 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -225 1 349 in a room of size 14x14 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -162 1 374 in a room of size 15x15 
+[2025-09-14 02:58:43] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -186 1 339 in a room of size 14x15 
+[2025-09-14 03:04:30] [INFO   ] Spawning Creaking Heart at -162,68,227 
+[2025-09-14 03:04:30] [INFO   ] Spawning Creaking Heart at -173,66,231 
+[2025-09-14 03:05:02] [INFO   ] Spawning FrozenCavePopulator at -144,22,248 
+[2025-09-14 03:13:04] [INFO   ] Spawning LushClusterCavePopulator at 64,28,-320 
+[2025-09-14 03:16:43] [INFO   ] Minecart with chest at: -186, 24, -249 
+[2025-09-14 03:20:19] [INFO   ] Spawning DripstoneClusterCavePopulator at 320,16,-128 
+[2025-09-14 03:20:26] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: 20,-12 
+[2025-09-14 03:33:16] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: 3,16 
+[2025-09-14 03:33:16] [INFO   ] Spawning Underground Dungeon at 54,27,269 
+[2025-09-14 03:43:34] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: 20,20 
+[2025-09-14 04:01:23] [INFO   ] Generating org.terraform.structure.small.igloo.IglooPopulator at chunk: 29,19 
+[2025-09-14 04:01:23] [INFO   ] Placing igloo of size 4 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 880 4 363 in a room of size 15x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 853 4 345 in a room of size 14x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 759 4 255 in a room of size 14x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 833 4 326 in a room of size 14x13 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 832 4 368 in a room of size 15x14 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 827 4 264 in a room of size 14x14 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 773 4 263 in a room of size 14x13 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at 844 4 281 in a room of size 14x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 888 4 377 in a room of size 15x14 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 880 19 363 in a room of size 15x5 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 853 19 383 in a room of size 14x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 844 19 281 in a room of size 14x7 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 757 19 359 in a room of size 14x13 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at 861 19 306 in a room of size 13x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 818 19 289 in a room of size 14x13 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 881 19 345 in a room of size 13x13 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 853 19 345 in a room of size 14x7 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at 773 19 263 in a room of size 14x7 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 768 19 384 in a room of size 13x14 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 897 19 253 in a room of size 15x15 
+[2025-09-14 04:02:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at 897 19 368 in a room of size 13x13 
+[2025-09-14 04:17:36] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.JigsawStructure invoked. 
+[2025-09-14 04:18:05] [INFO   ] [Locate] Completed Locate task (84ms) 
+[2025-09-14 04:18:05] [INFO   ] Generating org.terraform.structure.village.VillagePopulator at chunk: -44,20 
+[2025-09-14 04:18:05] [INFO   ] Spawning plains village at -704,50,320 
+[2025-09-14 04:18:06] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageTemplePopulator at -730 0 318 in a room of size 20x18 
+[2025-09-14 04:18:06] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageAnimalPenPopulator at -746 0 289 in a room of size 16x18 
+[2025-09-14 04:18:06] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillagePondPopulator at -680 0 333 in a room of size 10x7 
+[2025-09-14 04:18:06] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageAnimalPenPopulator at -663 0 329 in a room of size 17x16 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageTownhallPopulator at -704 69 320 in a room of size 24x24 
+[2025-09-14 04:18:07] [INFO   ] Spawning farmhouse at -704,67,320 with rotation of NORTH 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillagePondPopulator at -735 0 271 in a room of size 8x8 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageCropFarmPopulator at -683 0 317 in a room of size 15x17 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageForgePopulator at -663 0 310 in a room of size 16x16 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageAnimalPenPopulator at -699 0 279 in a room of size 15x15 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageStandardHousePopulator at -716 0 295 in a room of size 18x20 
+[2025-09-14 04:18:07] [INFO   ] Registered: org.terraform.structure.village.plains.PlainsVillageWellPopulator at -724 0 270 in a room of size 8x10 
+[2025-09-14 04:18:07] [INFO   ] [Locate] [VillagePopulator] Located at X: -704 Z: 320 
+[2025-09-14 04:18:58] [INFO   ] Spawning Creaking Heart at -246,67,184 
+[2025-09-14 04:18:58] [INFO   ] Spawning ForestedMountainsCavePopulator at -244,36,-63 
+[2025-09-14 04:19:00] [INFO   ] Minecart with chest at: -228, 1, 303 
+[2025-09-14 04:19:00] [INFO   ] Minecart with chest at: -225, 1, 291 
+[2025-09-14 04:19:14] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -11,20 
+[2025-09-14 04:19:14] [INFO   ] Spawning Underground Dungeon at -164,12,325 
+[2025-09-14 04:19:14] [INFO   ] Minecart with chest at: -216, 1, 330 
+[2025-09-14 04:19:23] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: -12,20 
+[2025-09-14 04:22:00] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -51,18 
+[2025-09-14 04:22:02] [INFO   ] Spawning Creaking Heart at -845,73,295 
+[2025-09-14 04:22:02] [INFO   ] Spawning Creaking Heart at -843,72,286 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -661 19 840 in a room of size 14x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -692 19 780 in a room of size 15x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -692 19 826 in a room of size 13x13 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -740 19 867 in a room of size 15x15 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -651 19 810 in a room of size 13x13 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -714 19 787 in a room of size 14x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -751 19 791 in a room of size 14x15 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -675 19 887 in a room of size 15x13 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -671 34 776 in a room of size 14x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -728 34 795 in a room of size 13x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -675 34 887 in a room of size 15x6 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -669 34 819 in a room of size 14x15 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -669 34 850 in a room of size 15x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -758 34 862 in a room of size 15x13 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -683 34 861 in a room of size 13x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -714 34 831 in a room of size 15x14 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -692 34 826 in a room of size 13x6 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -661 34 840 in a room of size 14x6 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -670 34 875 in a room of size 15x13 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -638 34 865 in a room of size 15x15 
+[2025-09-14 04:22:04] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -740 34 867 in a room of size 15x7 
+[2025-09-14 04:22:06] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -39,11 
+[2025-09-14 04:22:06] [INFO   ] Spawning Underground Dungeon at -609,10,188 
+[2025-09-14 04:22:10] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -58,13 
+[2025-09-14 04:22:12] [INFO   ] Spawning Creaking Heart at -897,71,172 
+[2025-09-14 04:22:13] [INFO   ] Spawning Creaking Heart at -914,70,156 
+[2025-09-14 04:26:51] [INFO   ] Spawning Creaking Heart at -953,70,199 
+[2025-09-14 04:45:23] [INFO   ] Spawning Creaking Heart at -980,72,253 
+[2025-09-14 04:49:02] [INFO   ] Spawning Creaking Heart at -1000,68,253 
+[2025-09-14 04:49:02] [INFO   ] Spawning Creaking Heart at -1001,71,227 
+[2025-09-14 04:55:40] [INFO   ] Spawning Creaking Heart at -673,78,620 
+[2025-09-14 04:55:40] [INFO   ] Spawning Creaking Heart at -670,73,613 
+[2025-09-14 04:55:40] [INFO   ] Spawning Creaking Heart at -741,73,623 
+[2025-09-14 05:11:29] [INFO   ] Spawning Creaking Heart at -678,73,667 
+[2025-09-14 05:11:31] [INFO   ] Spawning Creaking Heart at -769,69,673 
+[2025-09-14 05:11:33] [INFO   ] Spawning Creaking Heart at -643,69,689 
+[2025-09-14 05:17:42] [INFO   ] Large Cave at -1216,28,320 has water level > -5 with populator MushroomCavePopulator 
+[2025-09-14 05:17:44] [INFO   ] -76,-12 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2025-09-14 05:17:51] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: -53,-10 
+[2025-09-14 05:17:51] [INFO   ] Spawning shipwreck at -839, 24, -156 with rotation of SOUTH 
+[2025-09-14 05:18:03] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -72,4 
+[2025-09-14 05:18:21] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: -76,-12 
+[2025-09-14 05:19:06] [INFO   ] Large Cave at -704,15,-704 has water level > -24 with populator MushroomCavePopulator 
+[2025-09-14 05:19:08] [INFO   ] -76,-44 will spawn a vanilla structure, with tryGenerateStructure == true 
+[2025-09-14 05:19:12] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -60,-36 
+[2025-09-14 05:19:33] [INFO   ] Generating org.terraform.structure.trialchamber.TrialChamberPopulator at chunk: -76,-44 
+[2025-09-14 05:19:49] [INFO   ] Spawning Creaking Heart at -775,79,-785 
+[2025-09-14 05:19:53] [INFO   ] Spawning Creaking Heart at -759,74,-753 
+[2025-09-14 05:19:55] [INFO   ] Spawning Creaking Heart at -752,77,-793 
+[2025-09-14 05:19:58] [INFO   ] Spawning Creaking Heart at -728,73,-783 
+[2025-09-14 05:20:00] [INFO   ] Spawning Creaking Heart at -707,68,-829 
+[2025-09-14 05:20:02] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -44,-49 
+[2025-09-14 05:20:02] [INFO   ] Spawning Underground Dungeon at -701,52,-784 
+[2025-09-14 05:20:02] [INFO   ] Spawning Creaking Heart at -689,72,-813 
+[2025-09-14 05:20:05] [INFO   ] Spawning Creaking Heart at -677,73,-792 
+[2025-09-14 05:20:05] [INFO   ] Spawning Creaking Heart at -683,71,-809 
+[2025-09-14 05:20:05] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: -44,-44 
+[2025-09-14 05:20:08] [INFO   ] Spawning Creaking Heart at -693,70,-882 
+[2025-09-14 05:25:32] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: -42,-13 
+[2025-09-14 05:25:32] [INFO   ] Spawning shipwreck at -665, 21, -201 with rotation of EAST 
+[2025-09-14 05:25:36] [INFO   ] Generating org.terraform.structure.warmoceanruins.WarmOceanRuinsPopulator at chunk: -44,-12 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanLargeArcRoom at -718 21 -229 in a room of size 25x25 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanAltarRoom at -667 21 -189 in a room of size 10x12 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanDomeHutRoom at -697 21 -227 in a room of size 11x12 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanAltarRoom at -708 21 -165 in a room of size 11x10 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanAltarRoom at -737 21 -214 in a room of size 14x14 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanAltarRoom at -665 21 -156 in a room of size 10x10 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanWellRoom at -730 21 -200 in a room of size 14x14 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanDomeHutRoom at -701 21 -203 in a room of size 11x10 
+[2025-09-14 05:25:36] [INFO   ] Registered: org.terraform.structure.warmoceanruins.WarmOceanDomeHutRoom at -742 21 -182 in a room of size 15x14 
+[2025-09-14 05:25:36] [INFO   ] Spawning Desert Well at -730,20,-200 
+[2025-09-14 05:28:00] [INFO   ] Spawning ancient city at: -192,-14,-704 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at -138 -14 -659 in a room of size 26x19 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -215 -14 -726 in a room of size 17x16 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at -192 -14 -656 in a room of size 19x25 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -240 -14 -759 in a room of size 21x26 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityCenterPlatformPopulator at -184 -14 -696 in a room of size 46x46 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityLargePillarRoomPopulator at -133 -14 -747 in a room of size 18x19 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -245 -14 -711 in a room of size 20x26 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityAltarPopulator at -224 -14 -664 in a room of size 16x21 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -206 -14 -753 in a room of size 22x19 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at -177 -14 -763 in a room of size 25x17 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCityRuinsPlatform at -134 -14 -712 in a room of size 17x21 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -151 -14 -720 in a room of size 17x25 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -252 -14 -667 in a room of size 24x22 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -223 -14 -700 in a room of size 20x21 
+[2025-09-14 05:28:00] [INFO   ] Registered: org.terraform.structure.ancientcity.AncientCitySchematicPlatform at -180 -14 -745 in a room of size 20x16 
