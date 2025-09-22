@@ -235,3 +235,5 @@ java.lang.NullPointerException: null
 [21:54:29] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 21:54:16 UTC 2025'/16626, uuid='7b78fd7d-fc67-4117-b414-f9eb3a0f9b74', l='ServerLevel[world]', x=-2165.50, y=-9.75, z=1639.50, cpos=[-136, 102], tl=244, v=true] died: Died at Mon Sep 22 21:54:16 UTC 2025 died
 [21:54:29] [Server thread/INFO]: Named entity ArmorStand['Reason: El_Heinsenberga was blown up by Creeper'/16627, uuid='7acc51a1-0ddb-443c-b51a-7504abf0c07a', l='ServerLevel[world]', x=-2165.50, y=-10.00, z=1639.50, cpos=[-136, 102], tl=244, v=true] died: Reason: El_Heinsenberga was blown up by Creeper died
 [21:58:36] [Server thread/INFO]: Zatanna917 issued server command: /fix all
+[22:05:03] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 300
+[22:11:59] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 300
