@@ -5250,3 +5250,46 @@
 [2025-09-22 20:51:32] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
 [2025-09-22 20:51:32] [INFO   ]  Injection success! Proceeding with generation. 
 [2025-09-22 20:51:34] [INFO   ]  world loaded. 
+[2025-09-22 21:03:06] [INFO   ] Will spawn stronghold at: CoordPair[x=-740, z=1197] 
+[2025-09-22 21:06:53] [INFO   ] Spawning MossyCavePopulator at -432,49,688 
+[2025-09-22 21:06:53] [INFO   ] Spawning DeepCavePopulator at -432,-44,688 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -692 14 780 in a room of size 15x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -692 14 826 in a room of size 13x13 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -661 14 840 in a room of size 14x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftRoomPopulator at -740 14 867 in a room of size 15x15 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -751 14 791 in a room of size 14x15 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -651 14 810 in a room of size 13x13 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -714 14 787 in a room of size 14x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -675 14 887 in a room of size 15x13 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -669 29 819 in a room of size 14x15 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -758 29 862 in a room of size 15x13 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -669 29 850 in a room of size 15x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -670 29 875 in a room of size 15x13 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -671 29 776 in a room of size 14x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -740 29 867 in a room of size 15x7 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -714 29 831 in a room of size 15x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -683 29 861 in a room of size 13x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.SmeltingHallPopulator at -728 29 795 in a room of size 13x14 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.CaveSpiderDenPopulator at -638 29 865 in a room of size 15x15 
+[2025-09-22 21:06:54] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -692 29 780 in a room of size 15x5 
+[2025-09-22 21:07:05] [INFO   ] Spawning CaveFluidClusterPopulator at -400,31,640 
+[2025-09-22 21:07:10] [INFO   ] Spawning FrozenCavePopulator at -624,15,720 
+[2025-09-22 21:07:10] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -36,45 
+[2025-09-22 21:07:10] [INFO   ] Spawning Underground Dungeon at -570,29,729 
+[2025-09-22 21:07:10] [INFO   ] Spawning Creaking Heart at -638,67,733 
+[2025-09-22 21:07:10] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -47,45 
+[2025-09-22 21:07:10] [INFO   ] Spawning Underground Dungeon at -744,6,732 
+[2025-09-22 21:07:13] [INFO   ] Spawning LushClusterCavePopulator at -384,39,640 
+[2025-09-22 21:07:22] [INFO   ] Spawning Creaking Heart at -733,70,749 
+[2025-09-22 21:07:34] [INFO   ] Spawning CrystallineClusterCavePopulator at -602,-5,774 
+[2025-09-22 21:07:34] [INFO   ] Spawning DripstoneClusterCavePopulator at -640,-12,768 
+[2025-09-22 21:07:34] [INFO   ] Minecart with chest at: -662, 29, 780 
+[2025-09-22 21:07:34] [INFO   ] Spawning Creaking Heart at -727,71,779 
+[2025-09-22 21:07:36] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -23,40 
+[2025-09-22 21:07:36] [INFO   ] Spawning Underground Dungeon at -365,43,653 
+[2025-09-22 21:07:45] [INFO   ] Minecart with chest at: -679, 29, 795 
+[2025-09-22 21:07:49] [INFO   ] Minecart with chest at: -651, 14, 804 
+[2025-09-22 21:08:09] [INFO   ] Minecart with chest at: -714, 29, 836 
+[2025-09-22 21:08:25] [INFO   ] Minecart with chest at: -675, 29, 861 
+[2025-09-22 21:08:25] [INFO   ] Generating org.terraform.structure.mineshaft.MineshaftPopulator at chunk: -44,52 
+[2025-09-22 21:08:31] [INFO   ] Minecart with chest at: -675, 14, 879 

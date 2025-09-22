@@ -206,3 +206,8 @@ java.lang.NullPointerException: null
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [20:52:40] [pool-30-thread-1/INFO]: [GraveStonesPlus] Ignoring time change events for one time only
 [20:58:31] [Server thread/INFO]: Zatanna917 has made the advancement [A Seedy Place]
+[21:03:06] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[21:03:56] [Server thread/INFO]: Zatanna917 has made the advancement [Voluntary Exile]
+[21:05:03] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 apple 30
+[21:06:51] [Server thread/INFO]: Zatanna917 issued server command: /home
+[21:06:56] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
