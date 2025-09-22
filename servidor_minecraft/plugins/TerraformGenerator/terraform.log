@@ -5417,3 +5417,40 @@
 [2025-09-22 22:06:19] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -2808 34 2428 in a room of size 14x5 
 [2025-09-22 22:06:19] [INFO   ] Registered: org.terraform.structure.mineshaft.ShaftTopPopulator at -2788 34 2338 in a room of size 13x6 
 [2025-09-22 22:12:44] [INFO   ] Large Cave at -1728,24,2368 has water level > -7 with populator MushroomCavePopulator 
+[2025-09-22 22:35:12] [INFO   ] Generating org.terraform.structure.small.ruinedportal.RuinedPortalPopulator at chunk: -91,99 
+[2025-09-22 22:36:05] [INFO   ] Generating org.terraform.structure.catacombs.CatacombsPopulator at chunk: -76,84 
+[2025-09-22 22:41:08] [INFO   ] Generating Stronghold at chunk: -47,74 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -693 7 1157 in a room of size 26x28 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -789 7 1147 in a room of size 19x19 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.NetherPortalRoomPopulator at -741 7 1176 in a room of size 20x19 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -785 7 1239 in a room of size 20x25 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.SupplyRoomPopulator at -739 7 1194 in a room of size 18x10 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -765 7 1200 in a room of size 24x23 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -728 7 1244 in a room of size 26x26 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.TrapChestRoomPopulator at -755 7 1226 in a room of size 12x21 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.SupplyRoomPopulator at -693 7 1241 in a room of size 12x11 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -694 7 1188 in a room of size 28x15 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.LibraryRoomPopulator at -698 7 1217 in a room of size 27x18 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.PortalRoomPopulator at -769 7 1176 in a room of size 25x25 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.StairwayRoomPopulator at -751 7 1244 in a room of size 5x5 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.SilverfishDenPopulator at -746 7 1152 in a room of size 15x18 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -786 7 1210 in a room of size 16x27 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.SilverfishDenPopulator at -720 7 1190 in a room of size 12x15 
+[2025-09-22 22:41:09] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -736 7 1220 in a room of size 13x15 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -710 25 1210 in a room of size 15x14 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.StairwayTopPopulator at -751 25 1244 in a room of size 5x5 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.SupplyRoomPopulator at -764 25 1184 in a room of size 10x18 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -738 25 1171 in a room of size 23x11 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -782 25 1238 in a room of size 18x19 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -759 25 1228 in a room of size 14x25 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.LibraryRoomPopulator at -790 25 1215 in a room of size 26x23 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -751 25 1194 in a room of size 17x22 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -692 25 1151 in a room of size 17x25 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.LibraryRoomPopulator at -702 25 1186 in a room of size 18x30 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -734 25 1200 in a room of size 14x28 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.TrapChestRoomPopulator at -763 25 1157 in a room of size 14x18 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.HallwayPopulator at -726 25 1148 in a room of size 12x20 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -728 25 1237 in a room of size 26x27 
+[2025-09-22 22:41:10] [INFO   ] Registered: org.terraform.structure.stronghold.PrisonRoomPopulator at -698 25 1231 in a room of size 19x20 
+[2025-09-22 22:41:24] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: -44,84 
+[2025-09-22 22:48:10] [INFO   ] Large Cave at -1216,28,320 has water level > -5 with populator MushroomCavePopulator 

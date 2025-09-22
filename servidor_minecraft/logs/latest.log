@@ -261,3 +261,9 @@ java.lang.NullPointerException: null
 [22:27:00] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/22203, uuid='b38e907d-ac2c-48a1-b4f4-1ca72123a3f0', l='ServerLevel[world]', x=-2258.50, y=-11.50, z=1848.50, cpos=[-142, 115], tl=515, v=true] died: Zatanna917 died here! died
 [22:27:00] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 22:26:34 UTC 2025'/22204, uuid='2d80fefa-5562-42bd-92b6-2234c9b06fc2', l='ServerLevel[world]', x=-2258.50, y=-11.75, z=1848.50, cpos=[-142, 115], tl=515, v=true] died: Died at Mon Sep 22 22:26:34 UTC 2025 died
 [22:27:00] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 fell from a high place'/22205, uuid='a2b7a406-21ff-4663-bce4-820cd1349522', l='ServerLevel[world]', x=-2258.50, y=-12.00, z=1848.50, cpos=[-142, 115], tl=515, v=true] died: Reason: Zatanna917 fell from a high place died
+[22:41:10] [Server thread/WARN]: ███████       (vehicle of Zatanna917) moved too quickly! 15.777465369870242,-2.0,12.318548625654103
+[22:41:10] [Server thread/WARN]: ███████       (vehicle of Zatanna917) moved too quickly! 16.276332969053897,-2.0,12.702614244109782
+[22:41:10] [Server thread/WARN]: ███████       (vehicle of Zatanna917) moved too quickly! 16.777060762407586,-2.0,13.088111970907448
+[22:41:10] [Server thread/WARN]: ███████       (vehicle of Zatanna917) moved too quickly! 17.280179389402633,-2.0,13.472590904336585
+[22:41:10] [Server thread/WARN]: ███████       (vehicle of Zatanna917) moved too quickly! 17.789078907216208,-2.0,13.85044159771087
+[22:42:28] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 apple 30
