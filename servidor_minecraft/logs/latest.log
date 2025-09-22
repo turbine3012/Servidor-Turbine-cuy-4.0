@@ -237,3 +237,20 @@ java.lang.NullPointerException: null
 [21:58:36] [Server thread/INFO]: Zatanna917 issued server command: /fix all
 [22:05:03] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 300
 [22:11:59] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 300
+[22:13:48] [Server thread/INFO]: Zatanna917 issued server command: /delhome cueva
+[22:13:52] [Server thread/INFO]: Zatanna917 issued server command: /sethome cueva
+[22:13:54] [Server thread/INFO]: Zatanna917 issued server command: /sethome cueva
+[22:17:51] [Server thread/INFO]: Zatanna917 was blown up by Creeper
+[22:17:53] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-2208.328213954571,y=-30.975575911786322,z=1854.542975443262,pitch=15.000016,yaw=170.64569}
+[22:17:55] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[22:18:07] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/20568, uuid='d91bf644-14e3-49dd-8f8d-92dec9f5b93f', l='ServerLevel[world]', x=-2208.50, y=-29.50, z=1854.50, cpos=[-139, 115], tl=281, v=true] died: Zatanna917 died here! died
+[22:18:07] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 22:17:53 UTC 2025'/20569, uuid='824f025f-2667-4333-b16f-aa43d571e2e3', l='ServerLevel[world]', x=-2208.50, y=-29.75, z=1854.50, cpos=[-139, 115], tl=281, v=true] died: Died at Mon Sep 22 22:17:53 UTC 2025 died
+[22:18:07] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was blown up by Creeper'/20570, uuid='7e36e559-776a-4865-be34-0bf837699f4e', l='ServerLevel[world]', x=-2208.50, y=-30.00, z=1854.50, cpos=[-139, 115], tl=281, v=true] died: Reason: Zatanna917 was blown up by Creeper died
+[22:18:25] [Server thread/INFO]: El_Heinsenberga has made the advancement [Take Aim]
+[22:19:28] [Server thread/INFO]: El_Heinsenberga was slain by Zombie
+[22:19:30] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-2215.2136110175197,y=-25.0,z=1840.9851712750901,pitch=8.699934,yaw=122.33423}
+[22:19:33] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[22:19:39] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[22:19:46] [Server thread/INFO]: Named entity ArmorStand['El_Heinsenberga died here!'/20967, uuid='b11a36a9-0c5f-4820-b2c3-5777e34ae379', l='ServerLevel[world]', x=-2215.50, y=-23.50, z=1840.50, cpos=[-139, 115], tl=338, v=true] died: El_Heinsenberga died here! died
+[22:19:46] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 22:19:30 UTC 2025'/20968, uuid='c31fa252-f499-4a41-b5e5-9f2579113cca', l='ServerLevel[world]', x=-2215.50, y=-23.75, z=1840.50, cpos=[-139, 115], tl=338, v=true] died: Died at Mon Sep 22 22:19:30 UTC 2025 died
+[22:19:46] [Server thread/INFO]: Named entity ArmorStand['Reason: El_Heinsenberga was slain by Zombie'/20969, uuid='b1d57185-2b9a-4a6a-a060-43b002ea7d25', l='ServerLevel[world]', x=-2215.50, y=-24.00, z=1840.50, cpos=[-139, 115], tl=338, v=true] died: Reason: El_Heinsenberga was slain by Zombie died

@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1758575216591
+  lastteleport: 1758579475862
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,9 +23,9 @@ last-account-name: Zatanna917
 lastlocation:
   world: 91084f46-1926-44ac-a6af-cefb9c8223f7
   world-name: world
-  x: -702.8205330333843
-  y: 67.0
-  z: 320.31260840558883
+  x: -699.5
+  y: 67.875
+  z: 321.5
   yaw: -2.5044780613825424E-6
   pitch: 0.0
 logoutlocation:
@@ -40,8 +40,8 @@ homes:
   cueva:
     world: 91084f46-1926-44ac-a6af-cefb9c8223f7
     world-name: world
-    x: -2300.429210435988
-    y: 53.0
-    z: 1573.9624813259597
-    yaw: -43.544921875
-    pitch: 8.699995994567871
+    x: -2270.1061066561597
+    y: -34.0
+    z: 1858.6717867771179
+    yaw: -154.40557861328125
+    pitch: 29.100160598754883
