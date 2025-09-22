@@ -211,3 +211,7 @@ java.lang.NullPointerException: null
 [21:05:03] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 apple 30
 [21:06:51] [Server thread/INFO]: Zatanna917 issued server command: /home
 [21:06:56] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[21:34:09] [Server thread/INFO]: Zatanna917 issued server command: /sethome cueva
+[21:35:33] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 300
+[21:36:28] [Server thread/INFO]: Zatanna917 issued server command: /fix all
+[21:40:08] [Server thread/INFO]: El_Heinsenberga has made the advancement [Ice Bucket Challenge]
