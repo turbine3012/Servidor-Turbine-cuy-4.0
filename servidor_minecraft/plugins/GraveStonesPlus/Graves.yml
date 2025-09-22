@@ -608,6 +608,194 @@ brokengraves:
   EXP: 100
   DeathMessage: Zatanna917 was blown up by Creeper
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1758580020292
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: -2259
+  Y: -13
+  Time: 1758579994564
+  Z: 1848
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_sword
+      count: 1
+      components:
+        minecraft:damage: '119'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_helmet
+      count: 1
+      components:
+        minecraft:damage: '63'
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_pickaxe
+      count: 1
+      components:
+        minecraft:damage: '147'
+      schema_version: 1
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_chestplate
+      count: 1
+      components:
+        minecraft:damage: '63'
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cooked_beef
+      count: 11
+      schema_version: 1
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_leggings
+      count: 1
+      components:
+        minecraft:damage: '63'
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 61
+      schema_version: 1
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_boots
+      count: 1
+      components:
+        minecraft:damage: '63'
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:water_bucket
+      count: 1
+      schema_version: 1
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:banner_patterns: '[{color:"light_blue",pattern:"minecraft:stripe_left"},{color:"light_blue",pattern:"minecraft:stripe_right"},{color:"black",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:gradient_up"},{color:"black",pattern:"minecraft:gradient"},{color:"yellow",pattern:"minecraft:circle"}]'
+        minecraft:base_color: '"white"'
+        minecraft:damage: '334'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cobblestone
+      count: 53
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:spore_blossom
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 2
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    9:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_iron
+      count: 29
+      schema_version: 1
+    10:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:chicken
+      count: 1
+      schema_version: 1
+    11:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:iron_ingot
+      count: 1
+      schema_version: 1
+    12:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:raw_gold
+      count: 18
+      schema_version: 1
+    13:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:moss_block
+      count: 7
+      schema_version: 1
+    14:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:diamond
+      count: 7
+      schema_version: 1
+    16:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    17:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 64
+      schema_version: 1
+    18:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:red_mushroom
+      count: 1
+      schema_version: 1
+    19:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:bone
+      count: 2
+      schema_version: 1
+    20:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:arrow
+      count: 2
+      schema_version: 1
+    21:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stick
+      count: 47
+      schema_version: 1
+    22:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:glow_ink_sac
+      count: 8
+      schema_version: 1
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: 91084f46-1926-44ac-a6af-cefb9c8223f7
+  EXP: 70
+  DeathMessage: Zatanna917 fell from a high place
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
   DestroyedTime: 1758578069106
   Destroyed: true
   PlayerName: El_Heinsenberga

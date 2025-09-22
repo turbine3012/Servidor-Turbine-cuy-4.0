@@ -254,3 +254,10 @@ java.lang.NullPointerException: null
 [22:19:46] [Server thread/INFO]: Named entity ArmorStand['El_Heinsenberga died here!'/20967, uuid='b11a36a9-0c5f-4820-b2c3-5777e34ae379', l='ServerLevel[world]', x=-2215.50, y=-23.50, z=1840.50, cpos=[-139, 115], tl=338, v=true] died: El_Heinsenberga died here! died
 [22:19:46] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 22:19:30 UTC 2025'/20968, uuid='c31fa252-f499-4a41-b5e5-9f2579113cca', l='ServerLevel[world]', x=-2215.50, y=-23.75, z=1840.50, cpos=[-139, 115], tl=338, v=true] died: Died at Mon Sep 22 22:19:30 UTC 2025 died
 [22:19:46] [Server thread/INFO]: Named entity ArmorStand['Reason: El_Heinsenberga was slain by Zombie'/20969, uuid='b1d57185-2b9a-4a6a-a060-43b002ea7d25', l='ServerLevel[world]', x=-2215.50, y=-24.00, z=1840.50, cpos=[-139, 115], tl=338, v=true] died: Reason: El_Heinsenberga was slain by Zombie died
+[22:26:32] [Server thread/INFO]: Zatanna917 fell from a high place
+[22:26:34] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-2258.8196605315306,y=-13.0,z=1848.8194486223463,pitch=87.74999,yaw=171.98825}
+[22:26:36] [Server thread/INFO]: Zatanna917 issued server command: /back
+[22:26:41] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[22:27:00] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/22203, uuid='b38e907d-ac2c-48a1-b4f4-1ca72123a3f0', l='ServerLevel[world]', x=-2258.50, y=-11.50, z=1848.50, cpos=[-142, 115], tl=515, v=true] died: Zatanna917 died here! died
+[22:27:00] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 22:26:34 UTC 2025'/22204, uuid='2d80fefa-5562-42bd-92b6-2234c9b06fc2', l='ServerLevel[world]', x=-2258.50, y=-11.75, z=1848.50, cpos=[-142, 115], tl=515, v=true] died: Died at Mon Sep 22 22:26:34 UTC 2025 died
+[22:27:00] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 fell from a high place'/22205, uuid='a2b7a406-21ff-4663-bce4-820cd1349522', l='ServerLevel[world]', x=-2258.50, y=-12.00, z=1848.50, cpos=[-142, 115], tl=515, v=true] died: Reason: Zatanna917 fell from a high place died

@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1758579475862
+  lastteleport: 1758580001793
   lastheal: 0
   mute: 0
   jail: 0
