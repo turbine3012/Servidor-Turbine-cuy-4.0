@@ -227,3 +227,11 @@ java.lang.NullPointerException: null
 [21:51:27] [Server thread/INFO]: Named entity ArmorStand['El_Heinsenberga died here!'/15861, uuid='02292d66-6506-4f3b-b520-11b946fd47ec', l='ServerLevel[world]', x=-2198.50, y=-17.50, z=1554.50, cpos=[-138, 97], tl=717, v=true] died: El_Heinsenberga died here! died
 [21:51:27] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 21:50:51 UTC 2025'/15862, uuid='aaa9c303-2804-4eef-8b62-b0e69854577d', l='ServerLevel[world]', x=-2198.50, y=-17.75, z=1554.50, cpos=[-138, 97], tl=717, v=true] died: Died at Mon Sep 22 21:50:51 UTC 2025 died
 [21:51:27] [Server thread/INFO]: Named entity ArmorStand['Reason: El_Heinsenberga was blown up by Creeper'/15863, uuid='eb482889-10c8-465c-a204-e4e2178a2405', l='ServerLevel[world]', x=-2198.50, y=-18.00, z=1554.50, cpos=[-138, 97], tl=717, v=true] died: Reason: El_Heinsenberga was blown up by Creeper died
+[21:54:14] [Server thread/INFO]: El_Heinsenberga was blown up by Creeper
+[21:54:16] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-2165.457807781979,y=-11.0,z=1639.713067169524,pitch=43.05,yaw=-45.05371}
+[21:54:20] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[21:54:23] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[21:54:29] [Server thread/INFO]: Named entity ArmorStand['El_Heinsenberga died here!'/16625, uuid='7a4b43fd-29b4-4406-a230-eec65b564b10', l='ServerLevel[world]', x=-2165.50, y=-9.50, z=1639.50, cpos=[-136, 102], tl=244, v=true] died: El_Heinsenberga died here! died
+[21:54:29] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 21:54:16 UTC 2025'/16626, uuid='7b78fd7d-fc67-4117-b414-f9eb3a0f9b74', l='ServerLevel[world]', x=-2165.50, y=-9.75, z=1639.50, cpos=[-136, 102], tl=244, v=true] died: Died at Mon Sep 22 21:54:16 UTC 2025 died
+[21:54:29] [Server thread/INFO]: Named entity ArmorStand['Reason: El_Heinsenberga was blown up by Creeper'/16627, uuid='7acc51a1-0ddb-443c-b51a-7504abf0c07a', l='ServerLevel[world]', x=-2165.50, y=-10.00, z=1639.50, cpos=[-136, 102], tl=244, v=true] died: Reason: El_Heinsenberga was blown up by Creeper died
+[21:58:36] [Server thread/INFO]: Zatanna917 issued server command: /fix all

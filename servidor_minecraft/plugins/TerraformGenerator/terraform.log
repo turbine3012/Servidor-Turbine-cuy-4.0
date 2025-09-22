@@ -5390,3 +5390,6 @@
 [2025-09-22 21:31:21] [INFO   ] Generating org.terraform.structure.small.dungeon.SmallDungeonPopulator at chunk: -145,79 
 [2025-09-22 21:31:21] [INFO   ] Spawning Underground Dungeon at -2309,29,1269 
 [2025-09-22 21:35:41] [INFO   ] Large Cave at -2752,102,1856 has water level > -22 with populator MushroomCavePopulator 
+[2025-09-22 21:52:24] [INFO   ] Generating org.terraform.structure.small.shipwreck.ShipwreckPopulator at chunk: -123,111 
+[2025-09-22 21:52:24] [INFO   ] Spawning shipwreck at -1966, 54, 1782 with rotation of NORTH 
+[2025-09-22 21:55:04] [INFO   ] Generating org.terraform.structure.caves.LargeCavePopulator at chunk: -140,116 
