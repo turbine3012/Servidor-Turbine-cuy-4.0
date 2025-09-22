@@ -1,51 +1,4 @@
-graves:
-- ==: com.bencodez.gravestonesplus.graves.GravesConfig
-  DestroyedTime: 0
-  Destroyed: false
-  PlayerName: Zatanna917
-  X: -150
-  Y: 33
-  Time: 1758582735314
-  Z: 6
-  Items:
-    0:
-      ==: org.bukkit.inventory.ItemStack
-      DataVersion: 4440
-      id: minecraft:player_head
-      count: 1
-      components:
-        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
-        minecraft:custom_name: '"§eBackpack"'
-      schema_version: 1
-    -1:
-      ==: org.bukkit.inventory.ItemStack
-      schema_version: 1
-      id: minecraft:air
-      DataVersion: 4440
-    -2:
-      ==: org.bukkit.inventory.ItemStack
-      schema_version: 1
-      id: minecraft:air
-      DataVersion: 4440
-    -3:
-      ==: org.bukkit.inventory.ItemStack
-      schema_version: 1
-      id: minecraft:air
-      DataVersion: 4440
-    -4:
-      ==: org.bukkit.inventory.ItemStack
-      schema_version: 1
-      id: minecraft:air
-      DataVersion: 4440
-    -5:
-      ==: org.bukkit.inventory.ItemStack
-      schema_version: 1
-      id: minecraft:air
-      DataVersion: 4440
-  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
-  World: f230b9c6-d9b4-4dd3-b000-3c7ff74ecb1c
-  EXP: 0
-  DeathMessage: Zatanna917 was slain by Piglin
+graves: []
 brokengraves:
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
   DestroyedTime: 1758577887321
@@ -478,6 +431,53 @@ brokengraves:
   World: 91084f46-1926-44ac-a6af-cefb9c8223f7
   EXP: 98
   DeathMessage: El_Heinsenberga was slain by Zombie
+- ==: com.bencodez.gravestonesplus.graves.GravesConfig
+  DestroyedTime: 1758582794329
+  Destroyed: true
+  PlayerName: Zatanna917
+  X: -150
+  Y: 33
+  Time: 1758582735314
+  Z: 6
+  Items:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:player_head
+      count: 1
+      components:
+        minecraft:profile: '{id:[I;-313005115,1884175265,-1910890889,1300776243],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0="}]}'
+        minecraft:custom_name: '"§eBackpack"'
+      schema_version: 1
+    -1:
+      ==: org.bukkit.inventory.ItemStack
+      schema_version: 1
+      id: minecraft:air
+      DataVersion: 4440
+    -2:
+      ==: org.bukkit.inventory.ItemStack
+      schema_version: 1
+      id: minecraft:air
+      DataVersion: 4440
+    -3:
+      ==: org.bukkit.inventory.ItemStack
+      schema_version: 1
+      id: minecraft:air
+      DataVersion: 4440
+    -4:
+      ==: org.bukkit.inventory.ItemStack
+      schema_version: 1
+      id: minecraft:air
+      DataVersion: 4440
+    -5:
+      ==: org.bukkit.inventory.ItemStack
+      schema_version: 1
+      id: minecraft:air
+      DataVersion: 4440
+  UUID: 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+  World: f230b9c6-d9b4-4dd3-b000-3c7ff74ecb1c
+  EXP: 0
+  DeathMessage: Zatanna917 was slain by Piglin
 - ==: com.bencodez.gravestonesplus.graves.GravesConfig
   DestroyedTime: 1758579487273
   Destroyed: true

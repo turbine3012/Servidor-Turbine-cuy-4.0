@@ -286,3 +286,16 @@ java.lang.NullPointerException: null
 [23:13:08] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/34270, uuid='ce440980-bab9-4377-8959-867fd0b04952', l='ServerLevel[world_nether]', x=-146.50, y=37.50, z=5.50, cpos=[-10, 0], tl=1393, v=true] died: Zatanna917 died here! died
 [23:13:08] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 23:11:58 UTC 2025'/34271, uuid='4610fb9f-24af-4a27-9015-5a2e170924b7', l='ServerLevel[world_nether]', x=-146.50, y=37.25, z=5.50, cpos=[-10, 0], tl=1393, v=true] died: Died at Mon Sep 22 23:11:58 UTC 2025 died
 [23:13:08] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was shot by Piglin'/34272, uuid='217d7a29-32d2-4f5b-a5ab-f94c43f67855', l='ServerLevel[world_nether]', x=-146.50, y=37.00, z=5.50, cpos=[-10, 0], tl=1393, v=true] died: Reason: Zatanna917 was shot by Piglin died
+[23:13:14] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/34409, uuid='ec84d44c-0061-4ec7-b1bd-eaab733c16ea', l='ServerLevel[world_nether]', x=-149.50, y=34.50, z=6.50, cpos=[-10, 0], tl=1181, v=true] died: Zatanna917 died here! died
+[23:13:14] [Server thread/INFO]: Named entity ArmorStand['Died at Mon Sep 22 23:12:15 UTC 2025'/34410, uuid='5cd0d6eb-7324-4d2c-bc85-7f76c282e65d', l='ServerLevel[world_nether]', x=-149.50, y=34.25, z=6.50, cpos=[-10, 0], tl=1181, v=true] died: Died at Mon Sep 22 23:12:15 UTC 2025 died
+[23:13:14] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Piglin'/34411, uuid='d70ec724-21cd-44da-9cd8-c0f9bd2f4b13', l='ServerLevel[world_nether]', x=-149.50, y=34.00, z=6.50, cpos=[-10, 0], tl=1181, v=true] died: Reason: Zatanna917 was slain by Piglin died
+[23:15:59] [Server thread/INFO]: Zatanna917 issued server command: /home
+[23:16:04] [Server thread/INFO]: Zatanna917 issued server command: /home 1
+[23:16:06] [Server thread/INFO]: Zatanna917 issued server command: /home 2
+[23:16:08] [Server thread/INFO]: Zatanna917 issued server command: /home
+[23:16:11] [Server thread/INFO]: Zatanna917 issued server command: /home bed
+[23:16:17] [Server thread/INFO]: Zatanna917 issued server command: /sethome casa
+[23:16:21] [Server thread/INFO]: Zatanna917 issued server command: /home
+[23:16:30] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[23:16:34] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[23:18:31] [Server thread/INFO]: Zatanna917 issued server command: /heal
