@@ -251,3 +251,5 @@ java.lang.NullPointerException: null
 [23:16:04] [Server thread/INFO]: Zatanna917 issued server command: /back
 [23:20:08] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
 [23:20:13] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[23:27:03] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
+[23:27:11] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
