@@ -207,3 +207,5 @@ java.lang.NullPointerException: null
 [21:16:40] [User Authenticator #1/INFO]: UUID of player El_Heinsenberga is 40d2c7f8-5053-4955-bb1c-f4b9107602fd
 [21:16:41] [Server thread/INFO]: El_Heinsenberga joined the game
 [21:16:41] [Server thread/INFO]: El_Heinsenberga[/127.83.9.140:37223] logged in with entity id 2487 at ([world]-693.2182837618645, 60.0, 329.4533350668003)
+[21:22:41] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 30
+[21:23:15] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 30
