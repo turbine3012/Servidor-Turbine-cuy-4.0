@@ -204,3 +204,6 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [21:02:19] [Server thread/INFO]: Zatanna917[/127.239.60.92:38597] logged in with entity id 156 at ([world]-689.3000000119209, 60.0, 332.474223258981)
+[21:16:40] [User Authenticator #1/INFO]: UUID of player El_Heinsenberga is 40d2c7f8-5053-4955-bb1c-f4b9107602fd
+[21:16:41] [Server thread/INFO]: El_Heinsenberga joined the game
+[21:16:41] [Server thread/INFO]: El_Heinsenberga[/127.83.9.140:37223] logged in with entity id 2487 at ([world]-693.2182837618645, 60.0, 329.4533350668003)
