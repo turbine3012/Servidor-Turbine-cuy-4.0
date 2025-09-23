@@ -255,3 +255,9 @@ java.lang.NullPointerException: null
 [23:27:11] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
 [23:35:29] [Server thread/INFO]: Zatanna917 issued server command: /enchant efficiency 5
 [23:39:08] [Server thread/INFO]: Zatanna917 issued server command: /heal
+[23:42:35] [Server thread/INFO]: Zatanna917 issued server command: /fix
+[23:46:03] [Server thread/INFO]: Zatanna917 issued server command: /home
+[23:46:05] [Server thread/INFO]: Zatanna917 issued server command: /home 2
+[23:46:08] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[23:46:14] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[23:49:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3749ms or 74 ticks behind
