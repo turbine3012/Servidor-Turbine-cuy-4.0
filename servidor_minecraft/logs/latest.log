@@ -209,3 +209,26 @@ java.lang.NullPointerException: null
 [21:16:41] [Server thread/INFO]: El_Heinsenberga[/127.83.9.140:37223] logged in with entity id 2487 at ([world]-693.2182837618645, 60.0, 329.4533350668003)
 [21:22:41] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 30
 [21:23:15] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 torch 30
+[21:40:07] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 coal 300
+[21:40:49] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 iron_ingot 300
+[21:41:30] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 iron_ingot 300
+[21:46:05] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 stone 30
+[21:47:25] [Server thread/INFO]: Zatanna917 lost connection: Disconnected
+[21:47:25] [Server thread/INFO]: [voicechat] Disconnecting client Zatanna917
+[21:47:25] [Server thread/INFO]: Zatanna917 left the game
+[21:47:39] [User Authenticator #2/INFO]: UUID of player Zatanna917 is 6fd8954e-bb1f-4654-b42e-ce4c92b762eb
+[21:47:40] [Server thread/INFO]: Zatanna917 joined the game
+[21:47:40] [Server thread/INFO]: Zatanna917[/127.239.60.92:36773] logged in with entity id 7971 at ([world]-733.402754770353, 70.0625, 318.2216056194053)
+[21:47:40] [Folia Async Scheduler Thread #3/WARN]: [InstantRestock] Async task for InstantRestock v2.5.2 generated an exception
+java.lang.NullPointerException: null
+	at instantrestock_2.5.2.jar/me.spartacus04.colosseum.i18n.ColosseumI18nManager.get(Unknown Source) ~[instantrestock_2.5.2.jar:?]
+	at instantrestock_2.5.2.jar/me.spartacus04.colosseum.i18n.ColosseumI18nManager.getFormatted(Unknown Source) ~[instantrestock_2.5.2.jar:?]
+	at instantrestock_2.5.2.jar/me.spartacus04.colosseum.i18n.ColosseumI18nManager.getFormatted$default(Unknown Source) ~[instantrestock_2.5.2.jar:?]
+	at instantrestock_2.5.2.jar/me.spartacus04.instantrestock.listeners.PlayerJoinEvent.onPlayerJoin$lambda$0(Unknown Source) ~[instantrestock_2.5.2.jar:?]
+	at instantrestock_2.5.2.jar/me.spartacus04.colosseum.utils.PluginUpdater.getVersion$lambda$1(Unknown Source) ~[instantrestock_2.5.2.jar:?]
+	at instantrestock_2.5.2.jar/me.spartacus04.colosseum.scheduler.schedulersImpl.folia.FoliaScheduler.runTaskAsynchronously$lambda$9(Unknown Source) ~[instantrestock_2.5.2.jar:?]
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217) ~[paper-1.21.8.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:48:55] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 stone 30
