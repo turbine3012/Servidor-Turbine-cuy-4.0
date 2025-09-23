@@ -253,3 +253,5 @@ java.lang.NullPointerException: null
 [23:20:13] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
 [23:27:03] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
 [23:27:11] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[23:35:29] [Server thread/INFO]: Zatanna917 issued server command: /enchant efficiency 5
+[23:39:08] [Server thread/INFO]: Zatanna917 issued server command: /heal
