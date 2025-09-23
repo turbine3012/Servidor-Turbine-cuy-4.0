@@ -242,3 +242,12 @@ java.lang.NullPointerException: null
 [22:58:13] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 stone 300
 [23:09:27] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
 [23:10:03] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[23:14:29] [Server thread/INFO]: Zatanna917 issued server command: /invsee El_Heinsenberga
+[23:14:45] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[23:15:30] [Server thread/INFO]: Zatanna917 issued server command: /back
+[23:15:35] [Server thread/INFO]: Zatanna917 issued server command: /back
+[23:15:39] [Server thread/INFO]: Zatanna917 issued server command: /back
+[23:16:00] [Server thread/INFO]: Zatanna917 issued server command: /back
+[23:16:04] [Server thread/INFO]: Zatanna917 issued server command: /back
+[23:20:08] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[23:20:13] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
