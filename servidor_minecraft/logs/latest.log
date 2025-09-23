@@ -232,3 +232,8 @@ java.lang.NullPointerException: null
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [21:48:55] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 stone 30
+[21:50:18] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
+[21:53:17] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[21:53:31] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[21:54:06] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[21:56:30] [Server thread/INFO]: El_Heinsenberga |||||||||| has made the advancement [What a Deal!]
