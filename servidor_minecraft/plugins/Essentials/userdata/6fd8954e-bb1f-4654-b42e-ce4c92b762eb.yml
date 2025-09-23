@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757830651153
-  login: 1758574332056
+  logout: 1758583834829
+  login: 1758661339459
 money: '0'
 last-account-name: Zatanna917
 lastlocation:
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: 91084f46-1926-44ac-a6af-cefb9c8223f7
   world-name: world
-  x: -700.1784045232313
-  y: 71.0
-  z: 320.34040922731475
-  yaw: 91.79998779296875
-  pitch: 5.549997806549072
+  x: -689.3000000119209
+  y: 60.0
+  z: 332.474223258981
+  yaw: 82.19955444335938
+  pitch: 22.499984741210938
 homes:
   cueva:
     world: 91084f46-1926-44ac-a6af-cefb9c8223f7
