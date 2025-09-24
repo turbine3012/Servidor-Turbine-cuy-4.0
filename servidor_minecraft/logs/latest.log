@@ -271,3 +271,8 @@ java.lang.NullPointerException: null
 [05:40:29] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
 [05:40:51] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
 [05:40:53] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:44:27] [Server thread/INFO]: Zatanna917 issued server command: /gamemode creative
+[05:44:39] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[05:45:19] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[05:45:25] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[05:45:42] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 emerald 30
