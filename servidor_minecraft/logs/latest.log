@@ -2,3 +2,12 @@
 [00:00:01] [pool-30-thread-1/INFO]: [GraveStonesPlus] Time change event: DAY, Fake: false
 [00:00:01] [pool-30-thread-1/INFO]: [GraveStonesPlus] Finished processing day changes
 [00:04:14] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[00:15:42] [Server thread/INFO]: El_Heinsenberga was slain by Enderman
+[00:15:44] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world_nether},x=-345.22989493351196,y=98.53584062504456,z=93.32622850293009,pitch=30.450022,yaw=108.16394}
+[00:15:55] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:17:08] [Server thread/INFO]: El_Heinsenberga tried to swim in lava
+[00:17:10] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world_nether},x=-109.0,y=32.0,z=-32.0,pitch=0.0,yaw=0.0}
+[00:19:19] [Async Chat Thread - #4/INFO]: <El_Heinsenberga> -109, 32, -32
+[00:19:31] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga -109 32 -32
+[00:20:13] [Async Chat Thread - #4/INFO]: <El_Heinsenberga> -346, 98, 93
+[00:20:26] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga -346 98 93

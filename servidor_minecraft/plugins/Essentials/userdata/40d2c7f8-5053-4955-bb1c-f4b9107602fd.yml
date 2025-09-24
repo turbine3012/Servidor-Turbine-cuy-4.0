@@ -21,13 +21,13 @@ timestamps:
 money: '0'
 last-account-name: El_Heinsenberga
 lastlocation:
-  world: 91084f46-1926-44ac-a6af-cefb9c8223f7
-  world-name: world
-  x: -685.8147747157732
-  y: -59.0
-  z: 453.00738186167655
-  yaw: -175.05154418945312
-  pitch: -78.30000305175781
+  world: f230b9c6-d9b4-4dd3-b000-3c7ff74ecb1c
+  world-name: world_nether
+  x: -94.81595836454125
+  y: 60.0
+  z: -17.33465293478907
+  yaw: 85.50010681152344
+  pitch: 20.849903106689453
 logoutlocation:
   world: 91084f46-1926-44ac-a6af-cefb9c8223f7
   world-name: world
