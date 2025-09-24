@@ -5584,3 +5584,11 @@
 [2025-09-24 03:49:58] [INFO   ]  Injection success! Proceeding with generation. 
 [2025-09-24 03:49:59] [INFO   ]  world loaded. 
 [2025-09-24 05:13:58] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.JigsawStructure invoked. 
+[2025-09-24 05:59:35] [INFO   ] Will spawn stronghold at: CoordPair[x=-740, z=1197] 
+[2025-09-24 06:02:40] [INFO   ] Spawning CaveFluidClusterPopulator at -1920,1,1840 
+[2025-09-24 06:02:40] [INFO   ] Spawning MossyCavePopulator at -1920,-19,1840 
+[2025-09-24 06:02:40] [INFO   ] Spawning DripstoneClusterCavePopulator at -1920,18,1856 
+[2025-09-24 06:02:41] [INFO   ] Spawning CrystallineClusterCavePopulator at -1892,32,1892 
+[2025-09-24 06:02:42] [INFO   ] Spawning DeepCavePopulator at -1873,-50,1848 
+[2025-09-24 06:02:43] [INFO   ] Generating org.terraform.structure.small.buriedtreasure.BuriedTreasurePopulator at chunk: -117,118 
+[2025-09-24 06:02:43] [INFO   ] Spawning LushClusterCavePopulator at -1920,45,1920 

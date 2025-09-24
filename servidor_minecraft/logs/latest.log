@@ -276,3 +276,25 @@ java.lang.NullPointerException: null
 [05:45:19] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
 [05:45:25] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
 [05:45:42] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 emerald 30
+[05:52:13] [Server thread/INFO]: Zatanna917 was slain by Iron Golem
+[05:52:15] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-719.0,y=80.0,z=280.0,pitch=0.0,yaw=0.0}
+[05:52:45] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/27782, uuid='9ccd6532-3b63-4997-97d9-024861887ca9', l='ServerLevel[world]', x=-718.50, y=81.50, z=280.50, cpos=[-45, 17], tl=597, v=true] died: Zatanna917 died here! died
+[05:52:45] [Server thread/INFO]: Named entity ArmorStand['Died at Wed Sep 24 05:52:15 UTC 2025'/27783, uuid='7d448498-f472-47fd-bd30-a73a182a11cf', l='ServerLevel[world]', x=-718.50, y=81.25, z=280.50, cpos=[-45, 17], tl=597, v=true] died: Died at Wed Sep 24 05:52:15 UTC 2025 died
+[05:52:45] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Iron Golem'/27784, uuid='ac2ffb69-132f-4fb9-9894-d9b5e9d89e8d', l='ServerLevel[world]', x=-718.50, y=81.00, z=280.50, cpos=[-45, 17], tl=597, v=true] died: Reason: Zatanna917 was slain by Iron Golem died
+[05:58:39] [Server thread/INFO]: Zatanna917 issued server command: /home cueva
+[05:58:41] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
+[05:59:09] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[05:59:32] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[05:59:35] [Paper Common Worker #0/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask] Future status not complete after scheduling: minecraft:biomes, generate: true
+[06:00:21] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[06:00:44] [Server thread/INFO]: Zatanna917 issued server command: /back
+[06:01:41] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 diamond_axe 3
+[06:02:02] [Server thread/INFO]: Zatanna917 issued server command: /floodgate
+[06:02:06] [Server thread/INFO]: Zatanna917 issued server command: /fly
+[06:04:37] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[06:04:48] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[06:05:49] [Server thread/INFO]: Zatanna917 issued server command: /back
+[06:09:17] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[06:09:20] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[06:09:39] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 emerald 30
+[06:10:33] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 emerald 30
