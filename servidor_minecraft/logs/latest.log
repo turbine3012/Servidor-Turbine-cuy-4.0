@@ -260,3 +260,14 @@ java.lang.NullPointerException: null
 [05:30:41] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/22708, uuid='f9444d11-d5b3-458e-9354-f74ed16b13ea', l='ServerLevel[world_nether]', x=-925.50, y=54.50, z=557.50, cpos=[-58, 34], tl=621, v=true] died: Zatanna917 died here! died
 [05:30:41] [Server thread/INFO]: Named entity ArmorStand['Died at Wed Sep 24 05:30:10 UTC 2025'/22709, uuid='c1c42f17-7e5b-45fe-b523-71df7b1bc67a', l='ServerLevel[world_nether]', x=-925.50, y=54.25, z=557.50, cpos=[-58, 34], tl=621, v=true] died: Died at Wed Sep 24 05:30:10 UTC 2025 died
 [05:30:41] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Wither Skeleton'/22710, uuid='8f1ebc98-f258-46a8-b9bc-b371186717eb', l='ServerLevel[world_nether]', x=-925.50, y=54.00, z=557.50, cpos=[-58, 34], tl=621, v=true] died: Reason: Zatanna917 was slain by Wither Skeleton died
+[05:32:33] [Server thread/INFO]: Zatanna917 issued server command: /heal
+[05:33:05] [Server thread/INFO]: Zatanna917 |||||||||| has made the advancement [Into Fire]
+[05:33:27] [Server thread/INFO]: Zatanna917 issued server command: /heal
+[05:35:25] [Server thread/INFO]: Zatanna917 issued server command: /heal
+[05:35:48] [Server thread/INFO]: Zatanna917 issued server command: /sethome fortaleza
+[05:36:08] [Server thread/INFO]: Zatanna917 issued server command: /home 2
+[05:36:18] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[05:36:24] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[05:40:29] [Server thread/INFO]: Zatanna917 issued server command: /gamemode c
+[05:40:51] [Server thread/INFO]: Zatanna917 issued server command: /gamemode survival
+[05:40:53] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
