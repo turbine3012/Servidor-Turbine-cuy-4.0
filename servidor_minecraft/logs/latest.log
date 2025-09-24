@@ -214,3 +214,4 @@ java.lang.NullPointerException: null
 [03:55:02] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was shot by El_Heinsenberga'/626, uuid='ed11475f-f5fd-46b6-bace-1ff948649921', l='ServerLevel[world]', x=-704.50, y=67.00, z=290.50, cpos=[-45, 18], tl=276, v=true] died: Reason: Zatanna917 was shot by El_Heinsenberga died
 [04:04:29] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
 [04:04:33] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[04:31:18] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 villager_spawn_egg 10
