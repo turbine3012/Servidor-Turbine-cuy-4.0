@@ -212,3 +212,5 @@ java.lang.NullPointerException: null
 [03:55:02] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/624, uuid='33337d74-b5d4-4c8b-83d5-1547c1243438', l='ServerLevel[world]', x=-704.50, y=67.50, z=290.50, cpos=[-45, 18], tl=276, v=true] died: Zatanna917 died here! died
 [03:55:02] [Server thread/INFO]: Named entity ArmorStand['Died at Wed Sep 24 03:54:49 UTC 2025'/625, uuid='e39bf09f-80a1-4872-a6bd-6a509ebf8e5f', l='ServerLevel[world]', x=-704.50, y=67.25, z=290.50, cpos=[-45, 18], tl=276, v=true] died: Died at Wed Sep 24 03:54:49 UTC 2025 died
 [03:55:02] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was shot by El_Heinsenberga'/626, uuid='ed11475f-f5fd-46b6-bace-1ff948649921', l='ServerLevel[world]', x=-704.50, y=67.00, z=290.50, cpos=[-45, 18], tl=276, v=true] died: Reason: Zatanna917 was shot by El_Heinsenberga died
+[04:04:29] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[04:04:33] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
