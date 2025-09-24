@@ -233,3 +233,18 @@ java.lang.NullPointerException: null
 [05:01:32] [Server thread/INFO]: Zatanna917 issued server command: /fix
 [05:07:29] [Server thread/INFO]: Zatanna917 issued server command: /fix
 [05:10:34] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:ancient_city
+[05:10:40] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:fortress
+[05:10:40] [Server thread/INFO]: Locating element minecraft:fortress took 163 ms
+[05:10:52] [Server thread/INFO]: Zatanna917 issued server command: /tp -176 70 -288
+[05:11:09] [Server thread/INFO]: Zatanna917 issued server command: /tp -176 80 -288
+[05:12:01] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:12:39] [Server thread/INFO]: Zatanna917 issued server command: /tp 192 70 256
+[05:13:05] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:13:44] [Server thread/INFO]: Zatanna917 issued server command: /home
+[05:13:46] [Server thread/INFO]: Zatanna917 issued server command: /home 2
+[05:13:58] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:ancient_city
+[05:14:42] [Server thread/INFO]: Zatanna917 issued server command: /back
+[05:15:24] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:20:15] [Server thread/INFO]: Zatanna917 issued server command: /terraform locatebiome
+[05:20:27] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:fortress
+[05:20:27] [Server thread/INFO]: Locating element minecraft:fortress took 3 ms

@@ -5583,3 +5583,4 @@
 [2025-09-24 03:49:58] [INFO   ] Post injection: getChunkSource().getChunkGenerator() is of type NMSChunkGenerator 
 [2025-09-24 03:49:58] [INFO   ]  Injection success! Proceeding with generation. 
 [2025-09-24 03:49:59] [INFO   ]  world loaded. 
+[2025-09-24 05:13:58] [INFO   ] Vanilla locate for net.minecraft.world.level.levelgen.structure.structures.JigsawStructure invoked. 
