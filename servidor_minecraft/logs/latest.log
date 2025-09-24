@@ -215,3 +215,18 @@ java.lang.NullPointerException: null
 [04:04:29] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
 [04:04:33] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
 [04:31:18] [Server thread/INFO]: Zatanna917 issued server command: /give Zatanna917 villager_spawn_egg 10
+[04:50:48] [Server thread/INFO]: El_Heinsenberga has completed the challenge [Hot Tourist Destinations]
+[04:53:41] [Server thread/INFO]: El_Heinsenberga was shot by Skeleton
+[04:53:42] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:53:43] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world_nether},x=116.0,y=92.0,z=171.0,pitch=0.0,yaw=0.0}
+[04:53:46] [Server thread/INFO]: El_Heinsenberga issued server command: /tpa Zatanna917
+[04:53:51] [Server thread/INFO]: Zatanna917 issued server command: /tpaccept
+[04:54:12] [Server thread/INFO]: Named entity ArmorStand['El_Heinsenberga died here!'/14344, uuid='205a1f98-6be4-4eee-b17c-0d7a5c329406', l='ServerLevel[world_nether]', x=116.50, y=93.50, z=171.50, cpos=[7, 10], tl=583, v=true] died: El_Heinsenberga died here! died
+[04:54:12] [Server thread/INFO]: Named entity ArmorStand['Died at Wed Sep 24 04:53:43 UTC 2025'/14345, uuid='9d86633e-6641-4935-be88-2e7114749d2e', l='ServerLevel[world_nether]', x=116.50, y=93.25, z=171.50, cpos=[7, 10], tl=583, v=true] died: Died at Wed Sep 24 04:53:43 UTC 2025 died
+[04:54:12] [Server thread/INFO]: Named entity ArmorStand['Reason: El_Heinsenberga was shot by Skeleton'/14346, uuid='ccb735f1-53fa-47bc-8ef7-f041f176537c', l='ServerLevel[world_nether]', x=116.50, y=93.00, z=171.50, cpos=[7, 10], tl=583, v=true] died: Reason: El_Heinsenberga was shot by Skeleton died
+[04:56:50] [Server thread/INFO]: Zatanna917 issued server command: /locate structure
+[04:56:56] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:nether_fossil
+[04:56:56] [Server thread/INFO]: Locating element minecraft:nether_fossil took 1 ms
+[04:57:10] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:fortress
+[04:57:10] [Server thread/INFO]: Locating element minecraft:fortress took 3 ms
+[04:57:30] [Server thread/INFO]: El_Heinsenberga has completed the challenge [Return to Sender]
