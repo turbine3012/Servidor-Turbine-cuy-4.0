@@ -248,3 +248,15 @@ java.lang.NullPointerException: null
 [05:20:15] [Server thread/INFO]: Zatanna917 issued server command: /terraform locatebiome
 [05:20:27] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:fortress
 [05:20:27] [Server thread/INFO]: Locating element minecraft:fortress took 3 ms
+[05:21:03] [Server thread/INFO]: Zatanna917 issued server command: /home 2
+[05:21:32] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:23:21] [Server thread/INFO]: Zatanna917 issued server command: /heal
+[05:29:12] [Server thread/INFO]: El_Heinsenberga has made the advancement [A Terrible Fortress]
+[05:29:21] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:29:22] [Server thread/INFO]: Zatanna917 has made the advancement [A Terrible Fortress]
+[05:30:08] [Server thread/INFO]: Zatanna917 was slain by Wither Skeleton
+[05:30:10] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world_nether},x=-925.9738589243751,y=53.0,z=557.3884477758905,pitch=14.999868,yaw=76.22351}
+[05:30:13] [Server thread/INFO]: Zatanna917 issued server command: /tp El_Heinsenberga
+[05:30:41] [Server thread/INFO]: Named entity ArmorStand['Zatanna917 died here!'/22708, uuid='f9444d11-d5b3-458e-9354-f74ed16b13ea', l='ServerLevel[world_nether]', x=-925.50, y=54.50, z=557.50, cpos=[-58, 34], tl=621, v=true] died: Zatanna917 died here! died
+[05:30:41] [Server thread/INFO]: Named entity ArmorStand['Died at Wed Sep 24 05:30:10 UTC 2025'/22709, uuid='c1c42f17-7e5b-45fe-b523-71df7b1bc67a', l='ServerLevel[world_nether]', x=-925.50, y=54.25, z=557.50, cpos=[-58, 34], tl=621, v=true] died: Died at Wed Sep 24 05:30:10 UTC 2025 died
+[05:30:41] [Server thread/INFO]: Named entity ArmorStand['Reason: Zatanna917 was slain by Wither Skeleton'/22710, uuid='8f1ebc98-f258-46a8-b9bc-b371186717eb', l='ServerLevel[world_nether]', x=-925.50, y=54.00, z=557.50, cpos=[-58, 34], tl=621, v=true] died: Reason: Zatanna917 was slain by Wither Skeleton died
