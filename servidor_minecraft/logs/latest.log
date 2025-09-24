@@ -230,3 +230,6 @@ java.lang.NullPointerException: null
 [04:57:10] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:fortress
 [04:57:10] [Server thread/INFO]: Locating element minecraft:fortress took 3 ms
 [04:57:30] [Server thread/INFO]: El_Heinsenberga has completed the challenge [Return to Sender]
+[05:01:32] [Server thread/INFO]: Zatanna917 issued server command: /fix
+[05:07:29] [Server thread/INFO]: Zatanna917 issued server command: /fix
+[05:10:34] [Server thread/INFO]: Zatanna917 issued server command: /locate structure minecraft:ancient_city
